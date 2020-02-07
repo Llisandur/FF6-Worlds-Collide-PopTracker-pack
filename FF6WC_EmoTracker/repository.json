@@ -4,9 +4,8 @@
         {
             "name": "FFVI Worlds Collide",
             "author": "Eatitup_86",
-            "game_name": "Final Fantasy VI Worlds Collide",
+            "game_name": "Final Fantasy VI",
             "version": "1.0.0",
-			"flags": ["pins", "chathud"],
             "uid": "ff6wc_eatitup_86",
             "link": "https://eatitup86.github.io/FF6WC_EmoTracker/ff6wc_eatitup_86.zip"
         }
