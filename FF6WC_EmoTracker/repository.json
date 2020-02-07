@@ -1,0 +1,14 @@
+{
+    "name": "Tracker by Eatitup_86",
+    "packages": [
+        {
+            "name": "FFVI Worlds Collide",
+            "author": "Eatitup_86",
+            "game_name": "Final Fantasy VI Worlds Collide",
+            "version": "1.0.0",
+			"flags": ["pins", "chathud"],
+            "uid": "ff6wc_eatitup_86",
+            "link": "https://github.com/Eatitup86/emotracker/raw/master/ff6wc_eatitup_86.zip"
+        }
+    ]
+}
