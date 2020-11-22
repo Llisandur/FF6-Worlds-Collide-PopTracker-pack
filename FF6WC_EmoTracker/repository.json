@@ -5,7 +5,7 @@
             "name": "FFVI Worlds Collide",
             "author": "Eatitup_86, Anguirel",
             "game_name": "Final Fantasy VI",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "uid": "ff6wc",
             "flags": ["map",  "autotracker"],
             "link": "https://eatitup86.github.io/FF6WC_EmoTracker/ff6wc.zip"
