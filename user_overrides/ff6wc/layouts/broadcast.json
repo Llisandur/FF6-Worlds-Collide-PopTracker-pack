@@ -1,0 +1,378 @@
+{
+	"tracker_broadcast":
+	{
+		"type": "array",
+		"background": "#FF00FF",
+		"dropshadow": true,
+		"margin": "0,0",
+		"content":
+		[
+			{
+			"type": "array",
+			"orientation": "horizontal",
+			"margin": "0,0",
+			"content":
+			[
+					{
+						"type": "itemgrid",
+						"h_alignment": "center",
+						"item_margin": "1,1",
+						"item_size": 64,
+						"rows":
+						[
+							[ "Terra", "LeteRiver", "sealCave", "Whelk", "ZozoRamuh", "Phunbaba"],
+						]
+					},
+					{
+						"type": "itemgrid",
+						"h_alignment": "Center",
+						"item_margin": "1,1",
+						"item_size": 64,
+						"rows":
+						[
+							[ "DarillTomb", "KohlingenDoge", "Setzer" ],
+						]
+					},
+			]
+		},
+		{
+			"type": "array",
+			"orientation": "horizontal",
+			"margin": "0,0",
+			"content":
+			[
+					{
+						"type": "itemgrid",
+						"h_alignment": "center",
+						"item_margin": "1,1",
+						"item_size": 64,
+						"rows":
+						[
+							[ "Sabin", "BarenFalls", "ImperialCamp", "Vargas", "PhantomTrain", "TzenHouse"],
+						]
+					},
+					{
+						"type": "itemgrid",
+						"h_alignment": "Center",
+						"item_margin": "1,1",
+						"item_size": 64,
+						"rows":
+						[
+							[ "SerpentTrench", "VeldtJerky", "Gau" ],
+						]
+					},
+			]
+		},
+		{
+			"type": "array",
+			"orientation": "horizontal",
+			"margin": "0,0",
+			"content":
+			[
+					{
+						"type": "itemgrid",
+						"h_alignment": "center",
+						"item_margin": "1,1",
+						"item_size": 64,
+						"rows":
+						[
+							[ "Celes", "OperaHouse", "ChainedCeles", "Magitek"],
+						]
+					},
+					{
+						"type": "itemgrid",
+						"h_alignment": "center",
+						"item_margin": "-4,1",
+						"item_size": 64,
+						"rows":
+						[
+							[ "Char" ],
+						]
+					},
+					{
+						"type": "itemgrid",
+						"h_alignment": "Center",
+						"item_margin": "1,1",
+						"item_size": 64,
+						"rows":
+						[
+							[ "FigThrone", "FigCave", "AncientCastle", "Edgar" ],
+						]
+					},
+			]
+		},
+		{
+			"type": "array",
+			"orientation": "horizontal",
+			"margin": "0,0",
+			"content":
+			[
+					{
+						"type": "itemgrid",
+						"h_alignment": "center",
+						"item_margin": "1,1",
+						"item_size": 64,
+						"rows":
+						[
+							[ "Shadow", "GauManor", "Float", "WoRVeldt"],
+						]
+					},
+					{
+						"type": "itemgrid",
+						"h_alignment": "center",
+						"item_margin": "-4,1",
+						"item_size": 64,
+						"rows":
+						[
+							[ "Esper" ],
+						]
+					},
+					{
+						"type": "itemgrid",
+						"h_alignment": "Center",
+						"item_margin": "1,1",
+						"item_size": 64,
+						"rows":
+						[
+							[ "TunnelArmor", "NarsheWpn", "PhoenixCave", "Locke" ],
+						]
+					},
+			]
+		},
+		{
+			"type": "array",
+			"orientation": "horizontal",
+			"margin": "0,0",
+			"content":
+			[
+					{
+						"type": "itemgrid",
+						"h_alignment": "center",
+						"item_margin": "1,1",
+						"item_size": 64,
+						"rows":
+						[
+							[ "Cyan", "WoBDoma", "WoRDoma", "MtZozo"],
+						]
+					},
+					{
+						"type": "itemgrid",
+						"h_alignment": "center",
+						"item_margin": "-4,1",
+						"item_size": 64,
+						"rows":
+						[
+							[ "AtmaWpn" ],
+						]
+					},
+					{
+						"type": "itemgrid",
+						"h_alignment": "Center",
+						"item_margin": "1,1",
+						"item_size": 64,
+						"rows":
+						[
+							[ "WoBThamasa", "EbotsRock", "FanaticsTower", "Strago" ],
+						]
+					},
+			]
+		},
+		{
+			"type": "array",
+			"orientation": "horizontal",
+			"margin": "0,0",
+			"content":
+			[
+					{
+						"type": "itemgrid",
+						"h_alignment": "center",
+						"item_margin": "1,1",
+						"item_size": 64,
+						"rows":
+						[
+							[ "Relm", "EsperMtn", "Owzer"],
+						]
+					},
+					{
+						"type": "itemgrid",
+						"h_alignment": "center",
+						"item_margin": "-4,1",
+						"item_size": 30,
+						"rows":
+						[
+							[ ""],
+						]
+					},
+					{
+						"type": "itemgrid",
+						"h_alignment": "center",
+						"item_margin": "-4,1",
+						"item_size": 64,
+						"rows":
+						[
+							[ "Kefka"],
+						]
+					},
+					{
+						"type": "itemgrid",
+						"h_alignment": "center",
+						"item_margin": "-4,1",
+						"item_size": 64,
+						"rows":
+						[
+							[ "TzenThief"],
+						]
+					},
+					{
+						"type": "itemgrid",
+						"h_alignment": "center",
+						"item_margin": "-4,1",
+						"item_size": 32,
+						"rows":
+						[
+							[ ""],
+						]
+					},
+					{
+						"type": "itemgrid",
+						"h_alignment": "Center",
+						"item_margin": "1,1",
+						"item_size": 64,
+						"rows":
+						[
+							[ "", "UmaroNrsh", "Umaro" ],
+						]
+					},
+			]
+		},
+		{
+			"type": "array",
+			"orientation": "horizontal",
+			"margin": "0,0",
+			"content":
+			[
+					{
+						"type": "itemgrid",
+						"h_alignment": "center",
+						"item_margin": "1,1",
+						"item_size": 64,
+						"rows":
+						[
+							[ "Mog", "LoneWolf"],
+						]
+					},
+					{
+						"type": "itemgrid",
+						"h_alignment": "center",
+						"item_margin": "-4,1",
+						"item_size": 64,
+						"rows":
+						[
+							[ "Treasure"],
+						]
+					},
+					{
+						"type": "itemgrid",
+						"h_alignment": "center",
+						"item_margin": "-4,1",
+						"item_size": 64,
+						"rows":
+						[
+							[ "Auctioneer"],
+						]
+					},
+					{
+						"type": "itemgrid",
+						"h_alignment": "center",
+						"item_margin": "-4,1",
+						"item_size": 64,
+						"rows":
+						[
+							[ "Tritoch"],
+						]
+					},
+					{
+						"type": "itemgrid",
+						"h_alignment": "center",
+						"item_margin": "-4,1",
+						"item_size": 64,
+						"rows":
+						[
+							[ "DoomGaze"],
+						]
+					},
+					{
+						"type": "itemgrid",
+						"h_alignment": "center",
+						"item_margin": "-4,1",
+						"item_size": 64,
+						"rows":
+						[
+							[ ""],
+						]
+					},
+					{
+						"type": "itemgrid",
+						"h_alignment": "Center",
+						"item_margin": "1,1",
+						"item_size": 64,
+						"rows":
+						[
+							[ "ZoneEater", "Gogo" ],
+						]
+					},
+			]
+		},
+		{
+			"type": "array",
+			"orientation": "horizontal",
+			"margin": "0,0",
+			"content":
+			[
+			{
+				"type": "itemgrid",
+				"h_alignment": "center",
+				"item_margin": "1,1",
+				"item_size": 30,
+				"rows":
+				[
+					[""]
+				]
+			},
+			{
+				"type": "itemgrid",
+				"h_alignment": "center",
+				"item_margin": "1,1",
+				"item_size": 64,
+				"rows":
+				[
+					[ "StormDragon", "IceDragon", "RedDragon", "BlueDragon", "WhiteDragon", "DirtDragon", "GoldDragon", "SkullDragon" ]
+				]
+			},
+			]
+		},
+		]
+	},
+	"tracker_capture_item":
+	{
+		"type": "container",
+		"content":
+		{
+			"type": "layout",
+			"key": "shared_item_grid"
+		}
+	},
+	"tracker_default":
+	{
+		"type": "container",
+		"width": 615,
+		"height": 607,
+		"content":
+		{
+			"type": "layout",
+			"dropshadow": true,
+			"margin": 0,
+			"key": "shared_item_grid"
+		}
+	}
+}
