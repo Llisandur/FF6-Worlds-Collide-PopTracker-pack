@@ -1,5 +1,5 @@
 -- Configuration --------------------------------------
-AUTOTRACKER_ENABLE_DEBUG_LOGGING = false
+AUTOTRACKER_ENABLE_DEBUG_LOGGING = true
 -------------------------------------------------------
 
 print("")
@@ -69,6 +69,27 @@ function isGatedMode()
     return true
   end
 
+end
+
+--
+-- Update a progressive counter to a value
+-- params
+--  name: name of the tracker item
+--  segment: memory segment to read from
+--  address: memory address of the check
+--  flag : bit flag for the check
+--  count : value to set the counter to
+
+function updateProgressive(name, segment, address, flag, count)
+  local trackerItem = Tracker:FindObjectForCode(name)
+  if trackerItem then
+    local value = segment:ReadUInt8(address)
+    if (value & flag) ~= 0 then
+      trackerItem.CurrentStage = count
+    end
+  else
+    printDebug("updateProgressive: Unable to find tracker item: " .. name)  
+  end
 end
 
 --
@@ -211,38 +232,6 @@ function updateParty(segment)
 end
 
 --
--- Callback function to handle updating the number of espers collected.
---
--- Params:
---   segment - Memory segment to read from
---
-function updateEspers(segment)
-
-  local espersAcquired = 0
-  for i = 0, 3 do
-    local byteValue = segment:ReadUInt8(0x7E1A69 + i)
-    if i == 3 then
-      -- The last byte only tracks 3 espers.
-      -- Mask off the rest of the byte.
-      byteValue = byteValue & 0x07
-    end
-    espersAcquired = espersAcquired + countSetBits(byteValue)
-  end
-  
-  -- Set the progressive esper counter
-  --
-  -- NOTE: There are 27 espers in game, but the tracker only
-  --       defines 24 progressive steps for the esper item.
-  --       Clamp the value to a max of 24 since setting a 
-  --       progressive item to a non-existent stage causes 
-  --       it to uncheck entirely.
-  --
-  local espers = Tracker:FindObjectForCode("Esper")
-  espers.CurrentStage = math.min(espersAcquired, 24)
-
-end
-
---
 -- Handle the Jidoor Auction House items.
 --
 -- Params:
@@ -250,169 +239,15 @@ end
 --
 function handleAuctionHouse(segment)
 
-  -- Bought esper 1 from the auction house: 0x7E1EAD 0x20
-  -- Bought esper 2 from the auction house: 0x7E1EAD 0x10
+  -- AUCTION_BOUGHT_ESPER1
+  -- Bought esper 1 from the auction house: 0x7E1EAD 0x10
+  -- AUCTION_BOUGHT_ESPER2
+  -- Bought esper 2 from the auction house: 0x7E1EAD 0x20
   local value = segment:ReadUInt8(0x7E1EAD)
   local stage = ((value & 0x20) >> 5) + 
                 ((value & 0x10) >> 4)
   local object = Tracker:FindObjectForCode("Auctioneer")
   object.CurrentStage = stage
-  
-end
-
---
--- Handle the Floating Continent progressive item checks.
---
--- Params:
---   segment - Memory segment to read from
---
-function handleFloatingContinent(segment)
-
-  local currentStage = 0
-  
-  -- Pick up Shadow at the beginning (check 1)
-  local value = segment:ReadUInt8(0x7E1E85)
-  if (value & 0x04) ~= 0 then
-    currentStage = currentStage + 1
-  end
-  
-  -- This bit clears after killing Atma (check 2)  
-  value = segment:ReadUInt8(0x7E1EEB)
-  if (value & 0x80) == 0 then
-    currentStage = currentStage + 1
-  end
-  
-  -- Completion of the floating Continent (check 3)
-  value = segment:ReadUInt8(0x7E1EEF)
-  if (value & 0x20) ~= 0 then
-    currentStage = currentStage + 1
-  end
-  
-  -- Finally, set the current stage of the floating continent progressive item
-  local object = Tracker:FindObjectForCode("Float")
-  object.CurrentStage = currentStage
-
-end
-
---
--- Handle the Magitek Factory progressive item checks.
---
--- Params:
---   segment - Memory segment to read from
---
-function handleMagitekFactory(segment)
-
-  local currentStage = 0
-  
-  -- Beat Ifrit/Shiva (check 1)
-  local value = segment:ReadUInt8(0x7E1E8C)
-  if (value & 0x01) ~= 0 then
-    currentStage = currentStage + 1
-  end
-  
-  -- This bit clears after killing #042 (check 2)  
-  value = segment:ReadUInt8(0x7E1F49)
-  if (value & 0x02) == 0 then
-    currentStage = currentStage + 1
-  end
-  
-  -- Award before the final boss fight (check 3)
-  value = segment:ReadUInt8(0x7E1E8D)
-  if (value & 0x08) ~= 0 then
-    currentStage = currentStage + 1
-  end
-  
-  -- Finally, set the current stage of the Magitek Factory progressive item
-  local object = Tracker:FindObjectForCode("Magitek")
-  object.CurrentStage = currentStage
-
-end
-
---
--- Handle the Cyan's Dream progressive item checks.
---
--- Params:
---   segment - Memory segment to read from
---
-function handleCyansDream(segment)
-
-  local currentStage = 0
-  
-  local dreamPossible = segment:ReadUInt8(0x7E1EDC)
-  if (dreamPossible & 0x04) ~= 0 then 
-    -- Beat The Stooges (check 1)
-    local value = segment:ReadUInt8(0x7E1EAF)
-    if (value & 0x02) ~= 0 then
-      currentStage = 1
-    end
-    
-    value = segment:ReadUInt8(0x7E1E9B)
-    if (value & 0x04) ~= 0 then
-      -- Wrexsoul has been defeated
-      currentStage = 2
-      
-      -- This bit is set after Wrexsoul dies, so don't check it
-      -- unless Wrexsoul is already defeated.
-      value = segment:ReadUInt8(0x7E1F29)
-      if (value & 0x02) == 0 then
-        currentStage = 3
-      end
-    end
-
-  end
-  
-  -- Finally, set the current stage of the Cyan's Dream progressive item
-  local object = Tracker:FindObjectForCode("WoRDoma")
-  object.CurrentStage = currentStage
-
-end
-
-
---
--- Count the number of defeated dragons and set the
--- current stage counter on the dragons progressive item.
---
--- The "Dragons Remaining" byte won't work for this since 
--- the randomizer changes it to match the number of dragons
--- required to beat the sead.
---
-function handleDragonIndicator()
-
-  local dragonStage = 0;
-  
-  if Tracker:FindObjectForCode("IceDragon").Active then
-    dragonStage = dragonStage + 1
-  end
-  
-  if Tracker:FindObjectForCode("StormDragon").Active then
-    dragonStage = dragonStage + 1
-  end
-  
-  if Tracker:FindObjectForCode("RedDragon").Active then
-    dragonStage = dragonStage + 1
-  end
-  
-  if Tracker:FindObjectForCode("BlueDragon").Active then
-    dragonStage = dragonStage + 1
-  end
-  
-  if Tracker:FindObjectForCode("WhiteDragon").Active then
-    dragonStage = dragonStage + 1
-  end
-  
-  if Tracker:FindObjectForCode("DirtDragon").Active then
-    dragonStage = dragonStage + 1
-  end
-  
-  if Tracker:FindObjectForCode("GoldDragon").Active then
-    dragonStage = dragonStage + 1
-  end
-  
-  if Tracker:FindObjectForCode("SkullDragon").Active then
-    dragonStage = dragonStage + 1
-  end
-  
-  Tracker:FindObjectForCode("Dragon").CurrentStage = dragonStage
   
 end
 
@@ -432,166 +267,178 @@ function updateEventsAndBosses(segment)
   -- the tracker to track things on a selected save slot.  It's a bit of
   -- a hack, but it seems to work rather well.
   --
-  local inGame = (AutoTracker:ReadU16(0x7E1EDE) & 0x3FFF) ~= 0
+  -- local inGame = (AutoTracker:ReadU16(0x7E1EDE) & 0x3FFF) ~= 0
   
   -- Open Checks
-  checkBitSet("Tritoch", segment, 0x7E1ED3, 0x40)
   handleAuctionHouse(segment)
+  -- GOT_TRITOCH
+  checkBitSet("Tritoch", segment, 0x7E1ED3, 0x40)
+  -- BOUGHT_ESPER_TZEN
   checkBitSet("TzenThief", segment, 0x7E1ECF, 0x10)
-  
-  --
-  -- Kefka At Narshe:
-  -- 0x7E1F45 0x10 is the bit that controls whether or
-  -- not the NPC is present to start the event.
-  --
-  -- When the battle starts, 0x7E1F45 0x10 is set low and
-  -- 0x7E1F45 0x01 is set high.  0x7E1F45 0x01 is cleared
-  -- after the battle with Kefka is finished.
-  --
-  local narsheBattleStarted = segment:ReadUInt8(0x7E1F45)
-  if (narsheBattleStarted & 0x10) == 0 and inGame then
-    checkBitCleared("Kefka", segment, 0x7E1F45, 0x01)
-  else 
-    unsetTrackerItem("Kefka")
-  end
+  -- FINISHED_NARSHE_BATTLE
+  checkBitSet("Kefka", segment, 0x7E1E88, 0x40)
+  -- DEFEATED_DOOM_GAZE
+  checkBitSet("DoomGaze", segment, 0x7E1ED4, 0x2)
   
   -- Terra Checks
+  -- DEFEATED_WHELK
   checkBitSet("Whelk", segment, 0x7E1EA6, 0x20)
+  -- RODE_RAFT_LETE_RIVER
   checkBitSet("LeteRiver", segment, 0x7E1ECA, 0x80)
+  -- no flag
   checkBitSet("sealCave", segment, 0x7E1F0E, 0x02)
+  -- RECRUITED_TERRA_MOBLIZ
   checkBitSet("Phunbaba", segment, 0x7E1E97, 0x80)
-  
-  --
-  -- The Ramuh check has 2 different flags depending on whether the
-  -- reward is a character or an esper.
-  --    0x7E1EE3 0x40 
-  --    0x7E1EE3 0x80
-  --  
-  -- NOTE:
-  -- The bit is set high when Terra is recruited (or in open world)
-  -- and set low when Ramuh has been completed.  Because there is no
-  -- other flag to determine if this check is done, we have to rely on
-  -- the game mode and characters collected in order to know if it
-  -- should be checked.
-  --
-  local terra = (segment:ReadUInt8(0x7E1EDE) & 0x01) ~= 0
-  if (terra or (not isGatedMode())) and inGame then
-    checkBitCleared("ZozoRamuh", segment, 0x7E1EE3, 0xC0)
-  else 
-    unsetTrackerItem("ZozoRamuh")
-  end
+  -- GOT_ZOZO_REWARD (new custom bit in 1.0)
+  checkBitSet("ZozoRamuh", segment, 0x7E1E8A, 0x04)
   
   -- Locke Checks
+  -- GOT_RAGNAROK
   checkBitSet("NarsheWpn", segment, 0x7E1E96, 0x40)
+  -- RECRUITED_LOCKE_PHOENIX_CAVE
   checkBitSet("PhoenixCave", segment, 0x7E1E9A, 0x80)
+  -- DEFEATED_TUNNEL_ARMOR
   checkBitSet("tunnelArmor", segment, 0x7E1E96, 0x02)
   
   -- Setzer Checks
+  -- RECRUITED_SHADOW_KOHLINGEN
   checkBitSet("KohlingenDoge", segment, 0x7E1EB1, 0x40)
+  -- DEFEATED_DULLAHAN
   checkBitSet("DarillTomb", segment, 0x7E1ED6, 0x04)
   
   -- Sabin Checks
-  checkBitSet("BarenFalls", segment, 0x7E1E87, 0x40)
+  -- no flag
+  checkBitSet("BarenFalls", segment, 0x7E1E87, 0x80)
+  -- FINISHED_IMPERIAL_CAMP
   checkBitSet("ImperialCamp", segment, 0x7E1E86, 0x80)
+  -- DEFEATED_VARGAS
   checkBitSet("Vargas", segment, 0x7E1E82, 0x01)
-  checkBitSet("PhantomTrain", segment, 0x7E1E87, 0x08)
+  -- GOT_PHANTOM_TRAIN_REWARD (toggles when picking up reward in caboose)
+  checkBitSet("PhantomTrain", segment, 0x7E1EB2, 0x04)
+  -- FINISHED_COLLAPSING_HOUSE
   checkBitSet("TzenHouse", segment, 0x7E1ED1, 0x04)
   
   -- Celes Checks
-  handleMagitekFactory(segment)
+  -- Set magitek factory to stage to 0 for game resets
+  Tracker:FindObjectForCode("Magitek").CurrentStage = 0
+  -- GOT_IFRIT_SHIVA
+  updateProgressive("Magitek", segment, 0x7E1E8C, 0x02, 1)
+  -- DEFEATED_NUMBER_024
+  updateProgressive("Magitek", segment, 0x7E1E8B, 0x80, 2)
+  -- DEFEATED_CRANES (Sets Before Killing Boss, After getting reward)
+  updateProgressive("Magitek", segment, 0x7E1E8D, 0x08, 3)  
+  -- FINISHED_OPERA_DISRUPTION
   checkBitSet("OperaHouse", segment, 0x7E1E8B, 0x08)
-  local chainedCelesAvailable = segment:ReadUInt8(0x7E1EDC)
-  if (chainedCelesAvailable & 0x40) ~= 0 then
-    checkBitCleared("ChainedCeles", segment, 0x7E1EE2, 0x80)
-  else
-    unsetTrackerItem("ChainedCeles")    
-  end  
+  -- FREED_CELES
+  checkBitSet("ChainedCeles", segment, 0x7E1E83, 0x20)
 
   -- Shadow Checks
+  -- RECRUITED_SHADOW_GAU_FATHER_HOUSE
   checkBitSet("GauManor", segment, 0x7E1EAC, 0x04)
-  checkBitCleared("WoRVeldt", segment, 0x7E1F2A, 0x20)
-  handleFloatingContinent(segment)
-  
+  -- DEFEATED_SR_BEHEMOTH
+  checkBitSet("WoRVeldt", segment, 0x7E1EB3, 0x02)
+  -- Reset Floating Continent to 0 for game resets
+  Tracker:FindObjectForCode("Float").CurrentStage = 0
+  -- RECRUITED_SHADOW_FLOATING_CONTINENT
+  updateProgressive("Float", segment, 0x7E1E85, 0x04, 1)
+  -- DEFEATED_ATMAWPN
+  updateProgressive("Float", segment, 0x7E1E94, 0x02, 2)
+  -- FINISHED_FLOATING_CONTINENT
+  updateProgressive("Float", segment, 0x7E1E94, 0x20, 3)
+
   -- Cyan
+  -- Reset Dream Checks to 0 for game resets
+  Tracker:FindObjectForCode("WoRDoma").CurrentStage = 0
+  -- DEFEATED_STOOGES
+  updateProgressive("WoRDoma", segment, 0x7E1E9B, 0x01, 1)
+  -- FINISHED_DOMA_WOR
+  updateProgressive("WoRDoma", segment, 0x7E1E9B, 0x04, 2)
+  -- GOT_ALEXANDR
+  updateProgressive("WoRDoma", segment, 0x7E1E9B, 0x08, 3)
+  -- FINISHED_DOMA_WOB
   checkBitSet("WoBDoma", segment, 0x7E1E88, 0x01)
+  -- FINISHED_MT_ZOZO
   checkBitSet("MtZozo", segment, 0x7E1E9A, 0x04)
-  handleCyansDream(segment)
   
   -- Relm Checks
+  -- DEFEATED_ULTROS_ESPER_MOUNTAIN
   checkBitSet("EsperMtn", segment, 0x7E1E92, 0x20)
-  checkBitSet("Owzer", segment, 0x7E1EC8, 0x01)
+  -- DEFEATED_CHADARNOOK
+  checkBitSet("Owzer", segment, 0x7E1ECA, 0x08)
   
   -- Strago Checks
+  -- DEFEATED_FLAME_EATER
   checkBitSet("WoBThamasa", segment, 0x7E1E92, 0x01)
+  -- DEFEATED_HIDON
   checkBitSet("EbotsRock", segment, 0x7E1EB3, 0x10)
-  --checkBitSet("FanaticsTower", segment, 0x7E1EDB, 0x08) -- Boss killed
-  checkBitSet("FanaticsTower", segment, 0x7E1E97, 0x04) -- Reward collected
-  
+  -- RECRUITED_STRAGO_FANATICS_TOWER
+  checkBitSet("FanaticsTower", segment, 0x7E1E97, 0x04)
   
   -- Mog Checks
-  checkBitSet("LoneWolf", segment, 0x7E1ED3, 0x80)
-  
+  -- This sets right after "you'll never get", works picking either reward
+  -- CHASING_LONE_WOLF7
+  checkBitSet("LoneWolf", segment, 0x7E1EC7, 0x80)
+    
   -- Edgar Checks
-  checkBitCleared("FigThrone", segment, 0x7E1EE1, 0x01)
+  -- NAMED_EDGAR
+  checkBitSet("FigThrone", segment, 0x7E1E80, 0x10)
+  -- DEFEATED_TENTACLES_FIGARO
   checkBitSet("FigCave", segment, 0x7E1E98, 0x40)
+  -- GOT_RAIDEN
   checkBitSet("AncientCastle", segment, 0x7E1EDB, 0x20)
   
   -- Gogo Checks
+  -- RECRUITED_GOGO_WOR
   checkBitSet("ZoneEater", segment, 0x7E1E9A, 0x10)
   
   -- Umaro Checks
+  -- RECRUITED_UMARO_WOR
   checkBitSet("UmaroNrsh", segment, 0x7E1E8F, 0x40)
-  
+
   -- Gau Checks
+  -- GOT_SERPENT_TRENCH_REWARD
   checkBitSet("SerpentTrench", segment, 0x7E1E8A, 0x01)
-  -- See updateSpecial function for Gau Veldt check.
+  -- VELDT_REWARD_OBTAINED
+  checkBitSet("VeldtJerky", segment, 0x7E1EB7, 0x10)
   
   -- Kefka's Tower
-  checkBitCleared("AtmaWpn", segment, 0x7E1F57, 0x20)
+  -- DEFEATED_ATMA
+  checkBitSet("AtmaWpn", segment, 0x7E1E94, 0x04)
   
-  -- Dragons:
-  -- Dragon bits are set based on location, not actual dragon.
-  checkBitCleared("IceDragon", segment, 0x7E1F52, 0x20)
-  checkBitSet("StormDragon", segment, 0x7E1ED3, 0x04)
-  checkBitCleared("WhiteDragon", segment, 0x7E1F52, 0x10)
-  checkBitCleared("BlueDragon", segment, 0x7E1F54, 0x02)
-  checkBitCleared("GoldDragon", segment, 0x7E1F56, 0x08)
-  checkBitCleared("SkullDragon", segment, 0x7E1F56, 0x10)
-  checkBitSet("DirtDragon", segment, 0x7E1E8C, 0x02)
-
-  -- 
-  -- Don't try to track the Red Dragon until the lava room
-  -- in the Phoenix Cave has been flooded.  The Red Dragon Bit
-  -- is set when the room is flooded and then cleared when the
-  -- Red Dragon is defeated.  
-  --
-  local isLavaRoomFlooded = (segment:ReadUInt8(0x7E1EDA) & 0x01) ~= 0
-  if isLavaRoomFlooded then
-    checkBitCleared("RedDragon", segment, 0x7E1F53, 0x10)
-  else
-    unsetTrackerItem("RedDragon")
-  end
+  -- Dragons
+  -- DEFEATED_NARSHE_DRAGON
+  checkBitSet("IceDragon", segment, 0x7E1EA3, 0x04)
+  -- DEFEATED_MT_ZOZO_DRAGON
+  checkBitSet("StormDragon", segment, 0x7E1EA3, 0x08)
+  -- DEFEATED_OPERA_HOUSE_DRAGON
+  checkBitSet("DirtDragon", segment, 0x7E1EA3, 0x10)
+  -- DEFEATED_KEFKA_TOWER_DRAGON_G
+  checkBitSet("GoldDragon", segment, 0x7E1EA3, 0x20)
+  -- DEFEATED_KEFKA_TOWER_DRAGON_S
+  checkBitSet("SkullDragon", segment, 0x7E1EA3, 0x40)
+  -- DEFEATED_ANCIENT_CASTLE_DRAGON
+  checkBitSet("BlueDragon", segment, 0x7E1EA3, 0x80)
+  -- DEFEATED_PHOENIX_CAVE_DRAGON
+  checkBitSet("RedDragon", segment, 0x7E1EA4, 0x01)
+  -- DEFEATED_FANATICS_TOWER_DRAGON
+  checkBitSet("WhiteDragon", segment, 0x7E1EA4, 0x02)
   
-  -- Set the indicator for number of dragons killed.
-  handleDragonIndicator()  
-    
 end
 
 --
--- There are a couple of events that are tracked outside of the
--- normal event memory block.  These are:
---
---  - Doom Gaze defeated
---  - Gau Obtained
+-- Callback for updating counters from word values
+-- flags are from data/event_word.py
 --
 -- Params:
---   segment - Memory segment to read from
---
-function updateSpecial(segment)
+--  segment - Memory segment to read from
 
-  checkBitSet("DoomGaze", segment, 0x7E1DD2, 0x01)
-  checkBitSet("VeldtJerky", segment, 0x7E1DD2, 0x02)
-  
+function updateCounters(segment)
+  -- DRAGONS_DEFEATED
+  Tracker:FindObjectForCode("Dragon").CurrentStage = segment:ReadUInt8(0x7E1FCE)
+  -- Espers clamped to 24 since that is all the progressive counter is defined for
+  -- ESPERS_FOUND
+  local esperCount = segment:ReadUInt8(0x7E1FC8)
+  Tracker:FindObjectForCode("Esper").CurrentStage = math.min(esperCount, 24)
 end
 
 function updateTreasure(segment)
@@ -606,13 +453,12 @@ function updateTreasure(segment)
   treasures.AcquiredCount = treasureAcquired
 end 
 
-
 --
 -- Set up memory watches on memory used for autotracking.
 --
+
 printDebug("Adding memory watches")
 ScriptHost:AddMemoryWatch("Party", 0x7E1EDE, 2, updateParty)
-ScriptHost:AddMemoryWatch("Espers", 0x7E1A69, 4, updateEspers)
 ScriptHost:AddMemoryWatch("Events", 0x7E1E80, 0xDF, updateEventsAndBosses)
-ScriptHost:AddMemoryWatch("Special", 0x7E1DD2, 1, updateSpecial)
+ScriptHost:AddMemoryWatch("Counters", 0x7E1FC2, 0xD, updateCounters)
 ScriptHost:AddMemoryWatch("Treasure", 0x7E1E40, 0x30, updateTreasure)
