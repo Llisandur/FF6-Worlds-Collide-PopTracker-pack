@@ -1,0 +1,212 @@
+{
+  "character_grid":
+	{
+		"type": "array",
+		"orientation": "vertical",
+		"margin": "0,0",
+		"content":
+		[
+			{
+				"type": "array",
+				"orientation": "horizontal",
+				"margin": "0,0",
+				"content":
+				[
+					{
+						"type": "itemgrid",
+						"h_alignment": "center",
+						"item_margin": "1,1",
+						"rows":
+						[
+							[ "Terra", "Locke", "Cyan", "Shadow", "Edgar","Sabin", "Celes" ],
+              [ "Strago", "Relm", "Setzer", "Mog", "Gau","Gogo", "Umaro" ],
+              [""],
+              ["", "Char", "", "Esper", "", "Dragon", ""]
+						]
+					}
+				]
+			}
+		]
+	},
+  
+  "check_grid":
+	{
+		"type": "array",
+		"orientation": "vertical",
+		"margin": "0,0",
+		"content":
+		[
+			{
+				"type": "array",
+				"orientation": "horizontal",
+				"margin": "0,0",
+				"content":
+				[
+					{
+						"type": "itemgrid",
+						"h_alignment": "center",
+						"item_margin": "1,1",
+						"rows":
+						[
+							[ "LeteRiver", "sealCave", "Whelk", "ZozoRamuh", "Phunbaba","DarillTomb", "KohlingenDoge", "BarenFalls", "ImperialCamp", "Vargas", "PhantomTrain" ],
+              [ "TzenHouse", "SerpentTrench", "VeldtJerky", "OperaHouse", "ChainedCeles", "Magitek", "FigThrone", "FigCave", "AncientCastle", "GauManor", "Float" ],
+              [ "WoRVeldt", "TunnelArmor", "NarsheWpn", "PhoenixCave", "WoBDoma", "WoRDoma", "MtZozo", "WoBThamasa", "EbotsRock", "FanaticsTower", "EsperMtn" ],
+              [ "Owzer", "UmaroNrsh", "ZoneEater", "LoneWolf", "Auctioneer", "Tritoch", "DoomGaze", "Kefka", "TzenThief", "AtmaWpn" ]
+						]
+					}
+				]
+			}
+		]
+	},
+  
+  "settings_popup":
+  {
+    "type": "array",
+		"orientation": "vertical",
+		"margin": "0,0",
+		"content":
+		[
+      {
+        "type": "group",
+        "header": "Game Mode",
+        "content":
+        [
+          {
+            "type": "item",
+            "margin": "-5,-1,-5,-5",
+            "item": "gamemode"
+          }
+        ]
+      },
+			{
+        "type": "group",
+        "header": "Required Characters",
+        "content":
+        [
+          {
+            "type": "item",
+            "margin": "-5,-3,-5,-5",
+            "item": "requiredchars"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "header": "Required Espers",
+        "content":
+        [
+          {
+            "type": "item",
+            "margin": "-5,-1,-5,-5",
+            "item": "requiredespers"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "header": "Required Dragons",
+        "content":
+        [
+          {
+            "type": "item",
+            "margin": "-5,-1,-5,-5",
+            "item": "requireddragons"
+          }
+        ]
+      }
+		]
+  },
+
+  "tracker_default":
+	{
+		"type": "container",
+		"background": "#101010",
+		"content":
+		{
+			"type": "dock",
+			"dropshadow": true,
+			"content":
+			[
+				{
+					"type": "dock",
+					"dock": "bottom",
+					"h_alignment": "stretch",
+					"content":
+					[
+						{
+							"type": "dock",
+							"dock": "left",
+							"content":
+							[
+								{
+									"type": "group",
+									"header": "Characters",
+									"dock": "top",
+                  "header_content": {
+                    "type": "button_popup",
+                    "style": "settings",
+                    "popup_background": "#55212121",
+                    "layout": "settings_popup"
+                  },
+									"content":
+									{
+										"type": "layout",
+										"key": "character_grid"
+									}
+								}
+							]
+						},
+						{
+							"type": "group",
+							"header": "Checks",
+							"content":
+							{
+										"type": "layout",
+										"key": "check_grid"
+							}
+						}
+					]
+				},
+				{
+					"type": "tabbed",
+					"tabs":
+					[
+            {
+							"title": "Worlds Collide",
+							"content":
+							{
+								"type": "map",
+								"maps":
+								[
+									"Combined Map"
+								]
+							}
+						},
+						{
+							"title": "World of Balance",
+							"content":
+							{
+								"type": "map",
+								"maps":
+								[
+									"World Of Balance"
+								]
+							}
+						},
+						{
+							"title": "World of Ruin",
+							"content":
+							{
+								"type": "map",
+								"maps":
+								[
+									"World of Ruin"
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

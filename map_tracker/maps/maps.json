@@ -1,0 +1,20 @@
+[
+	{
+		"name": "World of Balance",
+		"location_size": 30,
+		"location_border_thickness": 3,
+		"img": "images/Maps/FF6_WoB.png"
+	},
+	{
+		"name": "World of Ruin",
+		"location_size": 30,
+		"location_border_thickness": 3,
+		"img": "images/Maps/FF6_WoR.png"
+	},
+	{
+		"name": "Combined Map",
+		"location_size": 30,
+		"location_border_thickness": 3,
+		"img": "images/Maps/FF6_Both_Maps.png"
+	}
+]

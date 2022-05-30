@@ -1,0 +1,1119 @@
+[
+	{
+		"name": "All Locations",
+		"children":
+		[
+      {
+        "name": "World of Balance",
+        "color": "#b82800",
+        "access_rules":[],
+        "children":
+        [
+          {
+            "name": "Lete River",
+            "access_rules": ["Terra", "openworld"],
+            "sections": 
+            [
+              {
+                "name": "Lete River",
+                "hosted_item": "LeteRiver"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Balance",
+                "x": 419,
+                "y": 257
+              },
+              {
+                "map": "Combined Map",
+                "x": 419,
+                "y": 257
+              }
+            ]
+          },
+          {
+            "name": "Sealed Cave",
+            "access_rules": ["Terra", "openworld"],
+            "sections": 
+            [
+              {
+                "name": "Sealed Cave",
+                "hosted_item": "sealCave"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Balance",
+                "x": 676,
+                "y": 777
+              },
+              {
+                "map": "Combined Map",
+                "x": 676,
+                "y": 777
+              }
+            ]
+          },
+          {
+            "name": "WoB Narshe",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "name": "Whelk",
+                "access_rules": ["Terra", "openworld"],
+                "hosted_item": "Whelk"
+              },
+              {
+                "name": "Kefka",
+                "hosted_item": "Kefka"
+              },
+              {
+                "name": "Lone Wolf",
+                "access_rules": ["Mog", "openworld"],
+                "hosted_item": "LoneWolf"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Balance",
+                "x": 337,
+                "y": 133
+              },
+              {
+                "map": "Combined Map",
+                "x": 337,
+                "y": 133
+              }
+            ]
+          },
+          {
+            "name": "WoB Zozo",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "name": "Ramuh",
+                "access_rules": ["Terra", "openworld"],
+                "hosted_item": "ZozoRamuh"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Balance",
+                "x": 89,
+                "y": 369
+              },
+              {
+                "map": "Combined Map",
+                "x": 89,
+                "y": 369
+              }
+            ]
+          },
+          {
+            "name": "Baren Falls",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "name": "Baren Falls",
+                "access_rules": ["Sabin", "openworld"],
+                "hosted_item": "BarenFalls"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Balance",
+                "x": 739,
+                "y": 372
+              },
+              {
+                "map": "Combined Map",
+                "x": 739,
+                "y": 372
+              }
+            ]
+          },
+          {
+            "name": "Mount Kolts",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "name": "Vargas",
+                "access_rules": ["Sabin", "openworld"],
+                "hosted_item": "Vargas"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Balance",
+                "x": 410,
+                "y": 403
+              },
+              {
+                "map": "Combined Map",
+                "x": 410,
+                "y": 403
+              }
+            ]
+          },
+          {
+            "name": "Haunted Forest",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "name": "Phantom Train",
+                "access_rules": ["Sabin", "openworld"],
+                "hosted_item": "PhantomTrain"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Balance",
+                "x": 714,
+                "y": 328
+              },
+              {
+                "map": "Combined Map",
+                "x": 714,
+                "y": 328
+              }
+            ]
+          },
+          {
+            "name": "Imperial Camp",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "name": "Imperial Camp",
+                "access_rules": ["Sabin", "openworld"],
+                "hosted_item": "ImperialCamp"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Balance",
+                "x": 720,
+                "y": 286
+              },
+              {
+                "map": "Combined Map",
+                "x": 720,
+                "y": 286
+              }
+            ]
+          },
+          {
+            "name": "WoB Opera House",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "name": "Opera",
+                "access_rules": ["Celes", "openworld"],
+                "hosted_item": "OperaHouse"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Balance",
+                "x": 180,
+                "y": 618
+              },
+              {
+                "map": "Combined Map",
+                "x": 180,
+                "y": 618
+              }
+            ]
+          },
+          {
+            "name": "WoB South Figaro",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "name": "Celes' Cell",
+                "access_rules": ["Celes", "openworld"],
+                "hosted_item": "ChainedCeles"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Balance",
+                "x": 343,
+                "y": 450
+              },
+              {
+                "map": "Combined Map",
+                "x": 343,
+                "y": 450
+              }
+            ]
+          },
+          {
+            "name": "WoB Jidoor",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "name": "Auction House",
+                "hosted_item": "Auctioneer2"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Balance",
+                "x": 108,
+                "y": 524
+              },
+              {
+                "map": "Combined Map",
+                "x": 108,
+                "y": 524
+              }
+            ]
+          },
+          {
+            "name": "Kohlingen",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "name": "Kohlingen Inn",
+                "access_rules": ["Setzer", "openworld"],
+                "hosted_item": "KohlingenDoge"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Balance",
+                "x": 45,
+                "y": 156
+              },
+              {
+                "map": "World of Ruin",
+                "x": 156,
+                "y": 182
+              },
+              {
+                "map": "Combined Map",
+                "x": 45,
+                "y": 156
+              },
+              {
+                "map": "Combined Map",
+                "x": 1180,
+                "y": 182
+              }
+            ]
+          },
+          {
+            "name": "Serpent's Trench",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "name": "Diver's Helmet",
+                "access_rules": ["Gau", "openworld"],
+                "hosted_item": "SerpentTrench"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Balance",
+                "x": 859,
+                "y": 593
+              },
+              {
+                "map": "Combined Map",
+                "x": 859,
+                "y": 593
+              }
+            ]
+          },
+          {
+            "name": "WoB Veldt",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "name": "Three Party Members and Dried Meat",
+                "access_rules": ["Gau", "openworld"],
+                "hosted_item": "VeldtJerky"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Balance",
+                "x": 820,
+                "y": 520
+              },
+              {
+                "map": "Combined Map",
+                "x": 820,
+                "y": 520
+              }
+            ]
+          },
+          {
+            "name": "WoB Figaro Castle",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "name": "Figaro Throne",
+                "access_rules": ["Edgar", "openworld"],
+                "hosted_item": "FigThrone"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Balance",
+                "x": 263,
+                "y": 312
+              },
+              {
+                "map": "Combined Map",
+                "x": 263,
+                "y": 312
+              }
+            ]
+          },
+          {
+            "name": "WoB Figaro Cave",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "name": "Tunnel Armor",
+                "access_rules": ["Locke", "openworld"],
+                "hosted_item": "tunnelArmor"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Balance",
+                "x": 302,
+                "y": 410
+              },
+              {
+                "map": "Combined Map",
+                "x": 302,
+                "y": 410
+              }
+            ]
+          },
+          {
+            "name": "WoB Doma",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "name": "Doma",
+                "access_rules": ["Cyan", "openworld"],
+                "hosted_item": "WoBDoma"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Balance",
+                "x": 626,
+                "y": 336
+              },
+              {
+                "map": "Combined Map",
+                "x": 626,
+                "y": 336
+              }
+            ]
+          },
+          {
+            "name": "Esper Mountain",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "name": "Esper Mountain",
+                "access_rules": ["Relm", "openworld"],
+                "hosted_item": "EsperMtn"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Balance",
+                "x": 918,
+                "y": 521
+              },
+              {
+                "map": "Combined Map",
+                "x": 918,
+                "y": 521
+              }
+            ]
+          },
+          {
+            "name": "WoB Thamasa",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "name": "Burning House | Rest at Inn",
+                "access_rules": ["Strago", "openworld"],
+                "hosted_item": "WoBThamasa"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Balance",
+                "x": 1005,
+                "y": 507
+              },
+              {
+                "map": "World of Ruin",
+                "x": 1005,
+                "y": 924
+              },
+              {
+                "map": "Combined Map",
+                "x": 1005,
+                "y": 507
+              },
+              {
+                "map": "Combined Map",
+                "x": 2029,
+                "y": 924
+              }
+            ]
+          },
+          {
+            "name": "WoB Tzen",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "name": "Thief in the Woods",
+                "hosted_item": "TzenThief"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Balance",
+                "x": 480,
+                "y": 600
+              },
+              {
+                "map": "Combined Map",
+                "x": 480,
+                "y": 600
+              }
+            ]
+          },
+          {
+            "name": "Vector",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "name": "Magitek Factory",
+                "access_rules": ["Celes", "openworld"],
+                "hosted_item": "Magitek3"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Balance",
+                "x": 484,
+                "y": 748
+              },
+              {
+                "map": "Combined Map",
+                "x": 484,
+                "y": 748
+              }
+            ]
+          },
+          {
+            "name": "Gau Manor",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "name": "Gau Manor",
+                "access_rules": ["Shadow", "openworld"],
+                "hosted_item": "GauManor"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Balance",
+                "x": 660,
+                "y": 140
+              },
+              {
+                "map": "Combined Map",
+                "x": 660,
+                "y": 140
+              }
+            ]
+          },
+          {
+            "name": "Floating Continent",
+            "access_rules": ["Shadow", "openworld"],
+            "sections": 
+            [
+              {
+                "name": "Floating Continent 3 Checks",
+                "hosted_item": "Float3"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Balance",
+                "x": 547,
+                "y": 477
+              },
+              {
+                "map": "Combined Map",
+                "x": 547,
+                "y": 477
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "World of Ruin",
+        "color": "#b82800",
+        "access_rules":[],
+        "children":
+        [
+          {
+            "name": "Mobliz",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "name": "Phunbaba",
+                "access_rules": ["Terra", "openworld"],
+                "hosted_item": "Phunbaba"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Ruin",
+                "x": 945,
+                "y": 545
+              },
+              {
+                "map": "Combined Map",
+                "x": 1969,
+                "y": 545
+              }
+            ]
+          },
+          {
+            "name": "WoR Tzen",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "name": "Collapsing House",
+                "access_rules": ["Sabin", "openworld"],
+                "hosted_item": "TzenHouse"
+              },
+              {
+                "name": "Thief in the Woods",
+                "hosted_item": "TzenThief"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Ruin",
+                "x": 515,
+                "y": 719
+              },
+              {
+                "map": "Combined Map",
+                "x": 1539,
+                "y": 719
+              }
+            ]
+          },
+          {
+            "name": "Darill's Tomb",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "name": "Darill's Tomb",
+                "access_rules": ["Setzer", "openworld"],
+                "hosted_item": "DarillTomb"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Ruin",
+                "x": 102,
+                "y": 209
+              },
+              {
+                "map": "Combined Map",
+                "x": 1126,
+                "y": 209
+              }
+            ]
+          },
+          {
+            "name": "Phoenix Cave",
+            "access_rules": ["Locke", "openworld"],
+            "sections": 
+            [
+              {
+                "name": "Phoenix",
+                "hosted_item": "PhoenixCave"
+              },
+              {
+                "name": "Red Dragon",
+                "hosted_item": "RedDragon"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Ruin",
+                "x": 472,
+                "y": 628
+              },
+              {
+                "map": "Combined Map",
+                "x": 1496,
+                "y": 628
+              }
+            ]
+          },
+          {
+            "name": "Zone Eater",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "name": "Gogo",
+                "access_rules": ["Gogo", "openworld"],
+                "hosted_item": "ZoneEater"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Ruin",
+                "x": 950,
+                "y": 208
+              },
+              {
+                "map": "Combined Map",
+                "x": 1974,
+                "y": 208
+              }
+            ]
+          },
+          {
+            "name": "Narshe",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "name": "Weapon Shop",
+                "access_rules": ["Locke", "openworld"],
+                "hosted_item": "NarsheWpn"
+              },
+              {
+                "name": "Ice Dragon",
+                "hosted_item": "IceDragon"
+              },
+              {
+                "name": "Tritoch",
+                "hosted_item": "Tritoch"
+              },
+              {
+                "name": "Umaro",
+                "access_rules": ["Umaro", "openworld"],
+                "hosted_item": "UmaroNrsh"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Ruin",
+                "x": 461,
+                "y": 134
+              },
+              {
+                "map": "Combined Map",
+                "x": 1485,
+                "y": 134
+              }
+            ]
+          },
+          {
+            "name": "WoR Doma",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "name": "Cyan's Dream",
+                "access_rules": ["Cyan", "openworld"],
+                "hosted_item": "WoRDoma3"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Ruin",
+                "x": 688,
+                "y": 300
+              },
+              {
+                "map": "Combined Map",
+                "x": 1712,
+                "y": 300
+              }
+            ]
+          },
+          {
+            "name": "Fanatics' Tower",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "name": "Fanatics' Tower",
+                "access_rules": ["Strago", "openworld"],
+                "hosted_item": "FanaticsTower"
+              },
+              {
+                "name": "White Dragon",
+                "hosted_item": "WhiteDragon"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Ruin",
+                "x": 642,
+                "y": 505
+              },
+              {
+                "map": "Combined Map",
+                "x": 1666,
+                "y": 505
+              }
+            ]
+          },
+          {
+            "name": "WoR Figaro Cave",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "name": "Figaro Castle Engine Room",
+                "access_rules": ["Edgar", "openworld"],
+                "hosted_item": "FigCave"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Ruin",
+                "x": 426,
+                "y": 394
+              },
+              {
+                "map": "Combined Map",
+                "x": 1450,
+                "y": 394
+              }
+            ]
+          },
+          {
+            "name": "WoR Figaro Castle",
+            "access_rules": ["FigCave"],
+            "sections": 
+            [
+              {
+                "name": "Ancient Castle",
+                "access_rules": ["Edgar", "openworld"],
+                "hosted_item": "AncientCastle"
+              },
+              {
+                "name": "Blue Dragon",
+                "access_rules": ["Edgar", "openworld"],
+                "hosted_item": "BlueDragon"
+              },
+              {
+                "name": "Figaro Throne",
+                "access_rules": ["Edgar", "openworld"],
+                "hosted_item": "FigThrone"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Ruin",
+                "x": 334,
+                "y": 343
+              },
+              {
+                "map": "Combined Map",
+                "x": 1358,
+                "y": 343
+              }
+            ]
+          },
+          {
+            "name": "WoR Jidoor",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "name": "Owzer's Mansion",
+                "access_rules": ["Relm", "openworld"],
+                "hosted_item": "Owzer"
+              },
+              {
+                "name": "Auction House",
+                "hosted_item": "Auctioneer2"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Ruin",
+                "x": 140,
+                "y": 627
+              },
+              {
+                "map": "Combined Map",
+                "x": 1164,
+                "y": 627
+              }
+            ]
+          },
+          {
+            "name": "WoR Zozo",
+            "access_rules": ["Cyan", "openworld"],
+            "sections": 
+            [
+              {
+                "name": "Mount Zozo",
+                "hosted_item": "MtZozo"
+              },
+              {
+                "name": "Storm Dragon",
+                "hosted_item": "StormDragon"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Ruin",
+                "x": 174,
+                "y": 524
+              },
+              {
+                "map": "Combined Map",
+                "x": 1198,
+                "y": 524
+              }
+            ]
+          },
+          {
+            "name": "WoR Ebots Rock",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "name": "Hidon",
+                "access_rules": ["Strago", "openworld"],
+                "hosted_item": "EbotsRock"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Ruin",
+                "x": 999,
+                "y": 894
+              },
+              {
+                "map": "Combined Map",
+                "x": 2023,
+                "y": 894
+              }
+            ]
+          },
+          {
+            "name": "WoR Veldt Cave",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "name": "SrBehemoth",
+                "access_rules": ["Shadow", "openworld"],
+                "hosted_item": "WoRVeldt"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Ruin",
+                "x": 830,
+                "y": 356
+              },
+              {
+                "map": "Combined Map",
+                "x": 1854,
+                "y": 356
+              }
+            ]
+          },
+          {
+            "name": "Doomgaze",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "name": "Doomgaze",
+                "hosted_item": "DoomGaze"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Ruin",
+                "x": 522,
+                "y": 522
+              },
+              {
+                "map": "Combined Map",
+                "x": 1546,
+                "y": 522
+              }
+            ]
+          },
+          {
+            "name": "WoR Opera House",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "name": "Dirt Dragon",
+                "hosted_item": "DirtDragon"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Ruin",
+                "x": 125,
+                "y": 733
+              },
+              {
+                "map": "Combined Map",
+                "x": 1149,
+                "y": 733
+              }
+            ]
+          },
+          {
+            "name": "WoR Veldt",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "name": "Three Party Members and Dried Meat",
+                "access_rules": ["Gau", "openworld"],
+                "hosted_item": "VeldtJerky"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Ruin",
+                "x": 860,
+                "y": 329
+              },
+              {
+                "map": "Combined Map",
+                "x": 1884,
+                "y": 329
+              }
+            ]
+          },
+          {
+            "name": "Kefka's Tower",
+            "access_rules": ["$canAccessKefkasTower"],
+            "sections": 
+            [
+              {
+                "name": "Atma Weapon",
+                "hosted_item": "AtmaWpn"
+              },
+              {
+                "name": "Gold Dragon",
+                "hosted_item": "GoldDragon"
+              },
+              {
+                "name": "Skull Dragon",
+                "hosted_item": "SkullDragon"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "World of Ruin",
+                "x": 549,
+                "y": 792
+              },
+              {
+                "map": "Combined Map",
+                "x": 1573,
+                "y": 792
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
