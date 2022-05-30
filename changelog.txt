@@ -9,5 +9,9 @@ v1.0.2:
 	  in the character gating tracker without using twice as much space.
 	- Note: Make sure you enable Fast Tooltips to see the location on hover much quicker.
 v1.1.0: By Anguirel
-  - Added Map Tracker variant
-  - Added Autotracking capability
+	- Added Map Tracker variant
+	- Added Autotracking capability
+v1.1.0.2: By delassa and asilverthorn
+	- Switched to ff6wc v1.0 event bits to fix incompatibilities with some tracking
+	- Added treasure counting
+	- Improved visibility of Shadow portrait

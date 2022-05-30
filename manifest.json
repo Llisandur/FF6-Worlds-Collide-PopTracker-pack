@@ -2,9 +2,9 @@
 	"name": "FFVI Worlds Collide",
 	"game_name": "Final Fantasy VI",
 	"platform": "snes",
-	"package_version": "1.1.0",
+	"package_version": "1.1.0.2",
 	"package_uid": "ff6wc",
-	"author": "Eatitup_86, Anguirel",
+	"author": "Eatitup_86, Anguirel, delassa, asilverthorn",
 	"variants":
 	{
 		"standard":
