@@ -280,15 +280,14 @@
 							[ "Mog", "LoneWolf"],
 						]
 					},
-					{
+                    {
 						"type": "itemgrid",
 						"h_alignment": "center",
 						"item_margin": "-4,1",
 						"item_size": 64,
 						"background": "#000000",
-						"rows":
-						[
-							[ ""],
+						"rows": [
+						  [ "Treasure" ]
 						]
 					},
 					{

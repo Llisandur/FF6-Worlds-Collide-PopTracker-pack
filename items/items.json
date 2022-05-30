@@ -1002,6 +1002,14 @@
         },
       ]
     },
+	{
+        "name": "Treasure",
+        "type": "consumable",
+        "img": "images/Chest.png",
+        "codes": "Treasure",
+        "max_quantity": 384,
+		"ignore_user_input": true
+    },
     {
       "name": "Game Mode",
       "type": "progressive",
