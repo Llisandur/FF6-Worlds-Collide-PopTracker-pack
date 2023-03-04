@@ -18,3 +18,19 @@ function canAccessKefkasTower()
          (espers.CurrentStage >= reqEspers.CurrentStage)
   
 end
+
+function hasRequiredCharacterCountKT()
+  
+  local chars = Tracker:FindObjectForCode("Char")
+  
+  return ((chars.CurrentStage + 1) >=  3)
+  
+end
+
+function hasRequiredCharacterCountPC()
+  
+  local chars = Tracker:FindObjectForCode("Char")
+
+  return ((chars.CurrentStage + 1) >=  2)
+  
+end
