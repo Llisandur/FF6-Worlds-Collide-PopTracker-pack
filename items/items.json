@@ -426,6 +426,13 @@
 		"img": "images/Kefka.png",
 		"codes": "Kefka"
 	},
+    {
+		"name": "WoB Moogle Defense",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/MogDef.png",
+		"codes": "MogDef"
+	},
 		// Magitek Factory
 	{
       "name": "WoB 3 Magitek Factory",

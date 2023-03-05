@@ -2317,6 +2317,11 @@
                 "name": "Lone Wolf",
                 "access_rules": ["Mog", "openworld"],
                 "hosted_item": "LoneWolf"
+              },
+              {
+                "name": "Moogle Defense",
+                "access_rules": ["Mog", "openworld"],
+                "hosted_item": "MogDef"
               }
             ],
             "map_locations":

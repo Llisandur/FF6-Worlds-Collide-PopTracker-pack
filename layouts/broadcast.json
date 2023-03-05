@@ -258,7 +258,7 @@
 						"item_size": 64,
 						"rows":
 						[
-							[ "Mog", "LoneWolf"],
+							[ "Mog", "LoneWolf", "MogDef"],
 						]
 					},
 					{
@@ -299,16 +299,6 @@
 						"rows":
 						[
 							[ "DoomGaze"],
-						]
-					},
-					{
-						"type": "itemgrid",
-						"h_alignment": "center",
-						"item_margin": "-4,1",
-						"item_size": 64,
-						"rows":
-						[
-							[ ""],
 						]
 					},
 					{

@@ -378,6 +378,7 @@ function updateEventsAndBosses(segment)
   -- This sets right after "you'll never get", works picking either reward
   -- CHASING_LONE_WOLF7
   checkBitSet("LoneWolf", segment, 0x7E1EC7, 0x80)
+  checkBitSet("MogDef", segment, 0x7E1EA5, 0x40)
     
   -- Edgar Checks
   -- NAMED_EDGAR
