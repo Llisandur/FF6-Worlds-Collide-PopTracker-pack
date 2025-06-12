@@ -2961,8 +2961,7 @@
                 "hosted_item": "TzenHouse"
               },
               {
-                "name": "Thief in the Woods",
-                "hosted_item": "TzenThief"
+                "ref": "All Locations/World of Balance/WoB Tzen/Thief in the Woods"
               }
             ],
             "map_locations":
@@ -3190,9 +3189,7 @@
                 "hosted_item": "BlueDragon"
               },
               {
-                "name": "Figaro Throne",
-                "access_rules": ["Edgar", "openworld"],
-                "hosted_item": "FigThrone"
+                "ref": "All Locations/World of Balance/WoB Figaro Castle/Figaro Throne"
               }
             ],
             "map_locations":
@@ -3220,8 +3217,7 @@
                 "hosted_item": "Owzer"
               },
               {
-                "name": "Auction House",
-                "hosted_item": "Auctioneer2"
+                "ref": "All Locations/World of Balance/WoB Jidoor/Auction House"
               }
             ],
             "map_locations":
@@ -3370,9 +3366,7 @@
             "sections": 
             [
               {
-                "name": "Three Party Members and Dried Meat",
-                "access_rules": ["Gau", "openworld"],
-                "hosted_item": "VeldtJerky"
+                "ref": "All Locations/World of Balance/WoB Veldt/Three Party Members and Dried Meat"
               }
             ],
             "map_locations":
@@ -3424,5 +3418,5 @@
         ]
       }
     ]
-  },
+  }
 ]
