@@ -9,7 +9,7 @@
         "access_rules":[],
         "children":
         [
-         {
+          {
             "name": "Returner's Hideout",
             "access_rules": [],
             "sections": 
@@ -111,15 +111,10 @@
                 "map": "Treasure Map",
                 "x": 270,
                 "y": 910
-              },              
-			  {
-                "map": "Treasure Map",
-                "x": 1300,
-                "y": 733
               }
             ]
           },
-		  {
+          {
             "name": "Albrook",
             "access_rules": [],
             "sections": 
@@ -156,51 +151,6 @@
                 "map": "Treasure Map",
                 "x": 610,
                 "y": 825
-              }
-            ]
-          },
-		  {
-            "name": " Albrook",
-            "access_rules": [],
-            "sections": 
-            [
-              {
-                "name": "Armor Shop Left",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Armor Shop Right",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Cafe Clock",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Inn Barrel",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Weapon Shop Pot",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Docks Crate",
-                "access_rules": [],
-                "item_count": 1
-              }
-            ],
-            "map_locations":
-            [
-              {
-                "map": "Treasure Map",
-                "x": 1580,
-                "y": 835
               }
             ]
           },
@@ -311,11 +261,6 @@
                 "map": "Treasure Map",
                 "x": 1005,
                 "y": 493
-              },
-              {
-                "map": "Treasure Map",
-                "x": 2029,
-                "y": 910
               }
             ]
           },
@@ -409,57 +354,57 @@
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "Elder's Clock",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "Adventuring School Advanced Battle Tactics Chest",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "Adventuring School Battle Tactics Chest",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "Adventuring School Environmental Science Chest",
                 "access_rules": [],
                 "item_count": 1
-              },				
-			  {
+              },
+              {
                 "name": "Adventuring School Environmental Science Pot",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "Treasure House South Chest",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "Treasure House Middle Right",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "Treasure House Middle Left",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "Treasure House Top Right",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "Treasure House Top Middle",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "Treasure House Top Left",
                 "access_rules": [],
                 "item_count": 1
@@ -469,12 +414,12 @@
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "West Mines Left WoB",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "Moogle Lair WoB",
                 "access_rules": [],
                 "item_count": 1
@@ -490,141 +435,51 @@
             ]
           },
           {
-            "name": " Narshe",
-            "access_rules": [],
-            "sections": 
-            [
-              {
-                "name": "Arvis's Clock",
-                "access_rules": [],
-                "item_count": 1
-              },
-			  {
-                "name": "Elder's Clock",
-                "access_rules": [],
-                "item_count": 1
-              },
-			  {
-                "name": "Adventuring School Advanced Battle Tactics Chest",
-                "access_rules": [],
-                "item_count": 1
-              },
-			  {
-                "name": "Adventuring School Battle Tactics Chest",
-                "access_rules": [],
-                "item_count": 1
-              },
-			  {
-                "name": "Adventuring School Environmental Science Chest",
-                "access_rules": [],
-                "item_count": 1
-              },				
-			  {
-                "name": "Adventuring School Environmental Science Pot",
-                "access_rules": [],
-                "item_count": 1
-              },
-			  {
-                "name": "Treasure House South Chest",
-                "access_rules": ["Locke", "openworld"],
-                "item_count": 1
-              },
-			  {
-                "name": "Treasure House Middle Right",
-                "access_rules": ["Locke", "openworld"],
-                "item_count": 1
-              },
-			  {
-                "name": "Treasure House Middle Left",
-                "access_rules": ["Locke", "openworld"],
-                "item_count": 1
-              },
-			  {
-                "name": "Treasure House Top Right",
-                "access_rules": ["Locke", "openworld"],
-                "item_count": 1
-              },
-			  {
-                "name": "Treasure House Top Middle",
-                "access_rules": ["Locke", "openworld"],
-                "item_count": 1
-              },
-			  {
-                "name": "Treasure House Top Left",
-                "access_rules": ["Locke", "openworld"],
-                "item_count": 1
-              },
-              {
-                "name": "West Mines Right WoR",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "West Mines Left WoR",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Moogle Lair WoR",
-                "access_rules": [],
-                "item_count": 1
-              }
-            ],
-            "map_locations":
-            [
-			  {
-                "map": "Treasure Map",
-                "x": 1485,
-                "y": 149
-              }
-            ]
-          },
-          {
             "name": "Zozo",
             "access_rules": [],
             "sections": 
             [
-			  {
+              {
                 "name": "Armor Shop",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "Cafe",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "Clock Puzzle",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "Relic Shop Seventh Floor",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "West Tower North Left Pot",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "West Tower North Right Pot",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "Relic Shop Thirteenth Floor",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "Esper Room Left",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "Esper Room Right",
                 "access_rules": [],
                 "item_count": 1
@@ -640,56 +495,26 @@
             ]
           },
           {
-            "name": " Zozo",
-            "access_rules": [],
-            "sections": 
-            [
-			  {
-                "name": "Armor Shop",
-                "access_rules": [],
-                "item_count": 1
-              },
-			  {
-                "name": "Cafe",
-                "access_rules": [],
-                "item_count": 1
-              },
-			  {
-                "name": "Clock Puzzle",
-                "access_rules": [],
-                "item_count": 1
-              }
-            ],
-            "map_locations":
-            [
-              {
-                "map": "Treasure Map",
-                "x": 1198,
-                "y": 539
-              }
-            ]
-          },
-          {
             "name": "Mt. Kolts",
             "access_rules": [],
             "sections": 
             [
-			  {
+              {
                 "name": "Exit",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "Hidden Cavern",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "West Face South",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "West Face North",
                 "access_rules": [],
                 "item_count": 1
@@ -910,136 +735,6 @@
             ]
           },
           {
-            "name": " South Figaro",
-            "access_rules": [],
-            "sections": 
-            [
-              {
-                "name": "Basement Hidden Path Entrance",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Basement Hidden Path North Left",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Basement Hidden Path North Right",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Basement Hidden Path South",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Basement 2 South",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Basement 2 Northeast",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Basement 2 Hidden Chest",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Old Man's Bucket",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Secret Path Clock",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Mansion Basement West Cell",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Mansion Basement East Cell",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Mansion Basement East Room Left",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Mansion Basement East Room Below Clock",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Mansion Basement East Room Right",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Mansion Basement East Room Far Right",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Chocobo Stable Box WoR",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Chocobo Stable Barrel WoR",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Shoreline Box WoR",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Barrel Near Cafe WoR",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Box Near Cafe WoR",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Arsenal Barrel WoR",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Wall Barrel WoR",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Mansion Exit Barrel WoR",
-                "access_rules": [],
-                "item_count": 1
-              }
-            ],
-            "map_locations":
-            [
-              {
-                "map": "Treasure Map",
-                "x": 1487,
-                "y": 384
-              }
-            ]
-          },
-          {
             "name": "Owzer's House",
             "access_rules": [],
             "sections": 
@@ -1052,11 +747,6 @@
             ],
             "map_locations":
             [
-              {
-                "map": "Treasure Map",
-                "x": 1164,
-                "y": 637
-              },
               {
                 "map": "Treasure Map",
                 "x": 108,
@@ -1086,11 +776,6 @@
                 "map": "Treasure Map",
                 "x": 45,
                 "y": 156
-              },
-              {
-                "map": "Treasure Map",
-                "x": 1180,
-                "y": 182
               }
             ]
           },
@@ -1156,11 +841,6 @@
                 "map": "Treasure Map",
                 "x": 462,
                 "y": 237
-              },
-              {
-                "map": "Treasure Map",
-                "x": 1612,
-                "y": 305
               }
             ]
           },
@@ -1271,11 +951,6 @@
                 "map": "Treasure Map",
                 "x": 626,
                 "y": 336
-              },
-              {
-                "map": "Treasure Map",
-                "x": 1712,
-                "y": 315
               }
             ]
           },
@@ -1356,11 +1031,6 @@
                 "map": "Treasure Map",
                 "x": 1005,
                 "y": 527
-              },
-              {
-                "map": "Treasure Map",
-                "x": 2029,
-                "y": 944
               }
             ]
           },
@@ -1449,7 +1119,7 @@
             "access_rules": [],
             "sections": 
             [
-			  {
+              {
                 "name": "Post Office Clock",
                 "access_rules": [],
                 "item_count": 1
@@ -1469,22 +1139,22 @@
             "access_rules": ["Shadow", "openworld"],
             "sections": 
             [
-			  {
+              {
                 "name": "North Path",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "Lower Path",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "Northeast of Save",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "Escape",
                 "access_rules": [],
                 "item_count": 1
@@ -1508,21 +1178,421 @@
         "children":
         [
           {
+            "name": "Albrook",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "ref": "All Treasure Locations/World of Balance/Albrook/Armor Shop Left"
+              },
+              {
+                "ref": "All Treasure Locations/World of Balance/Albrook/Armor Shop Right"
+              },
+              {
+                "ref": "All Treasure Locations/World of Balance/Albrook/Cafe Clock"
+              },
+              {
+                "ref": "All Treasure Locations/World of Balance/Albrook/Inn Barrel"
+              },
+              {
+                "ref": "All Treasure Locations/World of Balance/Albrook/Weapon Shop Pot"
+              },
+              {
+                "name": "Docks Crate",
+                "access_rules": [],
+                "item_count": 1
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "Treasure Map",
+                "x": 1580,
+                "y": 835
+              }
+            ]
+          },
+          {
+            "name": "Maranda",
+            "access_rules": [],
+            "sections":
+            [
+              {
+                "ref": "All Treasure Locations/World of Balance/Maranda/Crate Left"
+              },
+              {
+                "ref": "All Treasure Locations/World of Balance/Maranda/Crate Bottom Right"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "Treasure Map",
+                "x": 1300,
+                "y": 733
+              }
+            ]
+          },
+          {
+            "name": "Burning House",
+            "access_rules": ["Strago", "openworld"],
+            "sections":
+            [
+              {
+                "ref": "All Treasure Locations/World of Balance/Burning House/First Chest"
+              },
+              {
+                "ref": "All Treasure Locations/World of Balance/Burning House/Second Chest"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "Treasure Map",
+                "x": 2029,
+                "y": 910
+              }
+            ]
+          },
+          {
+            "name": "Narshe",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "ref": "All Treasure Locations/World of Balance/Narshe/Arvis's Clock"
+              },
+              {
+                "ref": "All Treasure Locations/World of Balance/Narshe/Elder's Clock"
+              },
+              {
+                "ref": "All Treasure Locations/World of Balance/Narshe/Adventuring School Advanced Battle Tactics Chest"
+              },
+              {
+                "ref": "All Treasure Locations/World of Balance/Narshe/Adventuring School Battle Tactics Chest"
+              },
+              {
+                "ref": "All Treasure Locations/World of Balance/Narshe/Adventuring School Environmental Science Chest"
+              },
+              {
+                "ref": "All Treasure Locations/World of Balance/Narshe/Adventuring School Environmental Science Pot"
+              },
+              {
+                "name": "Treasure House South Chest",
+                "access_rules": ["Locke", "openworld"],
+                "item_count": 1
+              },
+              {
+                "name": "Treasure House Middle Right",
+                "access_rules": ["Locke", "openworld"],
+                "item_count": 1
+              },
+              {
+                "name": "Treasure House Middle Left",
+                "access_rules": ["Locke", "openworld"],
+                "item_count": 1
+              },
+              {
+                "name": "Treasure House Top Right",
+                "access_rules": ["Locke", "openworld"],
+                "item_count": 1
+              },
+              {
+                "name": "Treasure House Top Middle",
+                "access_rules": ["Locke", "openworld"],
+                "item_count": 1
+              },
+              {
+                "name": "Treasure House Top Left",
+                "access_rules": ["Locke", "openworld"],
+                "item_count": 1
+              },
+              {
+                "name": "West Mines Right WoR",
+                "access_rules": [],
+                "item_count": 1
+              },
+              {
+                "name": "West Mines Left WoR",
+                "access_rules": [],
+                "item_count": 1
+              },
+              {
+                "name": "Moogle Lair WoR",
+                "access_rules": [],
+                "item_count": 1
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "Treasure Map",
+                "x": 1485,
+                "y": 149
+              }
+            ]
+          },
+          {
+            "name": "Zozo",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "ref": "All Treasure Locations/World of Balance/Zozo/Armor Shop"
+              },
+              {
+                "ref": "All Treasure Locations/World of Balance/Zozo/Cafe"
+              },
+              {
+                "ref": "All Treasure Locations/World of Balance/Zozo/Clock Puzzle"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "Treasure Map",
+                "x": 1198,
+                "y": 539
+              }
+            ]
+          },
+          {
+            "name": "South Figaro",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "ref": "All Treasure Locations/World of Balance/South Figaro/Basement Hidden Path Entrance"
+              },
+              {
+                "ref": "All Treasure Locations/World of Balance/South Figaro/Basement Hidden Path North Left"
+              },
+              {
+                "ref": "All Treasure Locations/World of Balance/South Figaro/Basement Hidden Path North Right"
+              },
+              {
+                "ref": "All Treasure Locations/World of Balance/South Figaro/Basement Hidden Path South"
+              },
+              {
+                "ref": "All Treasure Locations/World of Balance/South Figaro/Basement 2 South"
+              },
+              {
+                "ref": "All Treasure Locations/World of Balance/South Figaro/Basement 2 Northeast"
+              },
+              {
+                "ref": "All Treasure Locations/World of Balance/South Figaro/Basement 2 Hidden Chest"
+              },
+              {
+                "ref": "All Treasure Locations/World of Balance/South Figaro/Old Man's Bucket"
+              },
+              {
+                "ref": "All Treasure Locations/World of Balance/South Figaro/Secret Path Clock"
+              },
+              {
+                "ref": "All Treasure Locations/World of Balance/South Figaro/Mansion Basement West Cell"
+              },
+              {
+                "ref": "All Treasure Locations/World of Balance/South Figaro/Mansion Basement East Cell"
+              },
+              {
+                "ref": "All Treasure Locations/World of Balance/South Figaro/Mansion Basement East Room Left"
+              },
+              {
+                "ref": "All Treasure Locations/World of Balance/South Figaro/Mansion Basement East Room Below Clock"
+              },
+              {
+                "ref": "All Treasure Locations/World of Balance/South Figaro/Mansion Basement East Room Right"
+              },
+              {
+                "ref": "All Treasure Locations/World of Balance/South Figaro/Mansion Basement East Room Far Right"
+              },
+              {
+                "name": "Chocobo Stable Box WoR",
+                "access_rules": [],
+                "item_count": 1
+              },
+              {
+                "name": "Chocobo Stable Barrel WoR",
+                "access_rules": [],
+                "item_count": 1
+              },
+              {
+                "name": "Shoreline Box WoR",
+                "access_rules": [],
+                "item_count": 1
+              },
+              {
+                "name": "Barrel Near Cafe WoR",
+                "access_rules": [],
+                "item_count": 1
+              },
+              {
+                "name": "Box Near Cafe WoR",
+                "access_rules": [],
+                "item_count": 1
+              },
+              {
+                "name": "Arsenal Barrel WoR",
+                "access_rules": [],
+                "item_count": 1
+              },
+              {
+                "name": "Wall Barrel WoR",
+                "access_rules": [],
+                "item_count": 1
+              },
+              {
+                "name": "Mansion Exit Barrel WoR",
+                "access_rules": [],
+                "item_count": 1
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "Treasure Map",
+                "x": 1487,
+                "y": 384
+              }
+            ]
+          },
+          {
+            "name": "Owzer's House",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "ref": "All Treasure Locations/World of Balance/Owzer's House/Pot"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "Treasure Map",
+                "x": 1164,
+                "y": 637
+              }
+            ]
+          },
+          {
+            "name": "Kohlingen",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "ref": "All Treasure Locations/World of Balance/Kohlingen/Old Man's House"
+              },
+              {
+                "ref": "All Treasure Locations/World of Balance/Kohlingen/Rachel's House Clock"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "Treasure Map",
+                "x": 1180,
+                "y": 182
+              }
+            ]
+          },
+          {
+            "name": "Nikeah",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "ref": "All Treasure Locations/World of Balance/Nikeah/Inn Clock"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "Treasure Map",
+                "x": 1612,
+                "y": 305
+              }
+            ]
+          },
+          {
+            "name": "Doma Castle",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "ref": "All Treasure Locations/World of Balance/Doma Castle/Cyan's Bedroom"
+              },
+              {
+                "ref": "All Treasure Locations/World of Balance/Doma Castle/Lower Hall Pot"
+              },
+              {
+                "ref": "All Treasure Locations/World of Balance/Doma Castle/Southeast Tower Left"
+              },
+              {
+                "ref": "All Treasure Locations/World of Balance/Doma Castle/Southeast Tower Right"
+              },
+              {
+                "ref": "All Treasure Locations/World of Balance/Doma Castle/West Sleeping Quarters Chest"
+              },
+              {
+                "ref": "All Treasure Locations/World of Balance/Doma Castle/West Sleeping Quarters Clock"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "Treasure Map",
+                "x": 1712,
+                "y": 315
+              }
+            ]
+          },
+          {
+            "name": "Thamasa",
+            "access_rules": [],
+            "sections": 
+            [
+              {
+                "ref": "All Treasure Locations/World of Balance/Thamasa/Strago's House Near Table (Second Floor)"
+              },
+              {
+                "ref": "All Treasure Locations/World of Balance/Thamasa/Item Shop Barrel"
+              },
+              {
+                "ref": "All Treasure Locations/World of Balance/Thamasa/Relic Shop Barrel"
+              },
+              {
+                "ref": "All Treasure Locations/World of Balance/Thamasa/Inn Barrel"
+              },
+              {
+                "ref": "All Treasure Locations/World of Balance/Thamasa/Strago's House Barrel"
+              },
+              {
+                "ref": "All Treasure Locations/World of Balance/Thamasa/Elder's House Barrel"
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "Treasure Map",
+                "x": 2029,
+                "y": 944
+              }
+            ]
+          },
+          {
             "name": " Mobliz",
             "access_rules": [],
             "sections": 
             [
-			  {
-                "name": "Post Office Clock",
-                "access_rules": [],
-                "item_count": 1
+              {
+                "ref": "All Treasure Locations/World of Balance/Mobliz/Post Office Clock"
               },
-			  {
+              {
                 "name": "House Barrel",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "Shelter Pot",
                 "access_rules": ["Terra", "openworld"],
                 "item_count": 1
@@ -1542,42 +1612,42 @@
             "access_rules": ["Sabin", "openworld"],
             "sections": 
             [
-			  {
+              {
                 "name": "First Floor Top Right",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "First Floor Middle",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "First Floor Top Left",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "First Floor Left",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "First Floor Bottom Left",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "Basement Bottom",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "Basement Left",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "Basement Right",
                 "access_rules": [],
                 "item_count": 1
@@ -1597,32 +1667,32 @@
             "access_rules": ["Setzer", "openworld"],
             "sections": 
             [
-			  {
+              {
                 "name": "Basement 2 Southeast",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "Basement 2 Southwest",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "Basement 3 Center",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "Basement 3 Right",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "Pre-Boss Room Left",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "Pre-Boss Room Right",
                 "access_rules": [],
                 "item_count": 1
@@ -1642,47 +1712,47 @@
             "access_rules": ["$hasRequiredCharacterCountPC"],
             "sections": 
             [
-			  {
+              {
                 "name": "Lower Cavern East Pool Island",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "Lower Cavern East Pool Bridge",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "Lower Cavern Spikes",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "Lower Cavern Rock Jumping",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "Lower Cavern Cool Lava",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "Upper Cavern Spikes",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "Upper Cavern Hidden Room",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "Upper Cavern Across Bridge",
                 "access_rules": [],
                 "item_count": 1
               },
-			  {
+              {
                 "name": "Upper Cavern Near Red Dragon",
                 "access_rules": [],
                 "item_count": 1
@@ -1863,7 +1933,7 @@
             ]
           },
           {
-            "name": " South Figaro Cave",
+            "name": "South Figaro Cave",
             "access_rules": ["Edgar", "openworld"],
             "sections": 
             [
@@ -1893,29 +1963,21 @@
             ]
           },
           {
-            "name": " Figaro Castle",
+            "name": "Figaro Castle",
             "access_rules": ["Edgar", "openworld"],
             "sections": 
             [
               {
-                "name": "East Shop Left",
-                "access_rules": [""],
-                "item_count": 1
+                "ref": "All Treasure Locations/World of Balance/Figaro Castle/East Shop Left"
               },
               {
-                "name": "East Shop Right",
-                "access_rules": [""],
-                "item_count": 1
+                "ref": "All Treasure Locations/World of Balance/Figaro Castle/East Shop Right"
               },
               {
-                "name": "Upper Hall",
-                "access_rules": [""],
-                "item_count": 1
+                "ref": "All Treasure Locations/World of Balance/Figaro Castle/Upper Hall"
               },
               {
-                "name": "West Shop",
-                "access_rules": [""],
-                "item_count": 1
+                "ref": "All Treasure Locations/World of Balance/Figaro Castle/West Shop"
               },
               {
                 "name": "Basement 2 Treasure Room",
