@@ -1,7 +1,7 @@
 {
   "name": "FFVI Worlds Collide",
   "game_name": "Final Fantasy VI",
-  "platform": "snes",
+  "platform": "Super Nintendo",
   "package_version": "1.1.0.3",
   "package_uid": "ff6wc",
   "author": "Eatitup_86, Anguirel, delassa, asilverthorn, Llisandur",
@@ -12,12 +12,12 @@
       "display_name": "Gated Tracker",
       "flags": ["ap"]
     },
-    "items_only":
+    "var_itemsonly":
     {
       "display_name": "Item Tracker",
       "flags": ["ap"]
     },
-    "map_tracker":
+    "var_maptracker":
     {
       "display_name": "Map Tracker",
     "flags": ["ap"]
