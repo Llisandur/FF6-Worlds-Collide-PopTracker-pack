@@ -301,12 +301,23 @@ function updatePartyAP()
 
 end
 
-function updateDragonsAP(segment)
+function updateDragonsAP()
   -- DRAGONS_DEFEATED
-  --Tracker:FindObjectForCode("Dragon").CurrentStage = segment:ReadUInt8(0x7E1FCE)
+  local dragonCount = 0
+
+  dragonCount = Tracker:ProviderCountForCode("RedDragon") + dragonCount
+  dragonCount = Tracker:ProviderCountForCode("StormDragon") + dragonCount
+  dragonCount = Tracker:ProviderCountForCode("BlueDragon") + dragonCount
+  dragonCount = Tracker:ProviderCountForCode("SkullDragon") + dragonCount
+  dragonCount = Tracker:ProviderCountForCode("GoldDragon") + dragonCount
+  dragonCount = Tracker:ProviderCountForCode("DirtDragon") + dragonCount
+  dragonCount = Tracker:ProviderCountForCode("WhiteDragon") + dragonCount
+  dragonCount = Tracker:ProviderCountForCode("IceDragon") + dragonCount
+
+  Tracker:FindObjectForCode("Dragon").AcquiredCount = dragonCount
 end
 
-function updateEspersAP(segment)
+function updateEspersAP()
   -- Espers clamped to 24 since that is all the progressive counter is defined for
   -- ESPERS_FOUND
   local esperCount = 0
@@ -384,3 +395,11 @@ ScriptHost:AddWatchForCode("unicornWatcher", "Unicorn", updateEspersAP)
 ScriptHost:AddWatchForCode("fenrirWatcher", "Fenrir", updateEspersAP)
 ScriptHost:AddWatchForCode("starletWatcher", "Starlet", updateEspersAP)
 ScriptHost:AddWatchForCode("phoenixWatcher", "Phoenix", updateEspersAP)
+ScriptHost:AddWatchForCode("redDragonWatcher", "RedDragon", updateDragonsAP)
+ScriptHost:AddWatchForCode("stormDragonWatcher", "StormDragon", updateDragonsAP)
+ScriptHost:AddWatchForCode("blueDragonWatcher", "BlueDragon", updateDragonsAP)
+ScriptHost:AddWatchForCode("skullDragonWatcher", "SkullDragon", updateDragonsAP)
+ScriptHost:AddWatchForCode("goldDragonWatcher", "GoldDragon", updateDragonsAP)
+ScriptHost:AddWatchForCode("dirtDragonWatcher", "DirtDragon", updateDragonsAP)
+ScriptHost:AddWatchForCode("whiteDragonWatcher", "WhiteDragon", updateDragonsAP)
+ScriptHost:AddWatchForCode("iceDragonWatcher", "IceDragon", updateDragonsAP)

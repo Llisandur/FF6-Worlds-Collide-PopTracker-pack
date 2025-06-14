@@ -162,7 +162,7 @@
 						"item_size": 64,
 						"rows":
 						[
-							[ "AtmaWpn" ],
+							[ "Dragon" ],
 						]
 					},
 					{
@@ -197,16 +197,6 @@
 						"type": "itemgrid",
 						"h_alignment": "center",
 						"item_margin": "-4,1",
-						"item_size": 30,
-						"rows":
-						[
-							[ ""],
-						]
-					},
-					{
-						"type": "itemgrid",
-						"h_alignment": "center",
-						"item_margin": "-4,1",
 						"item_size": 64,
 						"rows":
 						[
@@ -220,17 +210,17 @@
 						"item_size": 64,
 						"rows":
 						[
-							[ "TzenThief"],
+							[ "AtmaWpn"],
 						]
 					},
 					{
 						"type": "itemgrid",
 						"h_alignment": "center",
 						"item_margin": "-4,1",
-						"item_size": 32,
+						"item_size": 64,
 						"rows":
 						[
-							[ ""],
+							[ "TzenThief"],
 						]
 					},
 					{

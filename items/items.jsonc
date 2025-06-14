@@ -671,48 +671,58 @@
         // Dragon Counter
     {
       "name": "8 Dragons",
-      "type": "progressive",
-      "allow_disabled": "false",
-      "stages": [
-        {
-          "img": "images/GreenDragon.png",
-          "img_mods": "@disabled",
-          "codes": "Dragon"
-        },
-        {
-          "img": "images/GreenDragon.png",
-          "img_mods": "overlay|images/Overlays/1.png"
-        },
-        {
-          "img": "images/GreenDragon.png",
-          "img_mods": "overlay|images/Overlays/2.png"
-        },
-        {
-          "img": "images/GreenDragon.png",
-          "img_mods": "overlay|images/Overlays/3.png"
-        },
-        {
-          "img": "images/GreenDragon.png",
-          "img_mods": "overlay|images/Overlays/4.png"
-        },
-            {
-          "img": "images/GreenDragon.png",
-          "img_mods": "overlay|images/Overlays/5.png"
-        },
-            {
-          "img": "images/GreenDragon.png",
-          "img_mods": "overlay|images/Overlays/6.png"
-        },
-            {
-          "img": "images/GreenDragon.png",
-          "img_mods": "overlay|images/Overlays/7.png"
-        },
-            {
-          "img": "images/GreenDragonCmp.png",
-          "img_mods": "overlay|images/Overlays/8.png"
-        }
-      ]
+      "type": "consumable",
+      "img": "images/GreenDragon.png",
+      "max_quantity": 8,
+      "increment": 1,
+      "decrement": 1,
+      "overlay_font_size": 16,
+      "codes": "Dragon"
     },
+//    {
+//      "name": "8 Dragons",
+//      "type": "progressive",
+//      "allow_disabled": "false",
+//      "stages": [
+//        {
+//          "img": "images/GreenDragon.png",
+//          "img_mods": "@disabled",
+//          "codes": "Dragon"
+//        },
+//        {
+//          "img": "images/GreenDragon.png",
+//          "img_mods": "overlay|images/Overlays/1.png"
+//        },
+//        {
+//          "img": "images/GreenDragon.png",
+//          "img_mods": "overlay|images/Overlays/2.png"
+//        },
+//        {
+//          "img": "images/GreenDragon.png",
+//          "img_mods": "overlay|images/Overlays/3.png"
+//        },
+//        {
+//          "img": "images/GreenDragon.png",
+//          "img_mods": "overlay|images/Overlays/4.png"
+//        },
+//            {
+//          "img": "images/GreenDragon.png",
+//          "img_mods": "overlay|images/Overlays/5.png"
+//        },
+//            {
+//          "img": "images/GreenDragon.png",
+//          "img_mods": "overlay|images/Overlays/6.png"
+//        },
+//            {
+//          "img": "images/GreenDragon.png",
+//          "img_mods": "overlay|images/Overlays/7.png"
+//        },
+//            {
+//          "img": "images/GreenDragonCmp.png",
+//          "img_mods": "overlay|images/Overlays/8.png"
+//        }
+//      ]
+//    },
         // Character Counter
     {
       "name": "14 Characters",

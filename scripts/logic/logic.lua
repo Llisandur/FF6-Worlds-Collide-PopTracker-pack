@@ -22,16 +22,19 @@ function canAccessKefkasTower()
   
   local reqChars = Tracker:FindObjectForCode("requiredchars")
   local reqEspers = Tracker:FindObjectForCode("requiredespers")
+  local reqDragons = Tracker:FindObjectForCode("requireddragons")
   
   local chars = Tracker:FindObjectForCode("Char")
   local espers = Tracker:FindObjectForCode("Esper")
+  local dragons = Tracker:FindObjectForCode("Dragon")
   
   --
   -- Required characters has a minimum of 3, so offset the 
   -- current stage of collected characters by two so they match up.
   --
   return ((chars.AcquiredCount - 2) >=  reqChars.CurrentStage) and 
-         (espers.AcquiredCount >= reqEspers.CurrentStage)
+         (espers.AcquiredCount >= reqEspers.CurrentStage) and 
+         (dragons.AcquiredCount >= reqDragons.CurrentStage)
   
 end
 

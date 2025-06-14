@@ -484,7 +484,7 @@ end
 
 function updateCounters(segment)
   -- DRAGONS_DEFEATED
-  Tracker:FindObjectForCode("Dragon").CurrentStage = segment:ReadUInt8(0x7E1FCE)
+  Tracker:FindObjectForCode("Dragon").AcquiredCount = segment:ReadUInt8(0x7E1FCE)
   -- Espers clamped to 24 since that is all the progressive counter is defined for
   -- ESPERS_FOUND
   local esperCount = segment:ReadUInt8(0x7E1FC8)
