@@ -30,8 +30,8 @@ function canAccessKefkasTower()
   -- Required characters has a minimum of 3, so offset the 
   -- current stage of collected characters by two so they match up.
   --
-  return ((chars.CurrentStage - 2) >=  reqChars.CurrentStage) and 
-         (espers.CurrentStage >= reqEspers.CurrentStage)
+  return ((chars.AcquiredCount - 2) >=  reqChars.CurrentStage) and 
+         (espers.AcquiredCount >= reqEspers.CurrentStage)
   
 end
 

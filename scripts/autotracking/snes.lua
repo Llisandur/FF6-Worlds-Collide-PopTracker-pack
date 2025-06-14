@@ -30,7 +30,7 @@ end
 --
 function itemsOnlyTracking()
 
-  return string.find(Tracker.ActiveVariantUID, "items_only")
+  return string.find(Tracker.ActiveVariantUID, "var_itemsonly")
 
 end
 
@@ -42,7 +42,7 @@ end
 --
 function isGatedMode()
 
-  local isMapTracker = string.find(Tracker.ActiveVariantUID, "map_tracker")
+  local isMapTracker = string.find(Tracker.ActiveVariantUID, "var_maptracker")
   
   if isMapTracker then
     -- If the tracker is in map tracker mode, check if the
@@ -215,7 +215,7 @@ function updateParty(segment)
   
   -- Set the progressive character counter
   local characters = Tracker:FindObjectForCode("Char")
-  characters.CurrentStage = (charactersAcquired - 1)
+  characters.AcquiredCount = (charactersAcquired - 1)
 
 end
 
@@ -260,7 +260,7 @@ function updateEventsAndBosses(segment)
   -- Open Checks
   handleAuctionHouse(segment)
   -- GOT_TRITOCH
-  checkBitSet("Tritoch", segment, 0x7E1ED3, 0x40)
+  checkBitSet("TritochNrsh", segment, 0x7E1ED3, 0x40)
   -- BOUGHT_ESPER_TZEN
   checkBitSet("TzenThief", segment, 0x7E1ECF, 0x10)
   -- FINISHED_NARSHE_BATTLE
@@ -488,7 +488,7 @@ function updateCounters(segment)
   -- Espers clamped to 24 since that is all the progressive counter is defined for
   -- ESPERS_FOUND
   local esperCount = segment:ReadUInt8(0x7E1FC8)
-  Tracker:FindObjectForCode("Esper").CurrentStage = math.min(esperCount, 24)
+  Tracker:FindObjectForCode("Esper").AcquiredCount = esperCount
 end
 
 

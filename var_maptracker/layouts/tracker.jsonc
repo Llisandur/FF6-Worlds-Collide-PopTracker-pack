@@ -311,7 +311,7 @@
 						"background": "#000000",
 						"rows":
 						[
-							[ "Tritoch"],
+							[ "TritochNrsh"],
 						]
 					},
 					{
@@ -428,7 +428,7 @@
 							[ "LeteRiver", "sealCave", "Whelk", "ZozoRamuh", "Phunbaba","DarillTomb", "KohlingenDoge", "BarenFalls", "ImperialCamp", "Vargas", "PhantomTrain" ],
               [ "TzenHouse", "SerpentTrench", "VeldtJerky", "OperaHouse", "ChainedCeles", "Magitek", "FigThrone", "FigCave", "AncientCastle", "GauManor", "Float" ],
               [ "WoRVeldt", "TunnelArmor", "NarsheWpn", "PhoenixCave", "WoBDoma", "WoRDoma", "MtZozo", "WoBThamasa", "EbotsRock", "FanaticsTower", "EsperMtn" ],
-              [ "Owzer", "UmaroNrsh", "ZoneEater", "LoneWolf", "Auctioneer", "Tritoch", "DoomGaze", "Kefka", "TzenThief", "AtmaWpn" ]
+              [ "Owzer", "UmaroNrsh", "ZoneEater", "LoneWolf", "Auctioneer", "TritochNrsh", "DoomGaze", "Kefka", "TzenThief", "AtmaWpn" ]
 						]
 					}
 				]

@@ -1,5 +1,140 @@
 [
     {
+        "name": "Ramuh",
+        "type": "toggle",
+        "codes": "Ramuh"
+    },
+    {
+        "name": "Ifrit",
+        "type": "toggle",
+        "codes": "Ifrit"
+    },
+    {
+        "name": "Shiva",
+        "type": "toggle",
+        "codes": "Shiva"
+    },
+    {
+        "name": "Siren",
+        "type": "toggle",
+        "codes": "Siren"
+    },
+    {
+        "name": "Terrato",
+        "type": "toggle",
+        "codes": "Terrato"
+    },
+    {
+        "name": "Shoat",
+        "type": "toggle",
+        "codes": "Shoat"
+    },
+    {
+        "name": "Maduin",
+        "type": "toggle",
+        "codes": "Maduin"
+    },
+    {
+        "name": "Bismark",
+        "type": "toggle",
+        "codes": "Bismark"
+    },
+    {
+        "name": "Stray",
+        "type": "toggle",
+        "codes": "Stray"
+    },
+    {
+        "name": "Palidor",
+        "type": "toggle",
+        "codes": "Palidor"
+    },
+    {
+        "name": "Tritoch",
+        "type": "toggle",
+        "codes": "Tritoch"
+    },
+    {
+        "name": "Odin",
+        "type": "toggle",
+        "codes": "Odin"
+    },
+    {
+        "name": "Raiden",
+        "type": "toggle",
+        "codes": "Raiden"
+    },
+    {
+        "name": "Bahamut",
+        "type": "toggle",
+        "codes": "Bahamut"
+    },
+    {
+        "name": "Alexandr",
+        "type": "toggle",
+        "codes": "Alexandr"
+    },
+    {
+        "name": "Crusader",
+        "type": "toggle",
+        "codes": "Crusader"
+    },
+    {
+        "name": "Ragnarok Esper",
+        "type": "toggle",
+        "codes": "Ragnarok Esper"
+    },
+    {
+        "name": "Kirin",
+        "type": "toggle",
+        "codes": "Kirin"
+    },
+    {
+        "name": "ZoneSeek",
+        "type": "toggle",
+        "codes": "ZoneSeek"
+    },
+    {
+        "name": "Carbunkl",
+        "type": "toggle",
+        "codes": "Carbunkl"
+    },
+    {
+        "name": "Phantom",
+        "type": "toggle",
+        "codes": "Phantom"
+    },
+    {
+        "name": "Sraphim",
+        "type": "toggle",
+        "codes": "Sraphim"
+    },
+    {
+        "name": "Golem",
+        "type": "toggle",
+        "codes": "Golem"
+    },
+    {
+        "name": "Unicorn",
+        "type": "toggle",
+        "codes": "Unicorn"
+    },
+    {
+        "name": "Fenrir",
+        "type": "toggle",
+        "codes": "Fenrir"
+    },
+    {
+        "name": "Starlet",
+        "type": "toggle",
+        "codes": "Starlet"
+    },
+    {
+        "name": "Phoenix",
+        "type": "toggle",
+        "codes": "Phoenix"
+    },
+    {
         "name": "Celes",
         "type": "toggle",
         "loop": "true",
@@ -333,7 +468,7 @@
         "type": "toggle",
         "loop": "true",
         "img": "images/Tritoch.png",
-        "codes": "Tritoch"
+        "codes": "TritochNrsh"
     },
     {
         "name": "WoB Backwards through South Figaro Cave",
@@ -581,184 +716,205 @@
         // Character Counter
     {
       "name": "14 Characters",
-      "type": "progressive",
-      "allow_disabled": "false",
-      "stages": [
-        {
-          "img": "images/Char.png",
-//          "img_mods": "@enabled",
-          "img_mods": "overlay|images/Overlays/1.png",
-          "codes": "Char"
-        },
-        {
-          "img": "images/Char.png",
-          "img_mods": "overlay|images/Overlays/2.png"
-        },
-        {
-          "img": "images/Char.png",
-          "img_mods": "overlay|images/Overlays/3.png"
-        },
-        {
-          "img": "images/Char.png",
-          "img_mods": "overlay|images/Overlays/4.png"
-        },
-        {
-          "img": "images/Char.png",
-          "img_mods": "overlay|images/Overlays/5.png"
-        },
-            {
-          "img": "images/Char.png",
-          "img_mods": "overlay|images/Overlays/6.png"
-        },
-            {
-          "img": "images/Char.png",
-          "img_mods": "overlay|images/Overlays/7.png"
-        },
-            {
-          "img": "images/Char.png",
-          "img_mods": "overlay|images/Overlays/8.png"
-        },
-            {
-          "img": "images/Char.png",
-          "img_mods": "overlay|images/Overlays/9.png"
-        },
-            {
-          "img": "images/Char.png",
-          "img_mods": "overlay|images/Overlays/10.png"
-        },
-            {
-          "img": "images/Char.png",
-          "img_mods": "overlay|images/Overlays/11.png"
-        },
-            {
-          "img": "images/Char.png",
-          "img_mods": "overlay|images/Overlays/12.png"
-        },
-            {
-          "img": "images/Char.png",
-          "img_mods": "overlay|images/Overlays/13.png"
-        },
-            {
-          "img": "images/Char.png",
-          "img_mods": "overlay|images/Overlays/14.png"
-        }
-      ]
+      "type": "consumable",
+      "img": "images/Char.png",
+      "max_quantity": 14,
+      "increment": 1,
+      "decrement": 1,
+      "overlay_font_size": 16,
+      "codes": "Char"
     },
+//    {
+//      "name": "14 Characters",
+//      "type": "progressive",
+//      "allow_disabled": "false",
+//      "stages": [
+//        {
+//          "img": "images/Char.png",
+////          "img_mods": "@enabled",
+//          "img_mods": "overlay|images/Overlays/1.png",
+//          "codes": "Char"
+//        },
+//        {
+//          "img": "images/Char.png",
+//          "img_mods": "overlay|images/Overlays/2.png"
+//        },
+//        {
+//          "img": "images/Char.png",
+//          "img_mods": "overlay|images/Overlays/3.png"
+//        },
+//        {
+//          "img": "images/Char.png",
+//          "img_mods": "overlay|images/Overlays/4.png"
+//        },
+//        {
+//          "img": "images/Char.png",
+//          "img_mods": "overlay|images/Overlays/5.png"
+//        },
+//            {
+//          "img": "images/Char.png",
+//          "img_mods": "overlay|images/Overlays/6.png"
+//        },
+//            {
+//          "img": "images/Char.png",
+//          "img_mods": "overlay|images/Overlays/7.png"
+//        },
+//            {
+//          "img": "images/Char.png",
+//          "img_mods": "overlay|images/Overlays/8.png"
+//        },
+//            {
+//          "img": "images/Char.png",
+//          "img_mods": "overlay|images/Overlays/9.png"
+//        },
+//            {
+//          "img": "images/Char.png",
+//          "img_mods": "overlay|images/Overlays/10.png"
+//        },
+//            {
+//          "img": "images/Char.png",
+//          "img_mods": "overlay|images/Overlays/11.png"
+//        },
+//            {
+//          "img": "images/Char.png",
+//          "img_mods": "overlay|images/Overlays/12.png"
+//        },
+//            {
+//          "img": "images/Char.png",
+//          "img_mods": "overlay|images/Overlays/13.png"
+//        },
+//            {
+//          "img": "images/Char.png",
+//          "img_mods": "overlay|images/Overlays/14.png"
+//        }
+//      ]
+//    },
         // Esper Counter
     {
-      "name": "24 Espers",
-      "type": "progressive",
-      "allow_disabled": "false",
-      "stages": [
-        {
-          "img": "images/Esper.png",
-          "img_mods": "@disabled",
-          "codes": "Esper"
-        },
-        {
-          "img": "images/Esper.png",
-          "img_mods": "overlay|images/Overlays/1.png"
-        },
-        {
-          "img": "images/Esper.png",
-          "img_mods": "overlay|images/Overlays/2.png"
-        },
-        {
-          "img": "images/Esper.png",
-          "img_mods": "overlay|images/Overlays/3.png"
-        },
-        {
-          "img": "images/Esper.png",
-          "img_mods": "overlay|images/Overlays/4.png"
-        },
-            {
-          "img": "images/Esper.png",
-          "img_mods": "overlay|images/Overlays/5.png"
-        },
-            {
-          "img": "images/Esper.png",
-          "img_mods": "overlay|images/Overlays/6.png"
-        },
-            {
-          "img": "images/Esper.png",
-          "img_mods": "overlay|images/Overlays/7.png"
-        },
-            {
-          "img": "images/Esper.png",
-          "img_mods": "overlay|images/Overlays/8.png"
-        },
-            {
-          "img": "images/Esper.png",
-          "img_mods": "overlay|images/Overlays/9.png"
-        },
-            {
-          "img": "images/Esper.png",
-          "img_mods": "overlay|images/Overlays/10.png"
-        },
-            {
-          "img": "images/Esper.png",
-          "img_mods": "overlay|images/Overlays/11.png"
-        },
-            {
-          "img": "images/Esper.png",
-          "img_mods": "overlay|images/Overlays/12.png"
-        },
-            {
-          "img": "images/Esper.png",
-          "img_mods": "overlay|images/Overlays/13.png"
-        },
-            {
-          "img": "images/Esper.png",
-          "img_mods": "overlay|images/Overlays/14.png"
-        },
-            {
-          "img": "images/Esper.png",
-          "img_mods": "overlay|images/Overlays/15.png"
-        },
-            {
-          "img": "images/Esper.png",
-          "img_mods": "overlay|images/Overlays/16.png"
-        },
-            {
-          "img": "images/Esper.png",
-          "img_mods": "overlay|images/Overlays/17.png"
-        },
-            {
-          "img": "images/Esper.png",
-          "img_mods": "overlay|images/Overlays/18.png"
-        },
-            {
-          "img": "images/Esper.png",
-          "img_mods": "overlay|images/Overlays/19.png"
-        },
-            {
-          "img": "images/Esper.png",
-          "img_mods": "overlay|images/Overlays/20.png"
-        },
-            {
-          "img": "images/Esper.png",
-          "img_mods": "overlay|images/Overlays/21.png"
-        },
-            {
-          "img": "images/Esper.png",
-          "img_mods": "overlay|images/Overlays/22.png"
-        },
-            {
-          "img": "images/Esper.png",
-          "img_mods": "overlay|images/Overlays/23.png"
-        },
-            {
-          "img": "images/Esper.png",
-          "img_mods": "overlay|images/Overlays/24.png"
-        }
-      ]
+      "name": "27 Espers",
+      "type": "consumable",
+      "img": "images/Esper.png",
+      "max_quantity": 27,
+      "increment": 1,
+      "decrement": 1,
+      "initial_quantity": 0,
+      "overlay_font_size": 16,
+      "codes": "Esper"
     },
+//    {
+//      "name": "24 Espers",
+//      "type": "progressive",
+//      "allow_disabled": "false",
+//      "stages": [
+//        {
+//          "img": "images/Esper.png",
+//          "img_mods": "@disabled",
+//          "codes": "Esper"
+//        },
+//        {
+//          "img": "images/Esper.png",
+//          "img_mods": "overlay|images/Overlays/1.png"
+//        },
+//        {
+//          "img": "images/Esper.png",
+//          "img_mods": "overlay|images/Overlays/2.png"
+//        },
+//        {
+//          "img": "images/Esper.png",
+//          "img_mods": "overlay|images/Overlays/3.png"
+//        },
+//        {
+//          "img": "images/Esper.png",
+//          "img_mods": "overlay|images/Overlays/4.png"
+//        },
+//            {
+//          "img": "images/Esper.png",
+//          "img_mods": "overlay|images/Overlays/5.png"
+//        },
+//            {
+//          "img": "images/Esper.png",
+//          "img_mods": "overlay|images/Overlays/6.png"
+//        },
+//            {
+//          "img": "images/Esper.png",
+//          "img_mods": "overlay|images/Overlays/7.png"
+//        },
+//            {
+//          "img": "images/Esper.png",
+//          "img_mods": "overlay|images/Overlays/8.png"
+//        },
+//            {
+//          "img": "images/Esper.png",
+//          "img_mods": "overlay|images/Overlays/9.png"
+//        },
+//            {
+//          "img": "images/Esper.png",
+//          "img_mods": "overlay|images/Overlays/10.png"
+//        },
+//            {
+//          "img": "images/Esper.png",
+//          "img_mods": "overlay|images/Overlays/11.png"
+//        },
+//            {
+//          "img": "images/Esper.png",
+//          "img_mods": "overlay|images/Overlays/12.png"
+//        },
+//            {
+//          "img": "images/Esper.png",
+//          "img_mods": "overlay|images/Overlays/13.png"
+//        },
+//            {
+//          "img": "images/Esper.png",
+//          "img_mods": "overlay|images/Overlays/14.png"
+//        },
+//            {
+//          "img": "images/Esper.png",
+//          "img_mods": "overlay|images/Overlays/15.png"
+//        },
+//            {
+//          "img": "images/Esper.png",
+//          "img_mods": "overlay|images/Overlays/16.png"
+//        },
+//            {
+//          "img": "images/Esper.png",
+//          "img_mods": "overlay|images/Overlays/17.png"
+//        },
+//            {
+//          "img": "images/Esper.png",
+//          "img_mods": "overlay|images/Overlays/18.png"
+//        },
+//            {
+//          "img": "images/Esper.png",
+//          "img_mods": "overlay|images/Overlays/19.png"
+//        },
+//            {
+//          "img": "images/Esper.png",
+//          "img_mods": "overlay|images/Overlays/20.png"
+//        },
+//            {
+//          "img": "images/Esper.png",
+//          "img_mods": "overlay|images/Overlays/21.png"
+//        },
+//            {
+//          "img": "images/Esper.png",
+//          "img_mods": "overlay|images/Overlays/22.png"
+//        },
+//            {
+//          "img": "images/Esper.png",
+//          "img_mods": "overlay|images/Overlays/23.png"
+//        },
+//            {
+//          "img": "images/Esper.png",
+//          "img_mods": "overlay|images/Overlays/24.png"
+//        }
+//      ]
+//    },
     
     {
-      "name": "Requird Characters",
+      "name": "Required Characters",
       "type": "progressive",
       "allow_disabled": false,
-      "initial_stage_idx": 4,
+      "initial_stage_idx": 5,
       "loop": true,
       "stages": [
         {
@@ -828,7 +984,7 @@
       "name": "Required Espers",
       "type": "progressive",
       "allow_disabled": false,
-      "initial_stage_idx": 13,
+      "initial_stage_idx": 14,
       "loop": true,
       "stages": [
         {
@@ -961,6 +1117,7 @@
       "name": "Required Dragons",
       "type": "progressive",
       "allow_disabled": false,
+      "initial_stage_idx": 4,
       "loop": true,
       "stages": [
         {

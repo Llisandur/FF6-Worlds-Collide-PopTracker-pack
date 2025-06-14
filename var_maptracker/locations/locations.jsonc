@@ -1178,23 +1178,28 @@
         "children":
         [
           {
-            "name": "Albrook",
+            "name": " Albrook",
             "access_rules": [],
             "sections": 
             [
               {
+                "name": "Armor Shop Left ",
                 "ref": "All Treasure Locations/World of Balance/Albrook/Armor Shop Left"
               },
               {
+                "name": "Armor Shop Right ",
                 "ref": "All Treasure Locations/World of Balance/Albrook/Armor Shop Right"
               },
               {
+                "name": "Cafe Clock ",
                 "ref": "All Treasure Locations/World of Balance/Albrook/Cafe Clock"
               },
               {
+                "name": "Inn Barrel ",
                 "ref": "All Treasure Locations/World of Balance/Albrook/Inn Barrel"
               },
               {
+                "name": "Weapon Shop Pot ",
                 "ref": "All Treasure Locations/World of Balance/Albrook/Weapon Shop Pot"
               },
               {
@@ -1213,14 +1218,16 @@
             ]
           },
           {
-            "name": "Maranda",
+            "name": " Maranda",
             "access_rules": [],
             "sections":
             [
               {
+                "name": "Crate Left ",
                 "ref": "All Treasure Locations/World of Balance/Maranda/Crate Left"
               },
               {
+                "name": "Crate Bottom Right ",
                 "ref": "All Treasure Locations/World of Balance/Maranda/Crate Bottom Right"
               }
             ],
@@ -1234,14 +1241,16 @@
             ]
           },
           {
-            "name": "Burning House",
+            "name": " Burning House",
             "access_rules": ["Strago", "openworld"],
             "sections":
             [
               {
+                "name": "First Chest ",
                 "ref": "All Treasure Locations/World of Balance/Burning House/First Chest"
               },
               {
+                "name": "Second Chest ",
                 "ref": "All Treasure Locations/World of Balance/Burning House/Second Chest"
               }
             ],
@@ -1255,26 +1264,32 @@
             ]
           },
           {
-            "name": "Narshe",
+            "name": " Narshe",
             "access_rules": [],
             "sections": 
             [
               {
+                "name": "Arvis's Clock ",
                 "ref": "All Treasure Locations/World of Balance/Narshe/Arvis's Clock"
               },
               {
+                "name": "Elder's Clock ",
                 "ref": "All Treasure Locations/World of Balance/Narshe/Elder's Clock"
               },
               {
+                "name": "Adventuring School Advanced Battle Tactics Chest ",
                 "ref": "All Treasure Locations/World of Balance/Narshe/Adventuring School Advanced Battle Tactics Chest"
               },
               {
+                "name": "Adventuring School Battle Tactics Chest ",
                 "ref": "All Treasure Locations/World of Balance/Narshe/Adventuring School Battle Tactics Chest"
               },
               {
+                "name": "Adventuring School Environmental Science Chest ",
                 "ref": "All Treasure Locations/World of Balance/Narshe/Adventuring School Environmental Science Chest"
               },
               {
+                "name": "Adventuring School Environmental Science Pot ",
                 "ref": "All Treasure Locations/World of Balance/Narshe/Adventuring School Environmental Science Pot"
               },
               {
@@ -1333,17 +1348,20 @@
             ]
           },
           {
-            "name": "Zozo",
+            "name": " Zozo",
             "access_rules": [],
             "sections": 
             [
               {
+                "name": "Armor Shop ",
                 "ref": "All Treasure Locations/World of Balance/Zozo/Armor Shop"
               },
               {
+                "name": "Cafe ",
                 "ref": "All Treasure Locations/World of Balance/Zozo/Cafe"
               },
               {
+                "name": "Clock Puzzle ",
                 "ref": "All Treasure Locations/World of Balance/Zozo/Clock Puzzle"
               }
             ],
@@ -1357,53 +1375,68 @@
             ]
           },
           {
-            "name": "South Figaro",
+            "name": " South Figaro",
             "access_rules": [],
             "sections": 
             [
               {
+                "name": "Basement Hidden Path Entrance ",
                 "ref": "All Treasure Locations/World of Balance/South Figaro/Basement Hidden Path Entrance"
               },
               {
+                "name": "Basement Hidden Path North Left ",
                 "ref": "All Treasure Locations/World of Balance/South Figaro/Basement Hidden Path North Left"
               },
               {
+                "name": "Basement Hidden Path North Right ",
                 "ref": "All Treasure Locations/World of Balance/South Figaro/Basement Hidden Path North Right"
               },
               {
+                "name": "Basement Hidden Path South ",
                 "ref": "All Treasure Locations/World of Balance/South Figaro/Basement Hidden Path South"
               },
               {
+                "name": "Basement 2 South ",
                 "ref": "All Treasure Locations/World of Balance/South Figaro/Basement 2 South"
               },
               {
+                "name": "Basement 2 Northeast ",
                 "ref": "All Treasure Locations/World of Balance/South Figaro/Basement 2 Northeast"
               },
               {
+                "name": "Basement 2 Hidden Chest ",
                 "ref": "All Treasure Locations/World of Balance/South Figaro/Basement 2 Hidden Chest"
               },
               {
+                "name": "Old Man's Bucket ",
                 "ref": "All Treasure Locations/World of Balance/South Figaro/Old Man's Bucket"
               },
               {
+                "name": "Secret Path Clock ",
                 "ref": "All Treasure Locations/World of Balance/South Figaro/Secret Path Clock"
               },
               {
+                "name": "Mansion Basement West Cell ",
                 "ref": "All Treasure Locations/World of Balance/South Figaro/Mansion Basement West Cell"
               },
               {
+                "name": "Mansion Basement East Cell ",
                 "ref": "All Treasure Locations/World of Balance/South Figaro/Mansion Basement East Cell"
               },
               {
+                "name": "Mansion Basement East Room Left ",
                 "ref": "All Treasure Locations/World of Balance/South Figaro/Mansion Basement East Room Left"
               },
               {
+                "name": "Mansion Basement East Room Below Clock ",
                 "ref": "All Treasure Locations/World of Balance/South Figaro/Mansion Basement East Room Below Clock"
               },
               {
+                "name": "Mansion Basement East Room Right ",
                 "ref": "All Treasure Locations/World of Balance/South Figaro/Mansion Basement East Room Right"
               },
               {
+                "name": "Mansion Basement East Room Far Right ",
                 "ref": "All Treasure Locations/World of Balance/South Figaro/Mansion Basement East Room Far Right"
               },
               {
@@ -1457,11 +1490,12 @@
             ]
           },
           {
-            "name": "Owzer's House",
+            "name": " Owzer's House",
             "access_rules": [],
             "sections": 
             [
               {
+                "name": "Pot ",
                 "ref": "All Treasure Locations/World of Balance/Owzer's House/Pot"
               }
             ],
@@ -1475,14 +1509,16 @@
             ]
           },
           {
-            "name": "Kohlingen",
+            "name": " Kohlingen",
             "access_rules": [],
             "sections": 
             [
               {
+                "name": "Old Man's House ",
                 "ref": "All Treasure Locations/World of Balance/Kohlingen/Old Man's House"
               },
               {
+                "name": "Rachel's House Clock ",
                 "ref": "All Treasure Locations/World of Balance/Kohlingen/Rachel's House Clock"
               }
             ],
@@ -1496,11 +1532,12 @@
             ]
           },
           {
-            "name": "Nikeah",
+            "name": " Nikeah",
             "access_rules": [],
             "sections": 
             [
               {
+                "name": "Inn Clock ",
                 "ref": "All Treasure Locations/World of Balance/Nikeah/Inn Clock"
               }
             ],
@@ -1514,26 +1551,32 @@
             ]
           },
           {
-            "name": "Doma Castle",
+            "name": " Doma Castle",
             "access_rules": [],
             "sections": 
             [
               {
+                "name": "Cyan's Bedroom ",
                 "ref": "All Treasure Locations/World of Balance/Doma Castle/Cyan's Bedroom"
               },
               {
+                "name": "Lower Hall Pot ",
                 "ref": "All Treasure Locations/World of Balance/Doma Castle/Lower Hall Pot"
               },
               {
+                "name": "Southeast Tower Left ",
                 "ref": "All Treasure Locations/World of Balance/Doma Castle/Southeast Tower Left"
               },
               {
+                "name": "Southeast Tower Right ",
                 "ref": "All Treasure Locations/World of Balance/Doma Castle/Southeast Tower Right"
               },
               {
+                "name": "West Sleeping Quarters Chest ",
                 "ref": "All Treasure Locations/World of Balance/Doma Castle/West Sleeping Quarters Chest"
               },
               {
+                "name": "West Sleeping Quarters Clock ",
                 "ref": "All Treasure Locations/World of Balance/Doma Castle/West Sleeping Quarters Clock"
               }
             ],
@@ -1547,26 +1590,32 @@
             ]
           },
           {
-            "name": "Thamasa",
+            "name": " Thamasa",
             "access_rules": [],
             "sections": 
             [
               {
+                "name": "Strago's House Near Table (Second Floor) ",
                 "ref": "All Treasure Locations/World of Balance/Thamasa/Strago's House Near Table (Second Floor)"
               },
               {
+                "name": "Item Shop Barrel ",
                 "ref": "All Treasure Locations/World of Balance/Thamasa/Item Shop Barrel"
               },
               {
+                "name": "Relic Shop Barrel ",
                 "ref": "All Treasure Locations/World of Balance/Thamasa/Relic Shop Barrel"
               },
               {
+                "name": "Inn Barrel ",
                 "ref": "All Treasure Locations/World of Balance/Thamasa/Inn Barrel"
               },
               {
+                "name": "Strago's House Barrel ",
                 "ref": "All Treasure Locations/World of Balance/Thamasa/Strago's House Barrel"
               },
               {
+                "name": "Elder's House Barrel ",
                 "ref": "All Treasure Locations/World of Balance/Thamasa/Elder's House Barrel"
               }
             ],
@@ -1585,6 +1634,7 @@
             "sections": 
             [
               {
+                "name": "Post Office Clock ",
                 "ref": "All Treasure Locations/World of Balance/Mobliz/Post Office Clock"
               },
               {
@@ -1963,20 +2013,24 @@
             ]
           },
           {
-            "name": "Figaro Castle",
+            "name": " Figaro Castle",
             "access_rules": ["Edgar", "openworld"],
             "sections": 
             [
               {
+                "name": "East Shop Left ",
                 "ref": "All Treasure Locations/World of Balance/Figaro Castle/East Shop Left"
               },
               {
+                "name": "East Shop Right ",
                 "ref": "All Treasure Locations/World of Balance/Figaro Castle/East Shop Right"
               },
               {
+                "name": "Upper Hall ",
                 "ref": "All Treasure Locations/World of Balance/Figaro Castle/Upper Hall"
               },
               {
+                "name": "West Shop ",
                 "ref": "All Treasure Locations/World of Balance/Figaro Castle/West Shop"
               },
               {
@@ -3072,7 +3126,7 @@
               },
               {
                 "name": "Tritoch",
-                "hosted_item": "Tritoch"
+                "hosted_item": "TritochNrsh"
               },
               {
                 "name": "Umaro",
