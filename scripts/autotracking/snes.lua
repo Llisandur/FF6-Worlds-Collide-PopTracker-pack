@@ -81,6 +81,27 @@ function updateProgressive(name, segment, address, flag, count)
 end
 
 --
+-- Update a progressive counter to a value
+-- params
+--  name: name of the tracker item
+--  segment: memory segment to read from
+--  address: memory address of the check
+--  flag : bit flag for the check
+--  count : value to set the counter to
+
+function updateConsumable(name, segment, address, flag, count)
+  local trackerItem = Tracker:FindObjectForCode(name)
+  if trackerItem then
+    local value = segment:ReadUInt8(address)
+    if (value & flag) ~= 0 then
+      trackerItem.AcquiredCount = count
+    end
+  else
+    printDebug("updateConsumable: Unable to find tracker item: " .. name)  
+  end
+end
+
+--
 -- Update an event based on whether or not a bit is set
 --
 --  Params:
@@ -235,7 +256,7 @@ function handleAuctionHouse(segment)
   local stage = ((value & 0x20) >> 5) + 
                 ((value & 0x10) >> 4)
   local object = Tracker:FindObjectForCode("Auctioneer")
-  object.CurrentStage = stage
+  object.AcquiredCount = stage
   
 end
 
@@ -308,13 +329,13 @@ function updateEventsAndBosses(segment)
   
   -- Celes Checks
   -- Set magitek factory to stage to 0 for game resets
-  Tracker:FindObjectForCode("Magitek").CurrentStage = 0
+  Tracker:FindObjectForCode("Magitek").AcquiredCount = 0
   -- GOT_IFRIT_SHIVA
-  updateProgressive("Magitek", segment, 0x7E1E8C, 0x02, 1)
+  updateConsumable("Magitek", segment, 0x7E1E8C, 0x02, 1)
   -- DEFEATED_NUMBER_024
-  updateProgressive("Magitek", segment, 0x7E1E8B, 0x80, 2)
+  updateConsumable("Magitek", segment, 0x7E1E8B, 0x80, 2)
   -- DEFEATED_CRANES (Sets Before Killing Boss, After getting reward)
-  updateProgressive("Magitek", segment, 0x7E1E8D, 0x08, 3)  
+  updateConsumable("Magitek", segment, 0x7E1E8D, 0x08, 3)  
   -- FINISHED_OPERA_DISRUPTION
   checkBitSet("OperaHouse", segment, 0x7E1E8B, 0x08)
   -- FREED_CELES
@@ -326,23 +347,23 @@ function updateEventsAndBosses(segment)
   -- DEFEATED_SR_BEHEMOTH
   checkBitSet("WoRVeldt", segment, 0x7E1EB3, 0x02)
   -- Reset Floating Continent to 0 for game resets
-  Tracker:FindObjectForCode("Float").CurrentStage = 0
+  Tracker:FindObjectForCode("Float").AcquiredCount = 0
   -- RECRUITED_SHADOW_FLOATING_CONTINENT
-  updateProgressive("Float", segment, 0x7E1E85, 0x04, 1)
+  updateConsumable("Float", segment, 0x7E1E85, 0x04, 1)
   -- DEFEATED_ATMAWPN
-  updateProgressive("Float", segment, 0x7E1E94, 0x02, 2)
+  updateConsumable("Float", segment, 0x7E1E94, 0x02, 2)
   -- FINISHED_FLOATING_CONTINENT
-  updateProgressive("Float", segment, 0x7E1E94, 0x20, 3)
+  updateConsumable("Float", segment, 0x7E1E94, 0x20, 3)
 
   -- Cyan
   -- Reset Dream Checks to 0 for game resets
-  Tracker:FindObjectForCode("WoRDoma").CurrentStage = 0
+  Tracker:FindObjectForCode("WoRDoma").AcquiredCount = 0
   -- DEFEATED_STOOGES
-  updateProgressive("WoRDoma", segment, 0x7E1E9B, 0x01, 1)
+  updateConsumable("WoRDoma", segment, 0x7E1E9B, 0x01, 1)
   -- FINISHED_DOMA_WOR
-  updateProgressive("WoRDoma", segment, 0x7E1E9B, 0x04, 2)
+  updateConsumable("WoRDoma", segment, 0x7E1E9B, 0x04, 2)
   -- GOT_ALEXANDR
-  updateProgressive("WoRDoma", segment, 0x7E1E9B, 0x08, 3)
+  updateConsumable("WoRDoma", segment, 0x7E1E9B, 0x08, 3)
   -- FINISHED_DOMA_WOB
   checkBitSet("WoBDoma", segment, 0x7E1E88, 0x01)
   -- FINISHED_MT_ZOZO
@@ -443,7 +464,7 @@ function updateEventsAndBosses(segment)
     forceTreasureLocation("@Burning House/Second Chest")
   end
 
-  if Tracker:FindObjectForCode("Magitek").CurrentStage == 3 then
+  if Tracker:FindObjectForCode("Magitek").AcquiredCount == 3 then
     forceTreasureLocation("@Magitek Factory/North Upper Left")
     forceTreasureLocation("@Magitek Factory/North Right Side Pipe")
     forceTreasureLocation("@Magitek Factory/North Lower Landing")
@@ -459,14 +480,14 @@ function updateEventsAndBosses(segment)
     forceTreasureLocation("@Magitek Factory/Specimen Room")
   end
 
-  if Tracker:FindObjectForCode("Float").CurrentStage == 3 then
+  if Tracker:FindObjectForCode("Float").AcquiredCount == 3 then
     forceTreasureLocation("@Floating Continent/North Path")
     forceTreasureLocation("@Floating Continent/Lower Path")
     forceTreasureLocation("@Floating Continent/Northeast of Save")
     forceTreasureLocation("@Floating Continent/Escape")
   end
 
-  if Tracker:FindObjectForCode("WoRDoma").CurrentStage == 3 then
+  if Tracker:FindObjectForCode("WoRDoma").AcquiredCount == 3 then
     forceTreasureLocation("@Cyan's Dream/Phantom Train Fourth Car Upper Right")
     forceTreasureLocation("@Cyan's Dream/Phantom Train Fourth Car Middle")
     forceTreasureLocation("@Cyan's Dream/Phantom Train Third Car Bottom Right")
@@ -805,7 +826,7 @@ updateTreasureLocation(segment, "@Burning House/First Chest", 0x7E1E4D, 0x01)
 updateTreasureLocation(segment, "@Burning House/Second Chest", 0x7E1E4D, 0x02)
 end
 
-if not (Tracker:FindObjectForCode("Magitek").CurrentStage == 3) then
+if not (Tracker:FindObjectForCode("Magitek").AcquiredCount == 3) then
 updateTreasureLocation(segment, "@Magitek Factory/North Upper Left", 0x7E1E4A, 0x04)
 updateTreasureLocation(segment, "@Magitek Factory/North Right Side Pipe", 0x7E1E4A, 0x08)
 updateTreasureLocation(segment, "@Magitek Factory/North Lower Landing", 0x7E1E4A, 0x10)
@@ -821,14 +842,14 @@ updateTreasureLocation(segment, "@Magitek Factory/South Bottom Left", 0x7E1E4B, 
 updateTreasureLocation(segment, "@Magitek Factory/Specimen Room", 0x7E1E4B, 0x40)
 end
 
-if not (Tracker:FindObjectForCode("Float").CurrentStage == 3) then
+if not (Tracker:FindObjectForCode("Float").AcquiredCount == 3) then
 updateTreasureLocation(segment, "@Floating Continent/North Path", 0x7E1E50, 0x80)
 updateTreasureLocation(segment, "@Floating Continent/Lower Path", 0x7E1E4B, 0x80)
 updateTreasureLocation(segment, "@Floating Continent/Northeast of Save", 0x7E1E51, 0x01)
 updateTreasureLocation(segment, "@Floating Continent/Escape", 0x7E1E51, 0x02)
 end
 
-if not (Tracker:FindObjectForCode("WoRDoma").CurrentStage == 3) then
+if not (Tracker:FindObjectForCode("WoRDoma").AcquiredCount == 3) then
 updateTreasureLocation(segment, "@Cyan's Dream/Phantom Train Fourth Car Upper Right", 0x7E1E57, 0x10)
 updateTreasureLocation(segment, "@Cyan's Dream/Phantom Train Fourth Car Middle", 0x7E1E57, 0x20)
 updateTreasureLocation(segment, "@Cyan's Dream/Phantom Train Third Car Bottom Right", 0x7E1E57, 0x04)

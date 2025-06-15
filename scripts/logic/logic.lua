@@ -32,9 +32,9 @@ function canAccessKefkasTower()
   -- Required characters has a minimum of 3, so offset the 
   -- current stage of collected characters by two so they match up.
   --
-  return ((chars.AcquiredCount - 2) >=  reqChars.CurrentStage) and 
-         (espers.AcquiredCount >= reqEspers.CurrentStage) and 
-         (dragons.AcquiredCount >= reqDragons.CurrentStage)
+  return (chars.AcquiredCount >=  reqChars.AcquiredCount) and 
+         (espers.AcquiredCount >= reqEspers.AcquiredCount) and 
+         (dragons.AcquiredCount >= reqDragons.AcquiredCount)
   
 end
 
@@ -42,7 +42,7 @@ function hasRequiredCharacterCountKT()
   
   local chars = Tracker:FindObjectForCode("Char")
   
-  return ((chars.CurrentStage + 1) >=  3)
+  return (chars.AcquiredCount >=  3)
   
 end
 
@@ -50,6 +50,6 @@ function hasRequiredCharacterCountPC()
   
   local chars = Tracker:FindObjectForCode("Char")
 
-  return ((chars.CurrentStage + 1) >=  2)
+  return (chars.AcquiredCount >=  2)
   
 end

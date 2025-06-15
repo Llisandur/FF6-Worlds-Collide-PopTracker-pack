@@ -1,1203 +1,711 @@
 [
-    {
-        "name": "Ramuh",
-        "type": "toggle",
-        "codes": "Ramuh"
-    },
-    {
-        "name": "Ifrit",
-        "type": "toggle",
-        "codes": "Ifrit"
-    },
-    {
-        "name": "Shiva",
-        "type": "toggle",
-        "codes": "Shiva"
-    },
-    {
-        "name": "Siren",
-        "type": "toggle",
-        "codes": "Siren"
-    },
-    {
-        "name": "Terrato",
-        "type": "toggle",
-        "codes": "Terrato"
-    },
-    {
-        "name": "Shoat",
-        "type": "toggle",
-        "codes": "Shoat"
-    },
-    {
-        "name": "Maduin",
-        "type": "toggle",
-        "codes": "Maduin"
-    },
-    {
-        "name": "Bismark",
-        "type": "toggle",
-        "codes": "Bismark"
-    },
-    {
-        "name": "Stray",
-        "type": "toggle",
-        "codes": "Stray"
-    },
-    {
-        "name": "Palidor",
-        "type": "toggle",
-        "codes": "Palidor"
-    },
-    {
-        "name": "Tritoch",
-        "type": "toggle",
-        "codes": "Tritoch"
-    },
-    {
-        "name": "Odin",
-        "type": "toggle",
-        "codes": "Odin"
-    },
-    {
-        "name": "Raiden",
-        "type": "toggle",
-        "codes": "Raiden"
-    },
-    {
-        "name": "Bahamut",
-        "type": "toggle",
-        "codes": "Bahamut"
-    },
-    {
-        "name": "Alexandr",
-        "type": "toggle",
-        "codes": "Alexandr"
-    },
-    {
-        "name": "Crusader",
-        "type": "toggle",
-        "codes": "Crusader"
-    },
-    {
-        "name": "Ragnarok Esper",
-        "type": "toggle",
-        "codes": "Ragnarok Esper"
-    },
-    {
-        "name": "Kirin",
-        "type": "toggle",
-        "codes": "Kirin"
-    },
-    {
-        "name": "ZoneSeek",
-        "type": "toggle",
-        "codes": "ZoneSeek"
-    },
-    {
-        "name": "Carbunkl",
-        "type": "toggle",
-        "codes": "Carbunkl"
-    },
-    {
-        "name": "Phantom",
-        "type": "toggle",
-        "codes": "Phantom"
-    },
-    {
-        "name": "Sraphim",
-        "type": "toggle",
-        "codes": "Sraphim"
-    },
-    {
-        "name": "Golem",
-        "type": "toggle",
-        "codes": "Golem"
-    },
-    {
-        "name": "Unicorn",
-        "type": "toggle",
-        "codes": "Unicorn"
-    },
-    {
-        "name": "Fenrir",
-        "type": "toggle",
-        "codes": "Fenrir"
-    },
-    {
-        "name": "Starlet",
-        "type": "toggle",
-        "codes": "Starlet"
-    },
-    {
-        "name": "Phoenix",
-        "type": "toggle",
-        "codes": "Phoenix"
-    },
-    {
-        "name": "Celes",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/PrtCeles.png",
-        "codes": "Celes"
-    },
-    {
-        "name": "Cyan",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/PrtCyan.png",
-        "codes": "Cyan"
-    },
-    {
-        "name": "Edgar",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/PrtEdgar.png",
-        "codes": "Edgar"
-    },
-    {
-        "name": "Gau",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/PrtGau.png",
-        "codes": "Gau"
-    },
-    {
-        "name": "Gogo",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/PrtGogo.png",
-        "codes": "Gogo"
-    },
-    {
-        "name": "Locke",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/PrtLocke.png",
-        "codes": "Locke"
-    },
-    {
-        "name": "Mog",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/PrtMog.png",
-        "codes": "Mog"
-    },
-    {
-        "name": "Relm",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/PrtRelm.png",
-        "codes": "Relm"
-    },
-    {
-        "name": "Sabin",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/PrtSabin.png",
-        "codes": "Sabin"
-    },
-    {
-        "name": "Setzer",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/PrtSetzer.png",
-        "codes": "Setzer"
-    },
-    {
-        "name": "Shadow",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/PrtShadow.png",
-        "codes": "Shadow"
-    },
-    {
-        "name": "Strago",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/PrtStrago.png",
-        "codes": "Strago"
-    },
-    {
-        "name": "Terra",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/PrtTerra.png",
-        "codes": "Terra"
-    },
-    {
-        "name": "Umaro",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/PrtUmaro.png",
-        "codes": "Umaro"
-    },
-    {
-        "name": "Storm Dragon",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/StormDragon.png",
-        "codes": "StormDragon"
-    },
-    {
-        "name": "Ice Dragon",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/IceDragon.png",
-        "codes": "IceDragon"
-    },
-    {
-        "name": "Red Dragon",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/RedDragon.png",
-        "codes": "RedDragon"
-    },
-    {
-        "name": "Blue Dragon",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/BlueDragon.png",
-        "codes": "BlueDragon"
-    },
-    {
-        "name": "White Dragon",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/WhiteDragon.png",
-        "codes": "WhiteDragon"
-    },
-    {
-        "name": "Dirt Dragon",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/DirtDragon.png",
-        "codes": "DirtDragon"
-    },
-    {
-        "name": "Gold Dragon",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/GoldDragon.png",
-        "codes": "GoldDragon"
-    },
-    {
-        "name": "Skull Dragon",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/SkullDragon.png",
-        "codes": "SkullDragon"
-    },
-    {
-        "name": "WoB Narshe Whelk",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/Whelk.png",
-        "codes": "Whelk"
-    },
-    {
-        "name": "WoB Narshe Lone Wolf",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/LoneWolf.png",
-        "codes": "LoneWolf"
-    },
-    {
-        "name": "Figaro Throne",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/FigaroThrone.png",
-        "codes": "FigThrone"
-    },
-    {
-        "name": "WoB Mt Kolts Vargas",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/Vargas.png",
-        "codes": "Vargas"
-    },
-    {
-        "name": "WoB Sealed Cave",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/Maduin.png",
-        "codes": "sealCave"
-    },
-    {
-        "name": "WoB Imperial Camp",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/MilEnc.png",
-        "codes": "ImperialCamp"
-    },
-    {
-        "name": "WoR Narshe Wpn Locke Req",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/Narshe_Wpn.png",
-        "codes": "NarsheWpn"
-    },
-    {
-        "name": "WoB Doma",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/Captain.png",
-        "codes": "WoBDoma"
-    },
-    {
-        "name": "WoR Jidoor Owzer Mansion",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/Chadarnook.png",
-        "codes": "Owzer"
-    },
-    {
-        "name": "South Figaro",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/ChainedCeles.png",
-        "codes": "ChainedCeles"
-    },
-    {
-        "name": "WoB Zozo Ramuh",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/Ramuh.png",
-        "codes": "ZozoRamuh"
-    },
-    {
-        "name": "WoR Doom Gaze",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/DoomGaze.png",
-        "codes": "DoomGaze"
-    },
-    {
-        "name": "WoR Darill's Tomb",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/Dullahan.png",
-        "codes": "DarillTomb"
-    },
-    {
-        "name": "WoB Thamasa Use Inn",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/FlameEater.png",
-        "codes": "WoBThamasa"
-    },
-    {
-        "name": "WoB Gau Manor",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/GauDad.png",
-        "codes": "GauManor"
-    },
-    {
-        "name": "Veldt 3 party members + Jerky",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/GauJerky.png",
-        "codes": "VeldtJerky"
-    },
-    {
-        "name": "WoB Phantom Train",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/GhostTrain.png",
-        "codes": "PhantomTrain"
-    },
-    {
-        "name": "WoB Esper Mountain",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/GoddessStatue.png",
-        "codes": "EsperMtn"
-    },
-    {
-        "name": "Kohlingen Inn",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/InterceptorKohlingen.png",
-        "codes": "KohlingenDoge"
-    },
-    {
-        "name": "WoR Fanatics Tower",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/MageMaster.png",
-        "codes": "FanaticsTower"
-    },
-    {
-        "name": "WoR Mobliz",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/Phunbaba.png",
-        "codes": "Phunbaba"
-    },
-    {
-        "name": "WoR Ancient Castle",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/Raiden.png",
-        "codes": "AncientCastle"
-    },
-    {
-        "name": "WoR Mt Zozo",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/Roses.png",
-        "codes": "MtZozo"
-    },
-    {
-        "name": "WoR Veldt Cave",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/SrBehemoth.png",
-        "codes": "WoRVeldt"
-    },
-    {
-        "name": "WoR Figaro Cave",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/Tentacle.png",
-        "codes": "FigCave"
-    },
-    {
-        "name": "WoR Narshe Tritoch",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/Tritoch.png",
-        "codes": "TritochNrsh"
-    },
-    {
-        "name": "WoB Backwards through South Figaro Cave",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/TunnelArmor.png",
-        "codes": "tunnelArmor"
-    },
-    {
-        "name": "WoR Tzen Collapsing House",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/TzenHouse.png",
-        "codes": "TzenHouse"
-    },
-    {
-        "name": "WoB Serpent Trench",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/DiveHelm.png",
-        "codes": "SerpentTrench"
-    },
-    {
-        "name": "Tzen Thief in Woods",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/TzenThief.png",
-        "codes": "TzenThief"
-    },
-    {
-        "name": "Kefka Tower Atma",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/AtmaWpn.png",
-        "codes": "AtmaWpn"
-    },
-    {
-        "name": "WoB Lete River",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/Ultros.png",
-        "codes": "LeteRiver"
-    },
-    {
-        "name": "WoR Narshe Umaro",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/Umaro.png",
-        "codes": "UmaroNrsh"
-    },
-    {
-        "name": "WoB Opera House",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/Weight.png",
-        "codes": "OperaHouse"
-    },
-    {
-        "name": "WoR Zone Eater",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/ZoneEater.png",
-        "codes": "ZoneEater"
-    },
-    {
-        "name": "WoB Baren Falls",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/Rizopas.png",
-        "codes": "BarenFalls"
-    },
-    {
-        "name": "WoR Ebots Rock Hidon",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/Hidon.png",
-        "codes": "EbotsRock"
-    },
-    {
-        "name": "WoR Phoenix Cave End",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/Phoenix.png",
-        "codes": "PhoenixCave"
-    },
-    {
-        "name": "WoB Narshe Kefka Invasion",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/Kefka.png",
-        "codes": "Kefka"
-    },
-    {
-        "name": "WoB Moogle Defense",
-        "type": "toggle",
-        "loop": "true",
-        "img": "images/MogDef.png",
-        "codes": "MogDef"
-    },
-        // Magitek Factory
-    {
-      "name": "WoB 3 Magitek Factory",
-      "type": "progressive",
-      "allow_disabled": "false",
-      "stages": [
-        {
-          "img": "images/Crane.png",
-          "img_mods": "@disabled",
-          "codes": "Magitek"
-        },
-        {
-          "img": "images/Crane.png",
-          "img_mods": "overlay|images/Overlays/1.png"
-        },
-        {
-          "img": "images/Crane.png",
-          "img_mods": "overlay|images/Overlays/2.png"
-        },
-            {
-          "img": "images/Crane.png",
-          "img_mods": "overlay|images/Overlays/3.png",
-          "codes": "Magitek3"
-        }
-      ]
-    },
-        // Jidoor Auctions
-    {
-      "name": "2 Jidoor Auctions",
-      "type": "progressive",
-      "allow_disabled": "false",
-      "stages": [
-        {
-          "img": "images/Auctioneer.png",
-          "img_mods": "@disabled",
-          "codes": "Auctioneer"
-        },
-        {
-          "img": "images/Auctioneer.png",
-          "img_mods": "overlay|images/Overlays/1.png"
-        },
-        {
-          "img": "images/Auctioneer.png",
-          "img_mods": "overlay|images/Overlays/2.png",
-          "codes": "Auctioneer2"
-        }
-      ]
-    },
-        // Floating Continent
-    {
-      "name": "3 Floating Continent",
-      "type": "progressive",
-      "allow_disabled": "false",
-      "stages": [
-        {
-          "img": "images/ShadowYump.png",
-          "img_mods": "@disabled",
-          "codes": "Float"
-        },
-        {
-          "img": "images/ShadowYump.png",
-          "img_mods": "overlay|images/Overlays/1.png"
-        },
-        {
-          "img": "images/ShadowYump.png",
-          "img_mods": "overlay|images/Overlays/2.png"
-        },
-            {
-          "img": "images/ShadowYump.png",
-          "img_mods": "overlay|images/Overlays/3.png",
-          "codes": "Float3"
-        }
-      ]
-    },
-        // WoR Doma
-    {
-      "name": "Doma Bed Stooges+Wrexsoul+Throne",
-      "type": "progressive",
-      "allow_disabled": "false",
-      "stages": [
-        {
-          "img": "images/Wrexsoul.png",
-          "img_mods": "@disabled",
-          "codes": "WoRDoma"
-        },
-        {
-          "img": "images/Wrexsoul.png",
-          "img_mods": "overlay|images/Overlays/1.png"
-        },
-        {
-          "img": "images/Wrexsoul.png",
-          "img_mods": "overlay|images/Overlays/2.png"
-        },
-            {
-          "img": "images/Wrexsoul.png",
-          "img_mods": "overlay|images/Overlays/3.png",
-          "codes": "WoRDoma3"
-        }
-      ]
-    },
-        // Dragon Counter
-    {
-      "name": "8 Dragons",
-      "type": "consumable",
-      "img": "images/GreenDragon.png",
-      "max_quantity": 8,
-      "increment": 1,
-      "decrement": 1,
-      "overlay_font_size": 16,
-      "codes": "Dragon"
-    },
-//    {
-//      "name": "8 Dragons",
-//      "type": "progressive",
-//      "allow_disabled": "false",
-//      "stages": [
-//        {
-//          "img": "images/GreenDragon.png",
-//          "img_mods": "@disabled",
-//          "codes": "Dragon"
-//        },
-//        {
-//          "img": "images/GreenDragon.png",
-//          "img_mods": "overlay|images/Overlays/1.png"
-//        },
-//        {
-//          "img": "images/GreenDragon.png",
-//          "img_mods": "overlay|images/Overlays/2.png"
-//        },
-//        {
-//          "img": "images/GreenDragon.png",
-//          "img_mods": "overlay|images/Overlays/3.png"
-//        },
-//        {
-//          "img": "images/GreenDragon.png",
-//          "img_mods": "overlay|images/Overlays/4.png"
-//        },
-//            {
-//          "img": "images/GreenDragon.png",
-//          "img_mods": "overlay|images/Overlays/5.png"
-//        },
-//            {
-//          "img": "images/GreenDragon.png",
-//          "img_mods": "overlay|images/Overlays/6.png"
-//        },
-//            {
-//          "img": "images/GreenDragon.png",
-//          "img_mods": "overlay|images/Overlays/7.png"
-//        },
-//            {
-//          "img": "images/GreenDragonCmp.png",
-//          "img_mods": "overlay|images/Overlays/8.png"
-//        }
-//      ]
-//    },
-        // Character Counter
-    {
-      "name": "14 Characters",
-      "type": "consumable",
-      "img": "images/Char.png",
-      "max_quantity": 14,
-      "increment": 1,
-      "decrement": 1,
-      "overlay_font_size": 16,
-      "codes": "Char"
-    },
-//    {
-//      "name": "14 Characters",
-//      "type": "progressive",
-//      "allow_disabled": "false",
-//      "stages": [
-//        {
-//          "img": "images/Char.png",
-////          "img_mods": "@enabled",
-//          "img_mods": "overlay|images/Overlays/1.png",
-//          "codes": "Char"
-//        },
-//        {
-//          "img": "images/Char.png",
-//          "img_mods": "overlay|images/Overlays/2.png"
-//        },
-//        {
-//          "img": "images/Char.png",
-//          "img_mods": "overlay|images/Overlays/3.png"
-//        },
-//        {
-//          "img": "images/Char.png",
-//          "img_mods": "overlay|images/Overlays/4.png"
-//        },
-//        {
-//          "img": "images/Char.png",
-//          "img_mods": "overlay|images/Overlays/5.png"
-//        },
-//            {
-//          "img": "images/Char.png",
-//          "img_mods": "overlay|images/Overlays/6.png"
-//        },
-//            {
-//          "img": "images/Char.png",
-//          "img_mods": "overlay|images/Overlays/7.png"
-//        },
-//            {
-//          "img": "images/Char.png",
-//          "img_mods": "overlay|images/Overlays/8.png"
-//        },
-//            {
-//          "img": "images/Char.png",
-//          "img_mods": "overlay|images/Overlays/9.png"
-//        },
-//            {
-//          "img": "images/Char.png",
-//          "img_mods": "overlay|images/Overlays/10.png"
-//        },
-//            {
-//          "img": "images/Char.png",
-//          "img_mods": "overlay|images/Overlays/11.png"
-//        },
-//            {
-//          "img": "images/Char.png",
-//          "img_mods": "overlay|images/Overlays/12.png"
-//        },
-//            {
-//          "img": "images/Char.png",
-//          "img_mods": "overlay|images/Overlays/13.png"
-//        },
-//            {
-//          "img": "images/Char.png",
-//          "img_mods": "overlay|images/Overlays/14.png"
-//        }
-//      ]
-//    },
-        // Esper Counter
-    {
-      "name": "27 Espers",
-      "type": "consumable",
-      "img": "images/Esper.png",
-      "max_quantity": 27,
-      "increment": 1,
-      "decrement": 1,
-      "initial_quantity": 0,
-      "overlay_font_size": 16,
-      "codes": "Esper"
-    },
-//    {
-//      "name": "24 Espers",
-//      "type": "progressive",
-//      "allow_disabled": "false",
-//      "stages": [
-//        {
-//          "img": "images/Esper.png",
-//          "img_mods": "@disabled",
-//          "codes": "Esper"
-//        },
-//        {
-//          "img": "images/Esper.png",
-//          "img_mods": "overlay|images/Overlays/1.png"
-//        },
-//        {
-//          "img": "images/Esper.png",
-//          "img_mods": "overlay|images/Overlays/2.png"
-//        },
-//        {
-//          "img": "images/Esper.png",
-//          "img_mods": "overlay|images/Overlays/3.png"
-//        },
-//        {
-//          "img": "images/Esper.png",
-//          "img_mods": "overlay|images/Overlays/4.png"
-//        },
-//            {
-//          "img": "images/Esper.png",
-//          "img_mods": "overlay|images/Overlays/5.png"
-//        },
-//            {
-//          "img": "images/Esper.png",
-//          "img_mods": "overlay|images/Overlays/6.png"
-//        },
-//            {
-//          "img": "images/Esper.png",
-//          "img_mods": "overlay|images/Overlays/7.png"
-//        },
-//            {
-//          "img": "images/Esper.png",
-//          "img_mods": "overlay|images/Overlays/8.png"
-//        },
-//            {
-//          "img": "images/Esper.png",
-//          "img_mods": "overlay|images/Overlays/9.png"
-//        },
-//            {
-//          "img": "images/Esper.png",
-//          "img_mods": "overlay|images/Overlays/10.png"
-//        },
-//            {
-//          "img": "images/Esper.png",
-//          "img_mods": "overlay|images/Overlays/11.png"
-//        },
-//            {
-//          "img": "images/Esper.png",
-//          "img_mods": "overlay|images/Overlays/12.png"
-//        },
-//            {
-//          "img": "images/Esper.png",
-//          "img_mods": "overlay|images/Overlays/13.png"
-//        },
-//            {
-//          "img": "images/Esper.png",
-//          "img_mods": "overlay|images/Overlays/14.png"
-//        },
-//            {
-//          "img": "images/Esper.png",
-//          "img_mods": "overlay|images/Overlays/15.png"
-//        },
-//            {
-//          "img": "images/Esper.png",
-//          "img_mods": "overlay|images/Overlays/16.png"
-//        },
-//            {
-//          "img": "images/Esper.png",
-//          "img_mods": "overlay|images/Overlays/17.png"
-//        },
-//            {
-//          "img": "images/Esper.png",
-//          "img_mods": "overlay|images/Overlays/18.png"
-//        },
-//            {
-//          "img": "images/Esper.png",
-//          "img_mods": "overlay|images/Overlays/19.png"
-//        },
-//            {
-//          "img": "images/Esper.png",
-//          "img_mods": "overlay|images/Overlays/20.png"
-//        },
-//            {
-//          "img": "images/Esper.png",
-//          "img_mods": "overlay|images/Overlays/21.png"
-//        },
-//            {
-//          "img": "images/Esper.png",
-//          "img_mods": "overlay|images/Overlays/22.png"
-//        },
-//            {
-//          "img": "images/Esper.png",
-//          "img_mods": "overlay|images/Overlays/23.png"
-//        },
-//            {
-//          "img": "images/Esper.png",
-//          "img_mods": "overlay|images/Overlays/24.png"
-//        }
-//      ]
-//    },
-    
-    {
-      "name": "Required Characters",
-      "type": "progressive",
-      "allow_disabled": false,
-      "initial_stage_idx": 5,
-      "loop": true,
-      "stages": [
-        {
-          "img": "images/Char.png",
-              "img_mods": "overlay|images/Overlays/3.png",
-          "codes": "requiredchars,requiredchars3"
-        },
-        {
-          "img": "images/Char.png",
-              "img_mods": "overlay|images/Overlays/4.png",
-          "codes": "requiredchars,requiredchars4"
-        },
-        {
-          "img": "images/Char.png",
-              "img_mods": "overlay|images/Overlays/5.png",
-          "codes": "requiredchars,requiredchars5"
-        },
-            {
-          "img": "images/Char.png",
-              "img_mods": "overlay|images/Overlays/6.png",
-          "codes": "requiredchars,requiredchars6"
-        },
-            {
-          "img": "images/Char.png",
-              "img_mods": "overlay|images/Overlays/7.png",
-          "codes": "requiredchars,requiredchars7"
-        },
-            {
-          "img": "images/Char.png",
-              "img_mods": "overlay|images/Overlays/8.png",
-          "codes": "requiredchars,requiredchars8"
-        },
-            {
-          "img": "images/Char.png",
-              "img_mods": "overlay|images/Overlays/9.png",
-          "codes": "requiredchars,requiredchars9"
-        },
-            {
-          "img": "images/Char.png",
-              "img_mods": "overlay|images/Overlays/10.png",
-          "codes": "requiredchars,requiredchars10"
-        },
-            {
-          "img": "images/Char.png",
-              "img_mods": "overlay|images/Overlays/11.png",
-          "codes": "requiredchars,requiredchars11"
-        },
-            {
-          "img": "images/Char.png",
-              "img_mods": "overlay|images/Overlays/12.png",
-          "codes": "requiredchars,requiredchars12"
-        },
-            {
-          "img": "images/Char.png",
-             "img_mods": "overlay|images/Overlays/13.png",
-          "codes": "requiredchars,requiredchars13"
-        },
-            {
-          "img": "images/Char.png",
-              "img_mods": "overlay|images/Overlays/14.png",
-          "codes": "requiredchars,requiredchars14"
-        }
-      ]
-    },
-    
-    {
-      "name": "Required Espers",
-      "type": "progressive",
-      "allow_disabled": false,
-      "initial_stage_idx": 14,
-      "loop": true,
-      "stages": [
-        {
-          "img": "images/Esper.png",
-          "codes": "requiredespers,requiredespers0"
-        },
-        {
-          "img": "images/Esper.png",
-          "img_mods": "overlay|images/Overlays/1.png",
-          "codes": "requiredespers,requiredespers1"
-        },
-        {
-          "img": "images/Esper.png",
-              "img_mods": "overlay|images/Overlays/2.png",
-          "codes": "requiredespers,requiredespers2"
-        },
-        {
-          "img": "images/Esper.png",
-              "img_mods": "overlay|images/Overlays/3.png",
-          "codes": "requiredespers,requiredespers3"
-        },
-        {
-          "img": "images/Esper.png",
-              "img_mods": "overlay|images/Overlays/4.png",
-          "codes": "requiredespers,requiredespers4"
-        },
-            {
-          "img": "images/Esper.png",
-              "img_mods": "overlay|images/Overlays/5.png",
-          "codes": "requiredespers,requiredespers5"
-        },
-            {
-          "img": "images/Esper.png",
-              "img_mods": "overlay|images/Overlays/6.png",
-          "codes": "requiredespers,requiredespers6"
-        },
-            {
-          "img": "images/Esper.png",
-              "img_mods": "overlay|images/Overlays/7.png",
-          "codes": "requiredespers,requiredespers7"
-        },
-            {
-          "img": "images/Esper.png",
-              "img_mods": "overlay|images/Overlays/8.png",
-          "codes": "requiredespers,requiredespers8"
-        },
-            {
-          "img": "images/Esper.png",
-              "img_mods": "overlay|images/Overlays/9.png",
-          "codes": "requiredespers,requiredespers9"
-        },
-            {
-          "img": "images/Esper.png",
-              "img_mods": "overlay|images/Overlays/10.png",
-          "codes": "requiredespers,requiredespers10"
-        },
-            {
-          "img": "images/Esper.png",
-              "img_mods": "overlay|images/Overlays/11.png",
-          "codes": "requiredespers,requiredespers11"
-        },
-            {
-          "img": "images/Esper.png",
-              "img_mods": "overlay|images/Overlays/12.png",
-          "codes": "requiredespers,requiredespers12"
-        },
-            {
-          "img": "images/Esper.png",
-              "img_mods": "overlay|images/Overlays/13.png",
-          "codes": "requiredespers,requiredespers13"
-        },
-            {
-          "img": "images/Esper.png",
-             "img_mods": "overlay|images/Overlays/14.png",
-          "codes": "requiredespers,requiredespers14"
-        },
-            {
-          "img": "images/Esper.png",
-              "img_mods": "overlay|images/Overlays/15.png",
-          "codes": "requiredespers,requiredespers15"
-        },
-            {
-          "img": "images/Esper.png",
-              "img_mods": "overlay|images/Overlays/16.png",
-          "codes": "requiredespers,requiredespers16"
-        },
-            {
-          "img": "images/Esper.png",
-              "img_mods": "overlay|images/Overlays/17.png",
-          "codes": "requiredespers,requiredespers17"
-        },
-            {
-          "img": "images/Esper.png",
-              "img_mods": "overlay|images/Overlays/18.png",
-          "codes": "requiredespers,requiredespers18"
-        },
-            {
-          "img": "images/Esper.png",
-              "img_mods": "overlay|images/Overlays/19.png",
-          "codes": "requiredespers,requiredespers19"
-        },
-            {
-          "img": "images/Esper.png",
-              "img_mods": "overlay|images/Overlays/20.png",
-          "codes": "requiredespers,requiredespers20"
-        },
-            {
-          "img": "images/Esper.png",
-              "img_mods": "overlay|images/Overlays/21.png",
-          "codes": "requiredespers,requiredespers21"
-        },
-            {
-          "img": "images/Esper.png",
-              "img_mods": "overlay|images/Overlays/22.png",
-          "codes": "requiredespers,requiredespers22"
-        },
-            {
-          "img": "images/Esper.png",
-              "img_mods": "overlay|images/Overlays/23.png",
-          "codes": "requiredespers,requiredespers23"
-        },
-            {
-          "img": "images/Esper.png",
-              "img_mods": "overlay|images/Overlays/24.png",
-          "codes": "requiredespers,requiredespers24"
-        }
-      ]
-    },
-    {
-      "name": "Required Dragons",
-      "type": "progressive",
-      "allow_disabled": false,
-      "initial_stage_idx": 4,
-      "loop": true,
-      "stages": [
-        {
-          "img": "images/GreenDragon.png",
-              "codes": "requireddragons,requireddragons0"
-        },
-        {
-          "img": "images/GreenDragon.png",
-              "img_mods": "overlay|images/Overlays/1.png",
-              "codes": "requireddragons,requireddragons1"
-        },
-        {
-          "img": "images/GreenDragon.png",
-              "img_mods": "overlay|images/Overlays/2.png",
-              "codes": "requireddragons,requireddragons2"
-        },
-        {
-          "img": "images/GreenDragon.png",
-              "img_mods": "overlay|images/Overlays/3.png",
-              "codes": "requireddragons,requireddragons3"
-        },
-        {
-          "img": "images/GreenDragon.png",
-              "img_mods": "overlay|images/Overlays/4.png",
-              "codes": "requireddragons,requireddragons4"
-        },
-            {
-          "img": "images/GreenDragon.png",
-              "img_mods": "overlay|images/Overlays/5.png",
-              "codes": "requireddragons,requireddragons5"
-        },
-            {
-          "img": "images/GreenDragon.png",
-              "img_mods": "overlay|images/Overlays/6.png",
-              "codes": "requireddragons,requireddragons6"
-        },
-            {
-          "img": "images/GreenDragon.png",
-              "img_mods": "overlay|images/Overlays/7.png",
-              "codes": "requireddragons,requireddragons7"
-        },
-            {
-          "img": "images/GreenDragon.png",
-              "img_mods": "overlay|images/Overlays/8.png",
-              "codes": "requireddragons,requireddragons8"
-        }
-      ]
-    },
-    {
-        "name": "Treasure",
-        "type": "consumable",
-        "img": "images/Chest.png",
-        "codes": "Treasure",
-        "max_quantity": 384,
-        "ignore_user_input": true
-    },
-    {
-      "name": "Game Mode",
-      "type": "progressive",
-      "allow_disabled": false,
-      "loop": true,
-      "stages": [
-        {
-          "img": "images/CharacterGating.png",
-              "codes": "gamemode, charactergating"
-        },
-        {
-          "img": "images/OpenWorld.png",
-          "codes": "gamemode, openworld"
-        }
-      ]
-    }
+  {
+    "name": "Ramuh",
+    "type": "toggle",
+    "codes": "Ramuh"
+  },
+  {
+    "name": "Ifrit",
+    "type": "toggle",
+    "codes": "Ifrit"
+  },
+  {
+    "name": "Shiva",
+    "type": "toggle",
+    "codes": "Shiva"
+  },
+  {
+    "name": "Siren",
+    "type": "toggle",
+    "codes": "Siren"
+  },
+  {
+    "name": "Terrato",
+    "type": "toggle",
+    "codes": "Terrato"
+  },
+  {
+    "name": "Shoat",
+    "type": "toggle",
+    "codes": "Shoat"
+  },
+  {
+    "name": "Maduin",
+    "type": "toggle",
+    "codes": "Maduin"
+  },
+  {
+    "name": "Bismark",
+    "type": "toggle",
+    "codes": "Bismark"
+  },
+  {
+    "name": "Stray",
+    "type": "toggle",
+    "codes": "Stray"
+  },
+  {
+    "name": "Palidor",
+    "type": "toggle",
+    "codes": "Palidor"
+  },
+  {
+    "name": "Tritoch",
+    "type": "toggle",
+    "codes": "Tritoch"
+  },
+  {
+    "name": "Odin",
+    "type": "toggle",
+    "codes": "Odin"
+  },
+  {
+    "name": "Raiden",
+    "type": "toggle",
+    "codes": "Raiden"
+  },
+  {
+    "name": "Bahamut",
+    "type": "toggle",
+    "codes": "Bahamut"
+  },
+  {
+    "name": "Alexandr",
+    "type": "toggle",
+    "codes": "Alexandr"
+  },
+  {
+    "name": "Crusader",
+    "type": "toggle",
+    "codes": "Crusader"
+  },
+  {
+    "name": "Ragnarok Esper",
+    "type": "toggle",
+    "codes": "Ragnarok Esper"
+  },
+  {
+    "name": "Kirin",
+    "type": "toggle",
+    "codes": "Kirin"
+  },
+  {
+    "name": "ZoneSeek",
+    "type": "toggle",
+    "codes": "ZoneSeek"
+  },
+  {
+    "name": "Carbunkl",
+    "type": "toggle",
+    "codes": "Carbunkl"
+  },
+  {
+    "name": "Phantom",
+    "type": "toggle",
+    "codes": "Phantom"
+  },
+  {
+    "name": "Sraphim",
+    "type": "toggle",
+    "codes": "Sraphim"
+  },
+  {
+    "name": "Golem",
+    "type": "toggle",
+    "codes": "Golem"
+  },
+  {
+    "name": "Unicorn",
+    "type": "toggle",
+    "codes": "Unicorn"
+  },
+  {
+    "name": "Fenrir",
+    "type": "toggle",
+    "codes": "Fenrir"
+  },
+  {
+    "name": "Starlet",
+    "type": "toggle",
+    "codes": "Starlet"
+  },
+  {
+    "name": "Phoenix",
+    "type": "toggle",
+    "codes": "Phoenix"
+  },
+  {
+    "name": "Celes",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/PrtCeles.png",
+    "codes": "Celes"
+  },
+  {
+    "name": "Cyan",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/PrtCyan.png",
+    "codes": "Cyan"
+  },
+  {
+    "name": "Edgar",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/PrtEdgar.png",
+    "codes": "Edgar"
+  },
+  {
+    "name": "Gau",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/PrtGau.png",
+    "codes": "Gau"
+  },
+  {
+    "name": "Gogo",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/PrtGogo.png",
+    "codes": "Gogo"
+  },
+  {
+    "name": "Locke",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/PrtLocke.png",
+    "codes": "Locke"
+  },
+  {
+    "name": "Mog",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/PrtMog.png",
+    "codes": "Mog"
+  },
+  {
+    "name": "Relm",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/PrtRelm.png",
+    "codes": "Relm"
+  },
+  {
+    "name": "Sabin",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/PrtSabin.png",
+    "codes": "Sabin"
+  },
+  {
+    "name": "Setzer",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/PrtSetzer.png",
+    "codes": "Setzer"
+  },
+  {
+    "name": "Shadow",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/PrtShadow.png",
+    "codes": "Shadow"
+  },
+  {
+    "name": "Strago",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/PrtStrago.png",
+    "codes": "Strago"
+  },
+  {
+    "name": "Terra",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/PrtTerra.png",
+    "codes": "Terra"
+  },
+  {
+    "name": "Umaro",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/PrtUmaro.png",
+    "codes": "Umaro"
+  },
+  {
+    "name": "Storm Dragon",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/StormDragon.png",
+    "codes": "StormDragon"
+  },
+  {
+    "name": "Ice Dragon",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/IceDragon.png",
+    "codes": "IceDragon"
+  },
+  {
+    "name": "Red Dragon",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/RedDragon.png",
+    "codes": "RedDragon"
+  },
+  {
+    "name": "Blue Dragon",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/BlueDragon.png",
+    "codes": "BlueDragon"
+  },
+  {
+    "name": "White Dragon",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/WhiteDragon.png",
+    "codes": "WhiteDragon"
+  },
+  {
+    "name": "Dirt Dragon",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/DirtDragon.png",
+    "codes": "DirtDragon"
+  },
+  {
+    "name": "Gold Dragon",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/GoldDragon.png",
+    "codes": "GoldDragon"
+  },
+  {
+    "name": "Skull Dragon",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/SkullDragon.png",
+    "codes": "SkullDragon"
+  },
+  {
+    "name": "WoB Narshe Whelk",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Whelk.png",
+    "codes": "Whelk"
+  },
+  {
+    "name": "WoB Narshe Lone Wolf",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/LoneWolf.png",
+    "codes": "LoneWolf"
+  },
+  {
+    "name": "Figaro Throne",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/FigaroThrone.png",
+    "codes": "FigThrone"
+  },
+  {
+    "name": "WoB Mt Kolts Vargas",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Vargas.png",
+    "codes": "Vargas"
+  },
+  {
+    "name": "WoB Sealed Cave",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Maduin.png",
+    "codes": "sealCave"
+  },
+  {
+    "name": "WoB Imperial Camp",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/MilEnc.png",
+    "codes": "ImperialCamp"
+  },
+  {
+    "name": "WoR Narshe Wpn Locke Req",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Narshe_Wpn.png",
+    "codes": "NarsheWpn"
+  },
+  {
+    "name": "WoB Doma",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Captain.png",
+    "codes": "WoBDoma"
+  },
+  {
+    "name": "WoR Jidoor Owzer Mansion",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Chadarnook.png",
+    "codes": "Owzer"
+  },
+  {
+    "name": "South Figaro",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/ChainedCeles.png",
+    "codes": "ChainedCeles"
+  },
+  {
+    "name": "WoB Zozo Ramuh",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Ramuh.png",
+    "codes": "ZozoRamuh"
+  },
+  {
+    "name": "WoR Doom Gaze",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/DoomGaze.png",
+    "codes": "DoomGaze"
+  },
+  {
+    "name": "WoR Darill's Tomb",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Dullahan.png",
+    "codes": "DarillTomb"
+  },
+  {
+    "name": "WoB Thamasa Use Inn",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/FlameEater.png",
+    "codes": "WoBThamasa"
+  },
+  {
+    "name": "WoB Gau Manor",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/GauDad.png",
+    "codes": "GauManor"
+  },
+  {
+    "name": "Veldt 3 party members + Jerky",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/GauJerky.png",
+    "codes": "VeldtJerky"
+  },
+  {
+    "name": "WoB Phantom Train",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/GhostTrain.png",
+    "codes": "PhantomTrain"
+  },
+  {
+    "name": "WoB Esper Mountain",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/GoddessStatue.png",
+    "codes": "EsperMtn"
+  },
+  {
+    "name": "Kohlingen Inn",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/InterceptorKohlingen.png",
+    "codes": "KohlingenDoge"
+  },
+  {
+    "name": "WoR Fanatics Tower",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/MageMaster.png",
+    "codes": "FanaticsTower"
+  },
+  {
+    "name": "WoR Mobliz",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Phunbaba.png",
+    "codes": "Phunbaba"
+  },
+  {
+    "name": "WoR Ancient Castle",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Raiden.png",
+    "codes": "AncientCastle"
+  },
+  {
+    "name": "WoR Mt Zozo",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Roses.png",
+    "codes": "MtZozo"
+  },
+  {
+    "name": "WoR Veldt Cave",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/SrBehemoth.png",
+    "codes": "WoRVeldt"
+  },
+  {
+    "name": "WoR Figaro Cave",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Tentacle.png",
+    "codes": "FigCave"
+  },
+  {
+    "name": "WoR Narshe Tritoch",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Tritoch.png",
+    "codes": "TritochNrsh"
+  },
+  {
+    "name": "WoB Backwards through South Figaro Cave",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/TunnelArmor.png",
+    "codes": "tunnelArmor"
+  },
+  {
+    "name": "WoR Tzen Collapsing House",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/TzenHouse.png",
+    "codes": "TzenHouse"
+  },
+  {
+    "name": "WoB Serpent Trench",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/DiveHelm.png",
+    "codes": "SerpentTrench"
+  },
+  {
+    "name": "Tzen Thief in Woods",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/TzenThief.png",
+    "codes": "TzenThief"
+  },
+  {
+    "name": "Kefka Tower Atma",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/AtmaWpn.png",
+    "codes": "AtmaWpn"
+  },
+  {
+    "name": "WoB Lete River",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Ultros.png",
+    "codes": "LeteRiver"
+  },
+  {
+    "name": "WoR Narshe Umaro",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Umaro.png",
+    "codes": "UmaroNrsh"
+  },
+  {
+    "name": "WoB Opera House",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Weight.png",
+    "codes": "OperaHouse"
+  },
+  {
+    "name": "WoR Zone Eater",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/ZoneEater.png",
+    "codes": "ZoneEater"
+  },
+  {
+    "name": "WoB Baren Falls",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Rizopas.png",
+    "codes": "BarenFalls"
+  },
+  {
+    "name": "WoR Ebots Rock Hidon",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Hidon.png",
+    "codes": "EbotsRock"
+  },
+  {
+    "name": "WoR Phoenix Cave End",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Phoenix.png",
+    "codes": "PhoenixCave"
+  },
+  {
+    "name": "WoB Narshe Kefka Invasion",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Kefka.png",
+    "codes": "Kefka"
+  },
+  {
+    "name": "WoB Moogle Defense",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/MogDef.png",
+    "codes": "MogDef"
+  },
+    // Magitek Factory
+  {
+    "name": "WoB 3 Magitek Factory",
+    "type": "consumable",
+    "img": "images/Crane.png",
+    "max_quantity": 3,
+    "increment": 1,
+    "decrement": 1,
+    "overlay_font_size": 16,
+    "codes": "Magitek"
+  },
+    // Jidoor Auctions
+  {
+    "name": "2 Jidoor Auctions",
+    "type": "consumable",
+    "img": "images/Auctioneer.png",
+    "max_quantity": 2,
+    "increment": 1,
+    "decrement": 1,
+    "overlay_font_size": 16,
+    "codes": "Auctioneer"
+  },
+    // Floating Continent
+  {
+    "name": "3 Floating Continent",
+    "type": "consumable",
+    "img": "images/ShadowYump.png",
+    "max_quantity": 3,
+    "increment": 1,
+    "decrement": 1,
+    "overlay_font_size": 16,
+    "codes": "Float"
+  },
+    // WoR Doma
+  {
+    "name": "Doma Bed Stooges+Wrexsoul+Throne",
+    "type": "consumable",
+    "img": "images/Wrexsoul.png",
+    "max_quantity": 3,
+    "increment": 1,
+    "decrement": 1,
+    "overlay_font_size": 16,
+    "codes": "WoRDoma"
+  },
+    // Dragon Counter
+  {
+    "name": "8 Dragons",
+    "type": "consumable",
+    "img": "images/GreenDragon.png",
+    "max_quantity": 8,
+    "increment": 1,
+    "decrement": 1,
+    "overlay_font_size": 16,
+    "codes": "Dragon"
+  },
+    // Character Counter
+  {
+    "name": "14 Characters",
+    "type": "consumable",
+    "img": "images/Char.png",
+    "max_quantity": 14,
+    "increment": 1,
+    "decrement": 1,
+    "overlay_font_size": 16,
+    "codes": "Char"
+  },
+    // Esper Counter
+  {
+    "name": "27 Espers",
+    "type": "consumable",
+    "img": "images/Esper.png",
+    "max_quantity": 27,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_font_size": 16,
+    "codes": "Esper"
+  },
+
+  {
+    "name": "Required Characters",
+    "type": "consumable",
+    "img": "images/Char.png",
+    "max_quantity": 14,
+    "min_quantity": 3,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 8,
+    "overlay_font_size": 32,
+    "codes": "requiredchars"
+  },
+
+  {
+    "name": "Required Espers",
+    "type": "consumable",
+    "img": "images/Esper.png",
+    "max_quantity": 27,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 14,
+    "overlay_font_size": 32,
+    "codes": "requiredespers"
+  },
+
+  {
+    "name": "Required Dragons",
+    "type": "consumable",
+    "img": "images/GreenDragon.png",
+    "max_quantity": 8,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 4,
+    "overlay_font_size": 32,
+    "codes": "requireddragons"
+  },
+
+  {
+    "name": "Treasure",
+    "type": "consumable",
+    "img": "images/Chest.png",
+    "codes": "Treasure",
+    "max_quantity": 384,
+    "ignore_user_input": true
+  },
+  {
+    "name": "Game Mode",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/CharacterGating.png",
+        "codes": "gamemode, charactergating"
+      },
+      {
+        "img": "images/OpenWorld.png",
+        "codes": "gamemode, openworld"
+      }
+    ]
+  }
 ]

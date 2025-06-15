@@ -230,7 +230,8 @@ function onLocation(location_id, location_name)
           else
             -- increment hosted item
             local item_type = location_table[2]
-            incrementItem(location_code, item_type)
+            local multiplier = 1
+            incrementItem(location_code, item_type, multiplier)
           end
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
           print(string.format("onLocation: could not find object for code %s", location_code))
