@@ -20,7 +20,7 @@
 						"item_size": 64,
 						"rows":
 						[
-							[ "Terra", "LeteRiver", "sealCave", "Whelk", "ZozoRamuh", "Phunbaba"],
+							[ "Terra", "LeteRiver", "sealCave", "Whelk", "ZozoRamuh", "Phunbaba"]
 						]
 					},
 					{
@@ -30,9 +30,9 @@
 						"item_size": 64,
 						"rows":
 						[
-							[ "DarillTomb", "KohlingenDoge", "Setzer" ],
+							[ "DarillTomb", "KohlingenDoge", "Setzer" ]
 						]
-					},
+					}
 			]
 		},
 		{
@@ -48,7 +48,7 @@
 						"item_size": 64,
 						"rows":
 						[
-							[ "Sabin", "BarenFalls", "ImperialCamp", "Vargas", "PhantomTrain", "TzenHouse"],
+							[ "Sabin", "BarenFalls", "ImperialCamp", "Vargas", "PhantomTrain", "TzenHouse"]
 						]
 					},
 					{
@@ -58,9 +58,9 @@
 						"item_size": 64,
 						"rows":
 						[
-							[ "SerpentTrench", "VeldtJerky", "Gau" ],
+							[ "SerpentTrench", "VeldtJerky", "Gau" ]
 						]
-					},
+					}
 			]
 		},
 		{
@@ -76,7 +76,7 @@
 						"item_size": 64,
 						"rows":
 						[
-							[ "Celes", "OperaHouse", "ChainedCeles", "Magitek"],
+							[ "Celes", "OperaHouse", "ChainedCeles", "Magitek"]
 						]
 					},
 					{
@@ -86,7 +86,7 @@
 						"item_size": 64,
 						"rows":
 						[
-							[ "Char" ],
+							[ "Char" ]
 						]
 					},
 					{
@@ -96,9 +96,9 @@
 						"item_size": 64,
 						"rows":
 						[
-							[ "FigThrone", "FigCave", "AncientCastle", "Edgar" ],
+							[ "FigThrone", "FigCave", "AncientCastle", "Edgar" ]
 						]
-					},
+					}
 			]
 		},
 		{
@@ -114,7 +114,7 @@
 						"item_size": 64,
 						"rows":
 						[
-							[ "Shadow", "GauManor", "Float", "WoRVeldt"],
+							[ "Shadow", "GauManor", "Float", "WoRVeldt"]
 						]
 					},
 					{
@@ -124,7 +124,7 @@
 						"item_size": 64,
 						"rows":
 						[
-							[ "Esper" ],
+							[ "Esper" ]
 						]
 					},
 					{
@@ -134,9 +134,9 @@
 						"item_size": 64,
 						"rows":
 						[
-							[ "TunnelArmor", "NarsheWpn", "PhoenixCave", "Locke" ],
+							[ "TunnelArmor", "NarsheWpn", "PhoenixCave", "Locke" ]
 						]
-					},
+					}
 			]
 		},
 		{
@@ -152,7 +152,7 @@
 						"item_size": 64,
 						"rows":
 						[
-							[ "Cyan", "WoBDoma", "WoRDoma", "MtZozo"],
+							[ "Cyan", "WoBDoma", "WoRDoma", "MtZozo"]
 						]
 					},
 					{
@@ -162,7 +162,7 @@
 						"item_size": 64,
 						"rows":
 						[
-							[ "Dragon" ],
+							[ "Dragon" ]
 						]
 					},
 					{
@@ -172,9 +172,9 @@
 						"item_size": 64,
 						"rows":
 						[
-							[ "WoBThamasa", "EbotsRock", "FanaticsTower", "Strago" ],
+							[ "WoBThamasa", "EbotsRock", "FanaticsTower", "Strago" ]
 						]
-					},
+					}
 			]
 		},
 		{
@@ -190,7 +190,7 @@
 						"item_size": 64,
 						"rows":
 						[
-							[ "Relm", "EsperMtn", "Owzer"],
+							[ "Relm", "EsperMtn", "Owzer"]
 						]
 					},
 					{
@@ -200,7 +200,7 @@
 						"item_size": 64,
 						"rows":
 						[
-							[ "Kefka"],
+							[ "Kefka"]
 						]
 					},
 					{
@@ -210,7 +210,7 @@
 						"item_size": 64,
 						"rows":
 						[
-							[ "AtmaWpn"],
+							[ "AtmaWpn"]
 						]
 					},
 					{
@@ -220,7 +220,7 @@
 						"item_size": 64,
 						"rows":
 						[
-							[ "TzenThief"],
+							[ "TzenThief"]
 						]
 					},
 					{
@@ -230,9 +230,9 @@
 						"item_size": 64,
 						"rows":
 						[
-							[ "", "UmaroNrsh", "Umaro" ],
+							[ "", "UmaroNrsh", "Umaro" ]
 						]
-					},
+					}
 			]
 		},
 		{
@@ -248,7 +248,7 @@
 						"item_size": 64,
 						"rows":
 						[
-							[ "Mog", "LoneWolf", "MogDef"],
+							[ "Mog", "LoneWolf", "MogDef"]
 						]
 					},
 					{
@@ -258,7 +258,7 @@
 						"item_size": 64,
 						"rows":
 						[
-							[ "Treasure"],
+							[ "Treasure"]
 						]
 					},
 					{
@@ -268,7 +268,7 @@
 						"item_size": 64,
 						"rows":
 						[
-							[ "Auctioneer"],
+							[ "Auctioneer"]
 						]
 					},
 					{
@@ -278,7 +278,7 @@
 						"item_size": 64,
 						"rows":
 						[
-							[ "TritochNrsh"],
+							[ "TritochNrsh"]
 						]
 					},
 					{
@@ -288,7 +288,7 @@
 						"item_size": 64,
 						"rows":
 						[
-							[ "DoomGaze"],
+							[ "DoomGaze"]
 						]
 					},
 					{
@@ -298,9 +298,9 @@
 						"item_size": 64,
 						"rows":
 						[
-							[ "ZoneEater", "Gogo" ],
+							[ "ZoneEater", "Gogo" ]
 						]
-					},
+					}
 			]
 		},
 		{
@@ -328,9 +328,9 @@
 				[
 					[ "StormDragon", "IceDragon", "RedDragon", "BlueDragon", "WhiteDragon", "DirtDragon", "GoldDragon", "SkullDragon" ]
 				]
-			},
+			}
 			]
-		},
+		}
 		]
 	},
 	"tracker_capture_item":

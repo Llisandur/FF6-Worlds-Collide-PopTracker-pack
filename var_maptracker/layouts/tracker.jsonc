@@ -22,7 +22,7 @@
 						"background": "#006000",
 						"rows":
 						[
-							[ "Terra", "LeteRiver", "sealCave", "Whelk", "ZozoRamuh", "Phunbaba"],
+							[ "Terra", "LeteRiver", "sealCave", "Whelk", "ZozoRamuh", "Phunbaba"]
 						]
 					},
 					{
@@ -33,9 +33,9 @@
 						"background": "#703505",
 						"rows":
 						[
-							[ "DarillTomb", "KohlingenDoge", "Setzer" ],
+							[ "DarillTomb", "KohlingenDoge", "Setzer" ]
 						]
-					},
+					}
 			]
 		},
 		{
@@ -52,7 +52,7 @@
 						"background": "#000060",
 						"rows":
 						[
-							[ "Sabin", "BarenFalls", "ImperialCamp", "Vargas", "PhantomTrain", "TzenHouse"],
+							[ "Sabin", "BarenFalls", "ImperialCamp", "Vargas", "PhantomTrain", "TzenHouse"]
 						]
 					},
 					{
@@ -63,9 +63,9 @@
 						"background": "#807000",
 						"rows":
 						[
-							[ "SerpentTrench", "VeldtJerky", "Gau" ],
+							[ "SerpentTrench", "VeldtJerky", "Gau" ]
 						]
-					},
+					}
 			]
 		},
 		{
@@ -82,7 +82,7 @@
 						"background": "#600060",
 						"rows":
 						[
-							[ "Celes", "OperaHouse", "ChainedCeles", "Magitek"],
+							[ "Celes", "OperaHouse", "ChainedCeles", "Magitek"]
 						]
 					},
 					{
@@ -93,7 +93,7 @@
 						"background": "#000000",
 						"rows":
 						[
-							[ "Char" ],
+							[ "Char" ]
 						]
 					},
 					{
@@ -104,9 +104,9 @@
 						"background": "#000095",
 						"rows":
 						[
-							[ "FigThrone", "FigCave", "AncientCastle", "Edgar" ],
+							[ "FigThrone", "FigCave", "AncientCastle", "Edgar" ]
 						]
-					},
+					}
 			]
 		},
 		{
@@ -123,7 +123,7 @@
 						"background": "#500000",
 						"rows":
 						[
-							[ "Shadow", "GauManor", "Float", "WoRVeldt"],
+							[ "Shadow", "GauManor", "Float", "WoRVeldt"]
 						]
 					},
 					{
@@ -134,7 +134,7 @@
 						"background": "#000000",
 						"rows":
 						[
-							[ "Esper" ],
+							[ "Esper" ]
 						]
 					},
 					{
@@ -145,9 +145,9 @@
 						"background": "#003535",
 						"rows":
 						[
-							[ "TunnelArmor", "NarsheWpn", "PhoenixCave", "Locke" ],
+							[ "TunnelArmor", "NarsheWpn", "PhoenixCave", "Locke" ]
 						]
-					},
+					}
 			]
 		},
 		{
@@ -164,7 +164,7 @@
 						"background": "#404535",
 						"rows":
 						[
-							[ "Cyan", "WoBDoma", "WoRDoma", "MtZozo"],
+							[ "Cyan", "WoBDoma", "WoRDoma", "MtZozo"]
 						]
 					},
 					{
@@ -175,7 +175,7 @@
 						"background": "#000000",
 						"rows":
 						[
-							[ "Dragon" ],
+							[ "Dragon" ]
 						]
 					},
 					{
@@ -186,9 +186,9 @@
 						"background": "#706075",
 						"rows":
 						[
-							[ "WoBThamasa", "EbotsRock", "FanaticsTower", "Strago" ],
+							[ "WoBThamasa", "EbotsRock", "FanaticsTower", "Strago" ]
 						]
-					},
+					}
 			]
 		},
 		{
@@ -205,7 +205,7 @@
 						"background": "#900080",
 						"rows":
 						[
-							[ "Relm", "EsperMtn", "Owzer"],
+							[ "Relm", "EsperMtn", "Owzer"]
 						]
 					},
 					{
@@ -216,7 +216,7 @@
 						"background": "#000000",
 						"rows":
 						[
-							[ "Kefka"],
+							[ "Kefka"]
 						]
 					},
 					{
@@ -227,7 +227,7 @@
 						"background": "#000000",
 						"rows":
 						[
-							[ "AtmaWpn"],
+							[ "AtmaWpn"]
 						]
 					},
 					{
@@ -238,7 +238,7 @@
 						"background": "#000000",
 						"rows":
 						[
-							[ "TzenThief"],
+							[ "TzenThief"]
 						]
 					},
 					{
@@ -249,9 +249,9 @@
 						"background": "#005565",
 						"rows":
 						[
-							[ "", "UmaroNrsh", "Umaro" ],
+							[ "", "UmaroNrsh", "Umaro" ]
 						]
-					},
+					}
 			]
 		},
 		{
@@ -268,7 +268,7 @@
 						"background": "#206520",
 						"rows":
 						[
-							[ "Mog", "LoneWolf", "MogDef"],
+							[ "Mog", "LoneWolf", "MogDef"]
 						]
 					},
                     {
@@ -289,7 +289,7 @@
 						"background": "#000000",
 						"rows":
 						[
-							[ "Auctioneer"],
+							[ "Auctioneer"]
 						]
 					},
 					{
@@ -300,7 +300,7 @@
 						"background": "#000000",
 						"rows":
 						[
-							[ "TritochNrsh"],
+							[ "TritochNrsh"]
 						]
 					},
 					{
@@ -311,7 +311,7 @@
 						"background": "#000000",
 						"rows":
 						[
-							[ "DoomGaze"],
+							[ "DoomGaze"]
 						]
 					},
 					{
@@ -322,9 +322,9 @@
 						"background": "#403515",
 						"rows":
 						[
-							[ "ZoneEater", "Gogo" ],
+							[ "ZoneEater", "Gogo" ]
 						]
-					},
+					}
 			]
 		},
 		{
@@ -352,9 +352,9 @@
 				[
 					[ "StormDragon", "IceDragon", "RedDragon", "BlueDragon", "WhiteDragon", "DirtDragon", "GoldDragon", "SkullDragon" ]
 				]
-			},
+			}
 			]
-		},
+		}
 		]
 	},
 	"tracker_capture_item":
