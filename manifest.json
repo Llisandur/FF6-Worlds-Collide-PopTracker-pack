@@ -9,18 +9,13 @@
   {
     "standard":
     {
-      "display_name": "Gated Tracker",
+      "display_name": "Map Tracker",
       "flags": ["ap"]
     },
     "var_itemsonly":
     {
       "display_name": "Item Tracker",
       "flags": ["ap"]
-    },
-    "var_maptracker":
-    {
-      "display_name": "Map Tracker",
-    "flags": ["ap"]
     }
   }
 }
