@@ -579,6 +579,27 @@
     "overlay_font_size": 16,
     "codes": "Magitek"
   },
+  {
+    "name": "Ifrit and Shiva",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Crane.png",
+    "codes": "IfritandShiva"
+  },
+  {
+    "name": "Number 024",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Crane.png",
+    "codes": "Number024"
+  },
+  {
+    "name": "Cranes",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Crane.png",
+    "codes": "Cranes"
+  },
     // Jidoor Auctions
   {
     "name": "2 Jidoor Auctions",
@@ -589,6 +610,20 @@
     "decrement": 1,
     "overlay_font_size": 16,
     "codes": "Auctioneer"
+  },
+  {
+    "name": "Auction House 10kGP",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Auctioneer.png",
+    "codes": "AuctionHouse10kGP"
+  },
+  {
+    "name": "Auction House 20kGP",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Auctioneer.png",
+    "codes": "AuctionHouse20kGP"
   },
     // Floating Continent
   {
@@ -601,6 +636,27 @@
     "overlay_font_size": 16,
     "codes": "Float"
   },
+  {
+    "name": "Imperial Air Force",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/ShadowYump.png",
+    "codes": "ImperialAirForce"
+  },
+  {
+    "name": "AtmaWeapon",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/ShadowYump.png",
+    "codes": "AtmaWeapon"
+  },
+  {
+    "name": "Nerapa",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/ShadowYump.png",
+    "codes": "Nerapa"
+  },
     // WoR Doma
   {
     "name": "Doma Bed Stooges+Wrexsoul+Throne",
@@ -611,6 +667,27 @@
     "decrement": 1,
     "overlay_font_size": 16,
     "codes": "WoRDoma"
+  },
+  {
+    "name": "Dream Stooges",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Wrexsoul.png",
+    "codes": "DreamStooges"
+  },
+  {
+    "name": "Wrexsoul",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Wrexsoul.png",
+    "codes": "Wrexsoul"
+  },
+  {
+    "name": "Doma Castle Throne",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Wrexsoul.png",
+    "codes": "DomaCastleThrone"
   },
     // Dragon Counter
   {

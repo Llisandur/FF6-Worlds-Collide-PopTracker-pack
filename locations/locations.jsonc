@@ -2453,8 +2453,12 @@
             "access_rules": [],
             "sections": [
               {
-                "name": "Auction House",
-                "hosted_item": "Auctioneer"
+                "name": "Auction House 10kGP",
+                "hosted_item": "AuctionHouse10kGP"
+              },
+              {
+                "name": "Auction House 20kGP",
+                "hosted_item": "AuctionHouse20kGP"
               }
             ],
             "map_locations": [
@@ -2641,9 +2645,19 @@
             "access_rules": [],
             "sections": [
               {
-                "name": "Magitek Factory",
+                "name": "Ifrit and Shiva",
                 "access_rules": ["Celes", "openworld"],
-                "hosted_item": "Magitek3"
+                "hosted_item": "IfritandShiva"
+              },
+              {
+                "name": "Number 024",
+                "access_rules": ["Celes", "openworld"],
+                "hosted_item": "Number024"
+              },
+              {
+                "name": "Cranes",
+                "access_rules": ["Celes", "openworld"],
+                "hosted_item": "Cranes"
               }
             ],
             "map_locations": [
@@ -2677,8 +2691,16 @@
             "access_rules": ["Shadow", "openworld"],
             "sections": [
               {
-                "name": "Floating Continent 3 Checks",
-                "hosted_item": "Float3"
+                "name": "Imperial Air Force",
+                "hosted_item": "ImperialAirForce"
+              },
+              {
+                "name": "AtmaWeapon",
+                "hosted_item": "AtmaWeapon"
+              },
+              {
+                "name": "Nerapa",
+                "hosted_item": "Nerapa"
               }
             ],
             "map_locations": [
@@ -2828,9 +2850,19 @@
             "access_rules": [],
             "sections": [
               {
-                "name": "Cyan's Dream",
+                "name": "Dream Stooges",
                 "access_rules": ["Cyan", "openworld"],
-                "hosted_item": "WoRDoma3"
+                "hosted_item": "DreamStooges"
+              },
+              {
+                "name": "Wrexsoul",
+                "access_rules": ["Cyan", "openworld"],
+                "hosted_item": "Wrexsoul"
+              },
+              {
+                "name": "Doma Castle Throne",
+                "access_rules": ["Cyan", "openworld"],
+                "hosted_item": "DomaCastleThrone"
               }
             ],
             "map_locations": [

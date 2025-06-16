@@ -255,6 +255,8 @@ function handleAuctionHouse(segment)
   local value = segment:ReadUInt8(0x7E1EAD)
   local stage = ((value & 0x20) >> 5) + 
                 ((value & 0x10) >> 4)
+  if ((value & 0x20) >> 5) == 1 then Tracker:FindObjectForCode("AuctionHouse10kGP").Active = true end
+  if ((value & 0x10) >> 4) == 1 then Tracker:FindObjectForCode("AuctionHouse20kGP").Active = true end
   local object = Tracker:FindObjectForCode("Auctioneer")
   object.AcquiredCount = stage
   
@@ -331,11 +333,11 @@ function updateEventsAndBosses(segment)
   -- Set magitek factory to stage to 0 for game resets
   Tracker:FindObjectForCode("Magitek").AcquiredCount = 0
   -- GOT_IFRIT_SHIVA
-  updateConsumable("Magitek", segment, 0x7E1E8C, 0x02, 1)
+  checkBitSet("IfritandShiva", segment, 0x7E1E8C, 0x02)
   -- DEFEATED_NUMBER_024
-  updateConsumable("Magitek", segment, 0x7E1E8B, 0x80, 2)
+  checkBitSet("Number024", segment, 0x7E1E8B, 0x80)
   -- DEFEATED_CRANES (Sets Before Killing Boss, After getting reward)
-  updateConsumable("Magitek", segment, 0x7E1E8D, 0x08, 3)  
+  checkBitSet("Cranes", segment, 0x7E1E8D, 0x08)
   -- FINISHED_OPERA_DISRUPTION
   checkBitSet("OperaHouse", segment, 0x7E1E8B, 0x08)
   -- FREED_CELES
@@ -349,21 +351,21 @@ function updateEventsAndBosses(segment)
   -- Reset Floating Continent to 0 for game resets
   Tracker:FindObjectForCode("Float").AcquiredCount = 0
   -- RECRUITED_SHADOW_FLOATING_CONTINENT
-  updateConsumable("Float", segment, 0x7E1E85, 0x04, 1)
+  checkBitSet("ImperialAirForce", segment, 0x7E1E85, 0x04)
   -- DEFEATED_ATMAWPN
-  updateConsumable("Float", segment, 0x7E1E94, 0x02, 2)
+  checkBitSet("AtmaWeapon", segment, 0x7E1E94, 0x02)
   -- FINISHED_FLOATING_CONTINENT
-  updateConsumable("Float", segment, 0x7E1E94, 0x20, 3)
+  checkBitSet("Nerapa", segment, 0x7E1E94, 0x20)
 
   -- Cyan
   -- Reset Dream Checks to 0 for game resets
   Tracker:FindObjectForCode("WoRDoma").AcquiredCount = 0
   -- DEFEATED_STOOGES
-  updateConsumable("WoRDoma", segment, 0x7E1E9B, 0x01, 1)
+  checkBitSet("DreamStooges", segment, 0x7E1E9B, 0x01)
   -- FINISHED_DOMA_WOR
-  updateConsumable("WoRDoma", segment, 0x7E1E9B, 0x04, 2)
+  checkBitSet("Wrexsoul", segment, 0x7E1E9B, 0x04)
   -- GOT_ALEXANDR
-  updateConsumable("WoRDoma", segment, 0x7E1E9B, 0x08, 3)
+  checkBitSet("DomaCastleThrone", segment, 0x7E1E9B, 0x08)
   -- FINISHED_DOMA_WOB
   checkBitSet("WoBDoma", segment, 0x7E1E88, 0x01)
   -- FINISHED_MT_ZOZO
