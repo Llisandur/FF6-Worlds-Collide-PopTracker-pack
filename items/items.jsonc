@@ -321,7 +321,7 @@
     "type": "toggle",
     "loop": "true",
     "img": "images/Maduin.png",
-    "codes": "sealCave"
+    "codes": "sealGate"
   },
   {
     "name": "WoB Imperial Camp",
@@ -373,7 +373,7 @@
     "codes": "DoomGaze"
   },
   {
-    "name": "WoR Darill's Tomb",
+    "name": "WoR Daryl's Tomb",
     "type": "toggle",
     "loop": "true",
     "img": "images/Dullahan.png",
@@ -387,7 +387,7 @@
     "codes": "WoBThamasa"
   },
   {
-    "name": "WoB Gau Manor",
+    "name": "WoB Gau's Father's House",
     "type": "toggle",
     "loop": "true",
     "img": "images/GauDad.png",

@@ -18,7 +18,7 @@
               "item_size": 32,
               "background": "#006000",
               "rows": [
-                [ "Terra", "LeteRiver", "sealCave", "Whelk", "ZozoRamuh", "Phunbaba"]
+                [ "Terra", "LeteRiver", "sealGate", "Whelk", "ZozoRamuh", "Phunbaba"]
               ]
             },
             {
@@ -369,7 +369,7 @@
               "h_alignment": "center",
               "item_margin": "1,1",
               "rows": [
-                [ "LeteRiver", "sealCave", "Whelk", "ZozoRamuh", "Phunbaba","DarillTomb", "KohlingenDoge", "BarenFalls", "ImperialCamp", "Vargas", "PhantomTrain" ],
+                [ "LeteRiver", "sealGate", "Whelk", "ZozoRamuh", "Phunbaba","DarillTomb", "KohlingenDoge", "BarenFalls", "ImperialCamp", "Vargas", "PhantomTrain" ],
                 [ "TzenHouse", "SerpentTrench", "VeldtJerky", "OperaHouse", "ChainedCeles", "Magitek", "FigThrone", "FigCave", "AncientCastle", "GauManor", "Float" ],
                 [ "WoRVeldt", "TunnelArmor", "NarsheWpn", "PhoenixCave", "WoBDoma", "WoRDoma", "MtZozo", "WoBThamasa", "EbotsRock", "FanaticsTower", "EsperMtn" ],
                 [ "Owzer", "UmaroNrsh", "ZoneEater", "LoneWolf", "Auctioneer", "TritochNrsh", "DoomGaze", "Kefka", "TzenThief", "AtmaWpn" ]

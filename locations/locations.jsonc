@@ -12,6 +12,10 @@
             "access_rules": [],
             "sections": [
               {
+                "name": "Lete River",
+                "hosted_item": "LeteRiver"
+              },
+              {
                 "name": "Banon's Room",
                 "access_rules": [],
                 "item_count": 1
@@ -145,9 +149,30 @@
             ]
           },
           {
+            "name": "Tzen",
+            "access_rules": [],
+            "sections": [
+              {
+                "name": "Thief in the Woods",
+                "hosted_item": "TzenThief"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Treasure Map",
+                "x": 480,
+                "y": 600
+              }
+            ]
+          },
+          {
             "name": "Sealed Gate",
             "access_rules": ["Terra", "openworld"],
             "sections": [
+              {
+                "name": "Sealed Cave",
+                "hosted_item": "sealGate"
+              },
               {
                 "name": "Basement 1",
                 "access_rules": [],
@@ -232,6 +257,11 @@
             "access_rules": ["Strago", "openworld"],
             "sections": [
               {
+                "name": "Burning House | Rest at Inn",
+                "access_rules": ["Strago", "openworld"],
+                "hosted_item": "WoBThamasa"
+              },
+              {
                 "name": "First Chest",
                 "access_rules": [],
                 "item_count": 1
@@ -246,7 +276,7 @@
               {
                 "map": "Treasure Map",
                 "x": 1005,
-                "y": 493
+                "y": 540
               }
             ]
           },
@@ -333,6 +363,25 @@
             "access_rules": [],
             "sections": [
               {
+                "name": "Whelk",
+                "access_rules": ["Terra", "openworld"],
+                "hosted_item": "Whelk"
+              },
+              {
+                "name": "Kefka",
+                "hosted_item": "Kefka"
+              },
+              {
+                "name": "Lone Wolf",
+                "access_rules": ["Mog", "openworld"],
+                "hosted_item": "LoneWolf"
+              },
+              {
+                "name": "Moogle Defense",
+                "access_rules": ["Mog", "openworld"],
+                "hosted_item": "MogDef"
+              },
+              {
                 "name": "Arvis's Clock",
                 "access_rules": [],
                 "item_count": 1
@@ -412,7 +461,7 @@
               {
                 "map": "Treasure Map",
                 "x": 337,
-                "y": 145
+                "y": 133
               }
             ]
           },
@@ -420,6 +469,11 @@
             "name": "Zozo",
             "access_rules": [],
             "sections": [
+              {
+                "name": "Ramuh",
+                "access_rules": ["Terra", "openworld"],
+                "hosted_item": "ZozoRamuh"
+              },
               {
                 "name": "Armor Shop",
                 "access_rules": [],
@@ -479,6 +533,11 @@
             "access_rules": [],
             "sections": [
               {
+                "name": "Vargas",
+                "access_rules": ["Sabin", "openworld"],
+                "hosted_item": "Vargas"
+              },
+              {
                 "name": "Exit",
                 "access_rules": [],
                 "item_count": 1
@@ -508,9 +567,32 @@
             ]
           },
           {
+            "name": "Baren Falls",
+            "access_rules": [],
+            "sections": [
+              {
+                "name": "Baren Falls",
+                "access_rules": ["Sabin", "openworld"],
+                "hosted_item": "BarenFalls"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Treasure Map",
+                "x": 739,
+                "y": 372
+              }
+            ]
+          },
+          {
             "name": "Phantom Train",
             "access_rules": ["Sabin", "openworld"],
             "sections": [
+              {
+                "name": "Phantom Train",
+                "access_rules": ["Sabin", "openworld"],
+                "hosted_item": "PhantomTrain"
+              },
               {
                 "name": "Dining Car",
                 "access_rules": [],
@@ -550,6 +632,11 @@
             "access_rules": ["Sabin", "openworld"],
             "sections": [
               {
+                "name": "Imperial Camp",
+                "access_rules": ["Sabin", "openworld"],
+                "hosted_item": "ImperialCamp"
+              },
+              {
                 "name": "Kick Chest",
                 "access_rules": [],
                 "item_count": 1
@@ -582,6 +669,11 @@
             "name": "South Figaro",
             "access_rules": [],
             "sections": [
+              {
+                "name": "Celes' Cell",
+                "access_rules": ["Celes", "openworld"],
+                "hosted_item": "ChainedCeles"
+              },
               {
                 "name": "Basement Hidden Path Entrance",
                 "access_rules": [],
@@ -707,11 +799,19 @@
             ]
           },
           {
-            "name": "Owzer's House",
+            "name": "Jidoor",
             "access_rules": [],
             "sections": [
               {
-                "name": "Pot",
+                "name": "Auction House 10kGP",
+                "hosted_item": "AuctionHouse10kGP"
+              },
+              {
+                "name": "Auction House 20kGP",
+                "hosted_item": "AuctionHouse20kGP"
+              },
+              {
+                "name": "Owzer's House Pot",
                 "access_rules": [],
                 "item_count": 1
               }
@@ -725,9 +825,32 @@
             ]
           },
           {
+            "name": "Opera House",
+            "access_rules": [],
+            "sections": [
+              {
+                "name": "Opera",
+                "access_rules": ["Celes", "openworld"],
+                "hosted_item": "OperaHouse"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Treasure Map",
+                "x": 180,
+                "y": 618
+              }
+            ]
+          },
+          {
             "name": "Kohlingen",
             "access_rules": [],
             "sections": [
+              {
+                "name": "Kohlingen Inn",
+                "access_rules": ["Setzer", "openworld"],
+                "hosted_item": "KohlingenDoge"
+              },
               {
                 "name": "Old Man's House",
                 "access_rules": [],
@@ -766,9 +889,32 @@
             ]
           },
           {
+            "name": "Veldt",
+            "access_rules": [],
+            "sections": [
+              {
+                "name": "Three Party Members and Dried Meat",
+                "access_rules": ["Gau", "openworld"],
+                "hosted_item": "VeldtJerky"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Treasure Map",
+                "x": 820,
+                "y": 520
+              }
+            ]
+          },
+          {
             "name": "Serpent Trench",
             "access_rules": ["Gau", "openworld"],
             "sections": [
+              {
+                "name": "Diver's Helmet",
+                "access_rules": ["Gau", "openworld"],
+                "hosted_item": "SerpentTrench"
+              },
               {
                 "name": "First Branch",
                 "access_rules": [],
@@ -811,6 +957,11 @@
             "access_rules": [],
             "sections": [
               {
+                "name": "Figaro Throne",
+                "access_rules": ["Edgar", "openworld"],
+                "hosted_item": "FigThrone"
+              },
+              {
                 "name": "East Shop Left",
                 "access_rules": [],
                 "item_count": 1
@@ -844,17 +995,22 @@
             "access_rules": [],
             "sections": [
               {
-                "name": "Eastern Passage WoB",
+                "name": "Tunnel Armor",
+                "access_rules": ["Locke", "openworld"],
+                "hosted_item": "tunnelArmor"
+              },
+              {
+                "name": "Eastern Passage",
                 "access_rules": [],
                 "item_count": 1
               },
               {
-                "name": "Southwest Passage WoB",
+                "name": "Southwest Passage",
                 "access_rules": [],
                 "item_count": 1
               },
               {
-                "name": "Eastern Bridge WoB",
+                "name": "Eastern Bridge",
                 "access_rules": [],
                 "item_count": 1
               }
@@ -871,6 +1027,11 @@
             "name": "Doma Castle",
             "access_rules": [],
             "sections": [
+              {
+                "name": "Doma",
+                "access_rules": ["Cyan", "openworld"],
+                "hosted_item": "WoBDoma"
+              },
               {
                 "name": "Cyan's Bedroom",
                 "access_rules": [],
@@ -914,6 +1075,11 @@
             "name": "Esper Mountain",
             "access_rules": [],
             "sections": [
+              {
+                "name": "Esper Mountain",
+                "access_rules": ["Relm", "openworld"],
+                "hosted_item": "EsperMtn"
+              },
               {
                 "name": "Entrance Cavern",
                 "access_rules": [],
@@ -982,7 +1148,7 @@
               {
                 "map": "Treasure Map",
                 "x": 1005,
-                "y": 527
+                "y": 507
               }
             ]
           },
@@ -990,6 +1156,21 @@
             "name": "Magitek Factory",
             "access_rules": ["Celes", "openworld"],
             "sections": [
+              {
+                "name": "Ifrit and Shiva",
+                "access_rules": ["Celes", "openworld"],
+                "hosted_item": "IfritandShiva"
+              },
+              {
+                "name": "Number 024",
+                "access_rules": ["Celes", "openworld"],
+                "hosted_item": "Number024"
+              },
+              {
+                "name": "Cranes",
+                "access_rules": ["Celes", "openworld"],
+                "hosted_item": "Cranes"
+              },
               {
                 "name": "North Upper Left",
                 "access_rules": [],
@@ -1086,6 +1267,18 @@
             "name": "Floating Continent",
             "access_rules": ["Shadow", "openworld"],
             "sections": [
+              {
+                "name": "Imperial Air Force",
+                "hosted_item": "ImperialAirForce"
+              },
+              {
+                "name": "AtmaWeapon",
+                "hosted_item": "AtmaWeapon"
+              },
+              {
+                "name": "Nerapa",
+                "hosted_item": "Nerapa"
+              },
               {
                 "name": "North Path",
                 "access_rules": [],
@@ -1186,6 +1379,10 @@
             "access_rules": ["Strago", "openworld"],
             "sections": [
               {
+                "name": "Burning House | Rest at Inn ",
+                "ref": "All Treasure Locations/World of Balance/Burning House/Burning House | Rest at Inn"
+              },
+              {
                 "name": "First Chest ",
                 "ref": "All Treasure Locations/World of Balance/Burning House/First Chest"
               },
@@ -1198,7 +1395,7 @@
               {
                 "map": "Treasure Map",
                 "x": 2029,
-                "y": 910
+                "y": 956
               }
             ]
           },
@@ -1206,6 +1403,24 @@
             "name": " Narshe",
             "access_rules": [],
             "sections": [
+              {
+                "name": "Weapon Shop",
+                "access_rules": ["Locke", "openworld"],
+                "hosted_item": "NarsheWpn"
+              },
+              {
+                "name": "Ice Dragon",
+                "hosted_item": "IceDragon"
+              },
+              {
+                "name": "Tritoch",
+                "hosted_item": "TritochNrsh"
+              },
+              {
+                "name": "Umaro",
+                "access_rules": ["Umaro", "openworld"],
+                "hosted_item": "UmaroNrsh"
+              },
               {
                 "name": "Arvis's Clock ",
                 "ref": "All Treasure Locations/World of Balance/Narshe/Arvis's Clock"
@@ -1280,7 +1495,7 @@
               {
                 "map": "Treasure Map",
                 "x": 1485,
-                "y": 149
+                "y": 134
               }
             ]
           },
@@ -1305,7 +1520,7 @@
               {
                 "map": "Treasure Map",
                 "x": 1198,
-                "y": 539
+                "y": 524
               }
             ]
           },
@@ -1423,19 +1638,59 @@
             ]
           },
           {
-            "name": " Owzer's House",
+            "name": " Jidoor",
             "access_rules": [],
             "sections": [
               {
-                "name": "Pot ",
-                "ref": "All Treasure Locations/World of Balance/Owzer's House/Pot"
+                "name": "Owzer's Basement",
+                "access_rules": ["Relm", "openworld"],
+                "hosted_item": "Owzer"
+              },
+              {
+                "name": "Auction House 10kGP ",
+                "ref": "All Treasure Locations/World of Balance/Jidoor/Auction House 10kGP"
+              },
+              {
+                "name": "Auction House 20kGP ",
+                "ref": "All Treasure Locations/World of Balance/Jidoor/Auction House 20kGP"
+              },
+              {
+                "name": "Owzer's House Pot ",
+                "ref": "All Treasure Locations/World of Balance/Jidoor/Owzer's House Pot"
+              },
+              {
+                "name": "Owzer's Basement Left Door",
+                "access_rules": [],
+                "item_count": 1
+              },
+              {
+                "name": "Owzer's Basement Door Trio",
+                "access_rules": [],
+                "item_count": 1
               }
             ],
             "map_locations": [
               {
                 "map": "Treasure Map",
                 "x": 1164,
-                "y": 637
+                "y": 627
+              }
+            ]
+          },
+          {
+            "name": " Opera House",
+            "access_rules": [],
+            "sections": [
+              {
+                "name": "Dirt Dragon",
+                "hosted_item": "DirtDragon"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Treasure Map",
+                "x": 1149,
+                "y": 733
               }
             ]
           },
@@ -1443,6 +1698,10 @@
             "name": " Kohlingen",
             "access_rules": [],
             "sections": [
+              {
+                "name": "Kohlingen Inn ",
+                "ref": "All Treasure Locations/World of Balance/Kohlingen/Kohlingen Inn"
+              },
               {
                 "name": "Old Man's House ",
                 "ref": "All Treasure Locations/World of Balance/Kohlingen/Old Man's House"
@@ -1482,6 +1741,11 @@
             "access_rules": [],
             "sections": [
               {
+                "name": "Doma Castle Throne",
+                "access_rules": ["Cyan", "openworld"],
+                "hosted_item": "DomaCastleThrone"
+              },
+              {
                 "name": "Cyan's Bedroom ",
                 "ref": "All Treasure Locations/World of Balance/Doma Castle/Cyan's Bedroom"
               },
@@ -1510,7 +1774,7 @@
               {
                 "map": "Treasure Map",
                 "x": 1712,
-                "y": 315
+                "y": 300
               }
             ]
           },
@@ -1547,7 +1811,25 @@
               {
                 "map": "Treasure Map",
                 "x": 2029,
-                "y": 944
+                "y": 924
+              }
+            ]
+          },
+          {
+            "name": "Ebots Rock",
+            "access_rules": [],
+            "sections": [
+              {
+                "name": "Hidon",
+                "access_rules": ["Strago", "openworld"],
+                "hosted_item": "EbotsRock"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Treasure Map",
+                "x": 2023,
+                "y": 892
               }
             ]
           },
@@ -1555,6 +1837,11 @@
             "name": " Mobliz",
             "access_rules": [],
             "sections": [
+              {
+                "name": "Phunbaba",
+                "access_rules": ["Terra", "openworld"],
+                "hosted_item": "Phunbaba"
+              },
               {
                 "name": "Post Office Clock ",
                 "ref": "All Treasure Locations/World of Balance/Mobliz/Post Office Clock"
@@ -1579,46 +1866,54 @@
             ]
           },
           {
-            "name": "Collapsing House",
+            "name": " Tzen",
             "access_rules": ["Sabin", "openworld"],
             "sections": [
               {
-                "name": "First Floor Top Right",
+                "name": "Collapsing House",
+                "access_rules": ["Sabin", "openworld"],
+                "hosted_item": "TzenHouse"
+              },
+              {
+                "ref": "All Treasure Locations/World of Balance/Tzen/Thief in the Woods"
+              },
+              {
+                "name": "Collapsing House First Floor Top Right",
                 "access_rules": [],
                 "item_count": 1
               },
               {
-                "name": "First Floor Middle",
+                "name": "Collapsing House First Floor Middle",
                 "access_rules": [],
                 "item_count": 1
               },
               {
-                "name": "First Floor Top Left",
+                "name": "Collapsing House First Floor Top Left",
                 "access_rules": [],
                 "item_count": 1
               },
               {
-                "name": "First Floor Left",
+                "name": "Collapsing House First Floor Left",
                 "access_rules": [],
                 "item_count": 1
               },
               {
-                "name": "First Floor Bottom Left",
+                "name": "Collapsing House First Floor Bottom Left",
                 "access_rules": [],
                 "item_count": 1
               },
               {
-                "name": "Basement Bottom",
+                "name": "Collapsing House Basement Bottom",
                 "access_rules": [],
                 "item_count": 1
               },
               {
-                "name": "Basement Left",
+                "name": "Collapsing House Basement Left",
                 "access_rules": [],
                 "item_count": 1
               },
               {
-                "name": "Basement Right",
+                "name": "Collapsing House Basement Right",
                 "access_rules": [],
                 "item_count": 1
               }
@@ -1632,9 +1927,14 @@
             ]
           },
           {
-            "name": "Darill's Tomb",
+            "name": "Daryl's Tomb",
             "access_rules": ["Setzer", "openworld"],
             "sections": [
+              {
+                "name": "Daryl's Tomb",
+                "access_rules": ["Setzer", "openworld"],
+                "hosted_item": "DarillTomb"
+              },
               {
                 "name": "Basement 2 Southeast",
                 "access_rules": [],
@@ -1678,6 +1978,14 @@
             "name": "Phoenix Cave",
             "access_rules": ["$hasRequiredCharacterCountPC"],
             "sections": [
+              {
+                "name": "Phoenix",
+                "hosted_item": "PhoenixCave"
+              },
+              {
+                "name": "Red Dragon",
+                "hosted_item": "RedDragon"
+              },
               {
                 "name": "Lower Cavern East Pool Island",
                 "access_rules": [],
@@ -1736,6 +2044,11 @@
             "name": "Zone Eater",
             "access_rules": [],
             "sections": [
+              {
+                "name": "Gogo",
+                "access_rules": ["Gogo", "openworld"],
+                "hosted_item": "ZoneEater"
+              },
               {
                 "name": "Crusher Room Right",
                 "access_rules": ["Gogo", "openworld"],
@@ -1814,7 +2127,7 @@
               {
                 "map": "Treasure Map",
                 "x": 1485,
-                "y": 114
+                "y": 102
               }
             ]
           },
@@ -1822,6 +2135,16 @@
             "name": "Cyan's Dream",
             "access_rules": ["Cyan", "openworld"],
             "sections": [
+              {
+                "name": "Dream Stooges",
+                "access_rules": ["Cyan", "openworld"],
+                "hosted_item": "DreamStooges"
+              },
+              {
+                "name": "Wrexsoul",
+                "access_rules": ["Cyan", "openworld"],
+                "hosted_item": "Wrexsoul"
+              },
               {
                 "name": "Phantom Train Fourth Car Upper Right",
                 "access_rules": [],
@@ -1847,14 +2170,33 @@
               {
                 "map": "Treasure Map",
                 "x": 1712,
-                "y": 280
+                "y": 267
               }
             ]
           },
           {
-            "name": "Fanatics' Tower",
+            "name": "Fanatic's Tower",
             "access_rules": [],
             "sections": [
+              {
+                "name": "Gem Box",
+                "access_rules": ["Strago", "openworld"],
+                "hosted_item": "FanaticsTower"
+              },
+              {
+                "name": "White Dragon",
+                "hosted_item": "WhiteDragon"
+              },
+              {
+                "name": "Eighth Floor",
+                "access_rules": [],
+                "item_count": 1
+              },
+              {
+                "name": "Seventh Floor",
+                "access_rules": [],
+                "item_count": 1
+              },
               {
                 "name": "Seventeenth Floor",
                 "access_rules": [],
@@ -1869,16 +2211,6 @@
                 "name": "Thirty-fifth Floor",
                 "access_rules": [],
                 "item_count": 1
-              },
-              {
-                "name": "Seventh Floor",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Eighth Floor",
-                "access_rules": [],
-                "item_count": 1
               }
             ],
             "map_locations": [
@@ -1890,21 +2222,26 @@
             ]
           },
           {
-            "name": "South Figaro Cave",
+            "name": " South Figaro Cave",
             "access_rules": ["Edgar", "openworld"],
             "sections": [
               {
-                "name": "Eastern Passage WoR",
+                "name": "Figaro Castle Engine Room",
+                "access_rules": ["Edgar", "openworld"],
+                "hosted_item": "FigCave"
+              },
+              {
+                "name": "Eastern Passage ",
                 "access_rules": [],
                 "item_count": 1
               },
               {
-                "name": "Southwest Passage WoR",
+                "name": "Southwest Passage ",
                 "access_rules": [],
                 "item_count": 1
               },
               {
-                "name": "Eastern Bridge WoR",
+                "name": "Eastern Bridge ",
                 "access_rules": [],
                 "item_count": 1
               }
@@ -1921,6 +2258,9 @@
             "name": " Figaro Castle",
             "access_rules": ["Edgar", "openworld"],
             "sections": [
+              {
+                "ref": "All Treasure Locations/World of Balance/Figaro Castle/Figaro Throne"
+              },
               {
                 "name": "East Shop Left ",
                 "ref": "All Treasure Locations/World of Balance/Figaro Castle/East Shop Left"
@@ -1972,7 +2312,7 @@
               {
                 "map": "Treasure Map",
                 "x": 1358,
-                "y": 348
+                "y": 343
               }
             ]
           },
@@ -1982,22 +2322,22 @@
             "sections": [
               {
                 "name": "North Cavern Left",
-                "access_rules": [""],
+                "access_rules": [],
                 "item_count": 1
               },
               {
                 "name": "North Cavern Right",
-                "access_rules": [""],
+                "access_rules": [],
                 "item_count": 1
               },
               {
                 "name": "South Cavern Bottom",
-                "access_rules": [""],
+                "access_rules": [],
                 "item_count": 1
               },
               {
                 "name": "South Cavern Top",
-                "access_rules": [""],
+                "access_rules": [],
                 "item_count": 1
               },
               {
@@ -2014,8 +2354,8 @@
             "map_locations": [
               {
                 "map": "Treasure Map",
-                "x": 1330,
-                "y": 313
+                "x": 1327,
+                "y": 309
               }
             ]
           },
@@ -2024,23 +2364,33 @@
             "access_rules": ["Edgar", "openworld"],
             "sections": [
               {
+                "name": "Ancient Castle",
+                "access_rules": ["Edgar", "openworld"],
+                "hosted_item": "AncientCastle"
+              },
+              {
+                "name": "Blue Dragon",
+                "access_rules": ["Edgar", "openworld"],
+                "hosted_item": "BlueDragon"
+              },
+              {
                 "name": "Treasure Room Left",
-                "access_rules": [""],
+                "access_rules": [],
                 "item_count": 1
               },
               {
                 "name": "Treasure Room Right",
-                "access_rules": [""],
+                "access_rules": [],
                 "item_count": 1
               },
               {
                 "name": "East Room",
-                "access_rules": [""],
+                "access_rules": [],
                 "item_count": 1
               },
               {
                 "name": "Library",
-                "access_rules": [""],
+                "access_rules": [],
                 "item_count": 1
               },
               {
@@ -2052,31 +2402,8 @@
             "map_locations": [
               {
                 "map": "Treasure Map",
-                "x": 1330,
-                "y": 280
-              }
-            ]
-          },
-          {
-            "name": "Owzer's Basement",
-            "access_rules": ["Relm", "openworld"],
-            "sections": [
-              {
-                "name": "Left Door",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Door Trio",
-                "access_rules": [],
-                "item_count": 1
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Treasure Map",
-                "x": 1164,
-                "y": 602
+                "x": 1327,
+                "y": 276
               }
             ]
           },
@@ -2084,6 +2411,14 @@
             "name": "Mt. Zozo",
             "access_rules": ["Cyan", "openworld"],
             "sections": [
+              {
+                "name": "Mt. Zozo",
+                "hosted_item": "MtZozo"
+              },
+              {
+                "name": "Storm Dragon",
+                "hosted_item": "StormDragon"
+              },
               {
                 "name": "East Cavern Middle",
                 "access_rules": [],
@@ -2119,7 +2454,24 @@
               {
                 "map": "Treasure Map",
                 "x": 1198,
-                "y": 504
+                "y": 492
+              }
+            ]
+          },
+          {
+            "name": " Veldt",
+            "access_rules": [],
+            "sections": [
+              {
+                "name": "Three Party Members and Dried Meat ",
+                "ref": "All Treasure Locations/World of Balance/Veldt/Three Party Members and Dried Meat"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Treasure Map",
+                "x": 1884,
+                "y": 329
               }
             ]
           },
@@ -2127,6 +2479,11 @@
             "name": "Veldt Cave",
             "access_rules": [],
             "sections": [
+              {
+                "name": "SrBehemoth",
+                "access_rules": ["Shadow", "openworld"],
+                "hosted_item": "WoRVeldt"
+              },
               {
                 "name": "North Upper Left",
                 "access_rules": [],
@@ -2152,9 +2509,41 @@
             ]
           },
           {
+            "name": "Doomgaze",
+            "access_rules": [],
+            "sections": [
+              {
+                "name": "Doomgaze",
+                "hosted_item": "DoomGaze"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Treasure Map",
+                "x": 1546,
+                "y": 522
+              }
+            ]
+          },
+          {
             "name": "Kefka's Tower",
             "access_rules": ["$hasRequiredCharacterCountKT"],
             "sections": [
+              {
+                "name": "Atma Weapon",
+                "access_rules": ["$canAccessKefkasTower"],
+                "hosted_item": "AtmaWpn"
+              },
+              {
+                "name": "Gold Dragon",
+                "access_rules": ["$canAccessKefkasTower"],
+                "hosted_item": "GoldDragon"
+              },
+              {
+                "name": "Skull Dragon",
+                "access_rules": ["$canAccessKefkasTower"],
+                "hosted_item": "SkullDragon"
+              },
               {
                 "name": "Group 3 Balcony Left",
                 "access_rules": [],
@@ -2274,18 +2663,18 @@
             ]
           },
           {
-            "name": "Sealed Cave",
+            "name": "Sealed Gate",
             "access_rules": ["Terra", "openworld"],
             "sections": [
               {
-                "name": "Sealed Cave",
-                "hosted_item": "sealCave"
+                "name": "Sealed Gate",
+                "hosted_item": "sealGate"
               }
             ],
             "map_locations": [
               {
                 "map": "Combined Map",
-                "x": 676,
+                "x": 690,
                 "y": 777
               }
             ]
@@ -2359,7 +2748,7 @@
             ]
           },
           {
-            "name": "Mount Kolts",
+            "name": "Mt. Kolts",
             "access_rules": [],
             "sections": [
               {
@@ -2377,7 +2766,7 @@
             ]
           },
           {
-            "name": "Haunted Forest",
+            "name": "Phantom Train",
             "access_rules": [],
             "sections": [
               {
@@ -2391,6 +2780,24 @@
                 "map": "Combined Map",
                 "x": 714,
                 "y": 328
+              }
+            ]
+          },
+          {
+            "name": "Gau's Father's House",
+            "access_rules": [],
+            "sections": [
+              {
+                "name": "Gau's Father's House",
+                "access_rules": ["Shadow", "openworld"],
+                "hosted_item": "GauManor"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Treasure Map",
+                "x": 660,
+                "y": 140
               }
             ]
           },
@@ -2493,7 +2900,7 @@
             ]
           },
           {
-            "name": "Serpent's Trench",
+            "name": "Serpent Trench",
             "access_rules": [],
             "sections": [
               {
@@ -2641,7 +3048,7 @@
             ]
           },
           {
-            "name": "Vector",
+            "name": "Magitek Factory",
             "access_rules": [],
             "sections": [
               {
@@ -2669,11 +3076,11 @@
             ]
           },
           {
-            "name": "Gau Manor",
+            "name": "WoB Gau's Father's House",
             "access_rules": [],
             "sections": [
               {
-                "name": "Gau Manor",
+                "name": "Gau's Father's House",
                 "access_rules": ["Shadow", "openworld"],
                 "hosted_item": "GauManor"
               }
@@ -2758,11 +3165,11 @@
             ]
           },
           {
-            "name": "Darill's Tomb",
+            "name": "Daryl's Tomb",
             "access_rules": [],
             "sections": [
               {
-                "name": "Darill's Tomb",
+                "name": "Daryl's Tomb",
                 "access_rules": ["Setzer", "openworld"],
                 "hosted_item": "DarillTomb"
               }
@@ -2815,7 +3222,7 @@
             ]
           },
           {
-            "name": "Narshe",
+            "name": "WoR Narshe",
             "access_rules": [],
             "sections": [
               {
@@ -2874,11 +3281,11 @@
             ]
           },
           {
-            "name": "Fanatics' Tower",
+            "name": "Fanatic's Tower",
             "access_rules": [],
             "sections": [
               {
-                "name": "Fanatics' Tower",
+                "name": "Fanatic's Tower",
                 "access_rules": ["Strago", "openworld"],
                 "hosted_item": "FanaticsTower"
               },
@@ -2949,7 +3356,12 @@
                 "hosted_item": "Owzer"
               },
               {
-                "ref": "All Locations/World of Balance/WoB Jidoor/Auction House"
+                "name": "Auction House 10kGP ",
+                "ref": "All Locations/World of Balance/WoB Jidoor/Auction House 10kGP"
+              },
+              {
+                "name": "Auction House 20kGP ",
+                "ref": "All Locations/World of Balance/WoB Jidoor/Auction House 20kGP"
               }
             ],
             "map_locations": [
@@ -2965,7 +3377,7 @@
             "access_rules": ["Cyan", "openworld"],
             "sections": [
               {
-                "name": "Mount Zozo",
+                "name": "Mt. Zozo",
                 "hosted_item": "MtZozo"
               },
               {
@@ -2995,7 +3407,7 @@
               {
                 "map": "Combined Map",
                 "x": 2023,
-                "y": 894
+                "y": 892
               }
             ]
           },
