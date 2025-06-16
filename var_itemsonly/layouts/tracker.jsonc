@@ -356,15 +356,6 @@
 		}
 		]
 	},
-	"tracker_capture_item":
-	{
-		"type": "container",
-		"content":
-		{
-			"type": "layout",
-			"key": "shared_item_grid"
-		}
-	},
 	"tracker_default":
 	{
 		"type": "container",
