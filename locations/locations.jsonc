@@ -1272,7 +1272,7 @@
                 "hosted_item": "ImperialAirForce"
               },
               {
-                "name": "AtmaWeapon ",
+                "name": "Atma Weapon",
                 "hosted_item": "AtmaWeapon"
               },
               {
@@ -2530,7 +2530,7 @@
             "access_rules": ["$hasRequiredCharacterCountKT"],
             "sections": [
               {
-                "name": "Atma Weapon",
+                "name": "Atma",
                 "access_rules": ["$canAccessKefkasTower"],
                 "hosted_item": "AtmaWpn"
               },
@@ -2543,6 +2543,51 @@
                 "name": "Skull Dragon",
                 "access_rules": ["$canAccessKefkasTower"],
                 "hosted_item": "SkullDragon"
+              },
+              {
+                "name": "Group 1 Landing Area",
+                "access_rules": [],
+                "item_count": 1
+              },
+              {
+                "name": "Group 1 Metal Switchback",
+                "access_rules": [],
+                "item_count": 1
+              },
+              {
+                "name": "Group 1 Winding Path",
+                "access_rules": [],
+                "item_count": 1
+              },
+              {
+                "name": "Group 2 Outside Switchback",
+                "access_rules": [],
+                "item_count": 1
+              },
+              {
+                "name": "Group 2 Pipe Output",
+                "access_rules": [],
+                "item_count": 1
+              },
+              {
+                "name": "Group 2 Left Area Top",
+                "access_rules": [],
+                "item_count": 1
+              },
+              {
+                "name": "Group 2 Left Area Bottom",
+                "access_rules": [],
+                "item_count": 1
+              },
+              {
+                "name": "Group 2 Switch Room",
+                "access_rules": [],
+                "item_count": 1
+              },
+              {
+                "name": "Group 3 Right Path",
+                "access_rules": [],
+                "item_count": 1
               },
               {
                 "name": "Group 3 Balcony Left",
@@ -2565,27 +2610,7 @@
                 "item_count": 1
               },
               {
-                "name": "Group 1 Metal Switchback",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Group 1 Landing Area",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Group 2 Left Area Top",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Group 2 Left Area Bottom",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Group 3 Right Path",
+                "name": "Group 3 After Magitek Right",
                 "access_rules": [],
                 "item_count": 1
               },
@@ -2595,32 +2620,7 @@
                 "item_count": 1
               },
               {
-                "name": "Group 3 After Magitek Right",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Group 1 Winding Path",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
                 "name": "Poltergeist Hidden Chest",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Group 2 Outside Switchback",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Group 2 Pipe Output",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Group 2 Switch Room",
                 "access_rules": [],
                 "item_count": 1
               }
@@ -3484,7 +3484,7 @@
             "access_rules": ["$canAccessKefkasTower"],
             "sections": [
               {
-                "name": "Atma Weapon",
+                "name": "Atma",
                 "hosted_item": "AtmaWpn"
               },
               {
