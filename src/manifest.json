@@ -8,17 +8,18 @@
   "min_poptracker_version": "0.26.2",
   "target_poptracker_version": "0.32.0",
   "versions_url": "https://raw.githubusercontent.com/llisandur/FF6-Worlds-Collide-PopTracker-pack/refs/heads/main/versions.json",
-  "variants":
-  {
-    "standard":
-    {
+  "variants": {
+    "standard": {
       "display_name": "Map Tracker",
-      "flags": ["ap"]
+      "flags": [
+        "ap"
+      ]
     },
-    "var_itemsonly":
-    {
+    "var_itemsonly": {
       "display_name": "Item Tracker",
-      "flags": ["ap"]
+      "flags": [
+        "ap"
+      ]
     }
   }
 }
