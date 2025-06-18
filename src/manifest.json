@@ -1,10 +1,13 @@
 {
-  "name": "FFVI Worlds Collide",
+  "name": "FFVI Worlds Collide AP",
   "game_name": "Final Fantasy VI",
   "platform": "snes",
-  "package_version": "1.1.0.3",
-  "package_uid": "ff6wc",
+  "package_version": "1.2.0.0",
+  "package_uid": "ff6wc-ap",
   "author": "Eatitup_86, Anguirel, delassa, asilverthorn, Llisandur",
+  "min_poptracker_version": "0.26.2",
+  "target_poptracker_version": "0.32.0",
+  "versions_url": "https://raw.githubusercontent.com/llisandur/FF6-Worlds-Collide-PopTracker-pack/refs/heads/main/versions.json",
   "variants":
   {
     "standard":

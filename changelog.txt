@@ -21,3 +21,5 @@ v1.1.0.3: By Llisandur
 	- Moved some locations for "better" organization
 	- Fixed image color profiles
 	- Rearranged some files for "better" PopTracker organization
+v1.2.0.0: By Llisandur
+	- 
