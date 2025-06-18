@@ -15,3 +15,11 @@ v1.1.0.2: By delassa and asilverthorn
 	- Switched to ff6wc v1.0 event bits to fix incompatibilities with some tracking
 	- Added treasure counting
 	- Improved visibility of Shadow portrait
+v1.1.0.3: By Llisandur
+	- Added Archipelago tracking
+	- Renamed some variables
+	- Moved some locations for "better" organization
+	- Fixed image color profiles
+	- Rearranged some files for "better" PopTracker organization
+v1.2.0.0: By Llisandur
+	- 
