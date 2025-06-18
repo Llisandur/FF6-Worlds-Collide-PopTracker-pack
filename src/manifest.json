@@ -2,7 +2,7 @@
   "name": "FFVI Worlds Collide AP",
   "game_name": "Final Fantasy VI",
   "platform": "snes",
-  "package_version": "1.2.0.0",
+  "package_version": "1.2.0.1",
   "package_uid": "ff6wc-ap",
   "author": "Eatitup_86, Anguirel, delassa, asilverthorn, Llisandur",
   "min_poptracker_version": "0.26.2",

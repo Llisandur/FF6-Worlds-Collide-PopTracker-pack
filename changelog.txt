@@ -1,25 +1,27 @@
 v1.0.0:
-	- Initial release
+  - Initial release
 v1.0.1:
-	- Added loot locations to match the latest version of World's Collide.
+  - Added loot locations to match the latest version of World's Collide.
 v1.0.2:
-	- Updated for the latest Worlds Collide Version.
-	- Added Character Gating Mode as the new default.
-	- Added WoR / WoB to each location's name since World coloring is difficult to implement
-	  in the character gating tracker without using twice as much space.
-	- Note: Make sure you enable Fast Tooltips to see the location on hover much quicker.
+  - Updated for the latest Worlds Collide Version.
+  - Added Character Gating Mode as the new default.
+  - Added WoR / WoB to each location's name since World coloring is difficult to implement
+    in the character gating tracker without using twice as much space.
+  - Note: Make sure you enable Fast Tooltips to see the location on hover much quicker.
 v1.1.0: By Anguirel
-	- Added Map Tracker variant
-	- Added Autotracking capability
+  - Added Map Tracker variant
+  - Added Autotracking capability
 v1.1.0.2: By delassa and asilverthorn
-	- Switched to ff6wc v1.0 event bits to fix incompatibilities with some tracking
-	- Added treasure counting
-	- Improved visibility of Shadow portrait
+  - Switched to ff6wc v1.0 event bits to fix incompatibilities with some tracking
+  - Added treasure counting
+  - Improved visibility of Shadow portrait
 v1.1.0.3: By Llisandur
-	- Added Archipelago tracking
-	- Renamed some variables
-	- Moved some locations for "better" organization
-	- Fixed image color profiles
-	- Rearranged some files for "better" PopTracker organization
+  - Added Archipelago tracking
+  - Renamed some variables
+  - Moved some locations for "better" organization
+  - Fixed image color profiles
+  - Rearranged some files for "better" PopTracker organization
 v1.2.0.0: By Llisandur
-	- Added source build script (uses Nix)
+  - Added source build script (uses Nix)
+v1.2.0.1: By Llisandur
+  - Clean up files and run pack_checker

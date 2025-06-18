@@ -522,9 +522,9 @@ function updateTreasureLocation(segment, location, address, flag)
     local value = segment:ReadUInt8(address)
     local locCheck = ((value & flag) ~= 0)
     if locCheck then
-	    loc.AvailableChestCount = loc.AvailableChestCount - 1 
-	else
-		loc.AvailableChestCount = 	loc.ChestCount
+      loc.AvailableChestCount = loc.AvailableChestCount - 1 
+  else
+    loc.AvailableChestCount =   loc.ChestCount
     end
   else
     printDebug("checkBitSet: Unable to find tracker location: " .. location)  
@@ -535,7 +535,7 @@ function forceTreasureLocation(location)
 
   local loc = Tracker:FindObjectForCode(location)
   if loc then
-	loc.AvailableChestCount = loc.AvailableChestCount - 1
+  loc.AvailableChestCount = loc.AvailableChestCount - 1
   else
     printDebug("checkBitSet: Unable to find tracker location: " .. location)  
   end
