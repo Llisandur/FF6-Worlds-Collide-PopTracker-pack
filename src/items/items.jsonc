@@ -137,434 +137,372 @@
   {
     "name": "Celes",
     "type": "toggle",
-    "loop": "true",
     "img": "images/PrtCeles.png",
     "codes": "Celes"
   },
   {
     "name": "Cyan",
     "type": "toggle",
-    "loop": "true",
     "img": "images/PrtCyan.png",
     "codes": "Cyan"
   },
   {
     "name": "Edgar",
     "type": "toggle",
-    "loop": "true",
     "img": "images/PrtEdgar.png",
     "codes": "Edgar"
   },
   {
     "name": "Gau",
     "type": "toggle",
-    "loop": "true",
     "img": "images/PrtGau.png",
     "codes": "Gau"
   },
   {
     "name": "Gogo",
     "type": "toggle",
-    "loop": "true",
     "img": "images/PrtGogo.png",
     "codes": "Gogo"
   },
   {
     "name": "Locke",
     "type": "toggle",
-    "loop": "true",
     "img": "images/PrtLocke.png",
     "codes": "Locke"
   },
   {
     "name": "Mog",
     "type": "toggle",
-    "loop": "true",
     "img": "images/PrtMog.png",
     "codes": "Mog"
   },
   {
     "name": "Relm",
     "type": "toggle",
-    "loop": "true",
     "img": "images/PrtRelm.png",
     "codes": "Relm"
   },
   {
     "name": "Sabin",
     "type": "toggle",
-    "loop": "true",
     "img": "images/PrtSabin.png",
     "codes": "Sabin"
   },
   {
     "name": "Setzer",
     "type": "toggle",
-    "loop": "true",
     "img": "images/PrtSetzer.png",
     "codes": "Setzer"
   },
   {
     "name": "Shadow",
     "type": "toggle",
-    "loop": "true",
     "img": "images/PrtShadow.png",
     "codes": "Shadow"
   },
   {
     "name": "Strago",
     "type": "toggle",
-    "loop": "true",
     "img": "images/PrtStrago.png",
     "codes": "Strago"
   },
   {
     "name": "Terra",
     "type": "toggle",
-    "loop": "true",
     "img": "images/PrtTerra.png",
     "codes": "Terra"
   },
   {
     "name": "Umaro",
     "type": "toggle",
-    "loop": "true",
     "img": "images/PrtUmaro.png",
     "codes": "Umaro"
   },
   {
     "name": "Storm Dragon",
     "type": "toggle",
-    "loop": "true",
     "img": "images/StormDragon.png",
     "codes": "StormDragon"
   },
   {
     "name": "Ice Dragon",
     "type": "toggle",
-    "loop": "true",
     "img": "images/IceDragon.png",
     "codes": "IceDragon"
   },
   {
     "name": "Red Dragon",
     "type": "toggle",
-    "loop": "true",
     "img": "images/RedDragon.png",
     "codes": "RedDragon"
   },
   {
     "name": "Blue Dragon",
     "type": "toggle",
-    "loop": "true",
     "img": "images/BlueDragon.png",
     "codes": "BlueDragon"
   },
   {
     "name": "White Dragon",
     "type": "toggle",
-    "loop": "true",
     "img": "images/WhiteDragon.png",
     "codes": "WhiteDragon"
   },
   {
     "name": "Dirt Dragon",
     "type": "toggle",
-    "loop": "true",
     "img": "images/DirtDragon.png",
     "codes": "DirtDragon"
   },
   {
     "name": "Gold Dragon",
     "type": "toggle",
-    "loop": "true",
     "img": "images/GoldDragon.png",
     "codes": "GoldDragon"
   },
   {
     "name": "Skull Dragon",
     "type": "toggle",
-    "loop": "true",
     "img": "images/SkullDragon.png",
     "codes": "SkullDragon"
   },
   {
     "name": "WoB Narshe Whelk",
     "type": "toggle",
-    "loop": "true",
     "img": "images/Whelk.png",
     "codes": "Whelk"
   },
   {
     "name": "WoB Narshe Lone Wolf",
     "type": "toggle",
-    "loop": "true",
     "img": "images/LoneWolf.png",
     "codes": "LoneWolf"
   },
   {
     "name": "Figaro Throne",
     "type": "toggle",
-    "loop": "true",
     "img": "images/FigaroThrone.png",
     "codes": "FigThrone"
   },
   {
     "name": "WoB Mt Kolts Vargas",
     "type": "toggle",
-    "loop": "true",
     "img": "images/Vargas.png",
     "codes": "Vargas"
   },
   {
     "name": "WoB Sealed Cave",
     "type": "toggle",
-    "loop": "true",
     "img": "images/Maduin.png",
     "codes": "sealGate"
   },
   {
     "name": "WoB Imperial Camp",
     "type": "toggle",
-    "loop": "true",
     "img": "images/MilEnc.png",
     "codes": "ImperialCamp"
   },
   {
     "name": "WoR Narshe Wpn Locke Req",
     "type": "toggle",
-    "loop": "true",
     "img": "images/Narshe_Wpn.png",
     "codes": "NarsheWpn"
   },
   {
     "name": "WoB Doma",
     "type": "toggle",
-    "loop": "true",
     "img": "images/Captain.png",
     "codes": "WoBDoma"
   },
   {
     "name": "WoR Jidoor Owzer Mansion",
     "type": "toggle",
-    "loop": "true",
     "img": "images/Chadarnook.png",
     "codes": "Owzer"
   },
   {
     "name": "South Figaro",
     "type": "toggle",
-    "loop": "true",
     "img": "images/ChainedCeles.png",
     "codes": "ChainedCeles"
   },
   {
     "name": "WoB Zozo Ramuh",
     "type": "toggle",
-    "loop": "true",
     "img": "images/Ramuh.png",
     "codes": "ZozoRamuh"
   },
   {
     "name": "WoR Doom Gaze",
     "type": "toggle",
-    "loop": "true",
     "img": "images/DoomGaze.png",
     "codes": "DoomGaze"
   },
   {
     "name": "WoR Daryl's Tomb",
     "type": "toggle",
-    "loop": "true",
     "img": "images/Dullahan.png",
     "codes": "DarillTomb"
   },
   {
     "name": "WoB Thamasa Use Inn",
     "type": "toggle",
-    "loop": "true",
     "img": "images/FlameEater.png",
     "codes": "WoBThamasa"
   },
   {
     "name": "WoB Gau's Father's House",
     "type": "toggle",
-    "loop": "true",
     "img": "images/GauDad.png",
     "codes": "GauManor"
   },
   {
     "name": "Veldt 3 party members + Jerky",
     "type": "toggle",
-    "loop": "true",
     "img": "images/GauJerky.png",
     "codes": "VeldtJerky"
   },
   {
     "name": "WoB Phantom Train",
     "type": "toggle",
-    "loop": "true",
     "img": "images/GhostTrain.png",
     "codes": "PhantomTrain"
   },
   {
     "name": "WoB Esper Mountain",
     "type": "toggle",
-    "loop": "true",
     "img": "images/GoddessStatue.png",
     "codes": "EsperMtn"
   },
   {
     "name": "Kohlingen Inn",
     "type": "toggle",
-    "loop": "true",
     "img": "images/InterceptorKohlingen.png",
     "codes": "KohlingenDoge"
   },
   {
     "name": "WoR Fanatics Tower",
     "type": "toggle",
-    "loop": "true",
     "img": "images/MageMaster.png",
     "codes": "FanaticsTower"
   },
   {
     "name": "WoR Mobliz",
     "type": "toggle",
-    "loop": "true",
     "img": "images/Phunbaba.png",
     "codes": "Phunbaba"
   },
   {
     "name": "WoR Ancient Castle",
     "type": "toggle",
-    "loop": "true",
     "img": "images/Raiden.png",
     "codes": "AncientCastle"
   },
   {
     "name": "WoR Mt Zozo",
     "type": "toggle",
-    "loop": "true",
     "img": "images/Roses.png",
     "codes": "MtZozo"
   },
   {
     "name": "WoR Veldt Cave",
     "type": "toggle",
-    "loop": "true",
     "img": "images/SrBehemoth.png",
     "codes": "WoRVeldt"
   },
   {
     "name": "WoR Figaro Cave",
     "type": "toggle",
-    "loop": "true",
     "img": "images/Tentacle.png",
     "codes": "FigCave"
   },
   {
     "name": "WoR Narshe Tritoch",
     "type": "toggle",
-    "loop": "true",
     "img": "images/Tritoch.png",
     "codes": "TritochNrsh"
   },
   {
     "name": "WoB Backwards through South Figaro Cave",
     "type": "toggle",
-    "loop": "true",
     "img": "images/TunnelArmor.png",
     "codes": "tunnelArmor"
   },
   {
     "name": "WoR Tzen Collapsing House",
     "type": "toggle",
-    "loop": "true",
     "img": "images/TzenHouse.png",
     "codes": "TzenHouse"
   },
   {
     "name": "WoB Serpent Trench",
     "type": "toggle",
-    "loop": "true",
     "img": "images/DiveHelm.png",
     "codes": "SerpentTrench"
   },
   {
     "name": "Tzen Thief in Woods",
     "type": "toggle",
-    "loop": "true",
     "img": "images/TzenThief.png",
     "codes": "TzenThief"
   },
   {
     "name": "Kefka Tower Atma",
     "type": "toggle",
-    "loop": "true",
     "img": "images/AtmaWpn.png",
     "codes": "AtmaWpn"
   },
   {
     "name": "WoB Lete River",
     "type": "toggle",
-    "loop": "true",
     "img": "images/Ultros.png",
     "codes": "LeteRiver"
   },
   {
     "name": "WoR Narshe Umaro",
     "type": "toggle",
-    "loop": "true",
     "img": "images/Umaro.png",
     "codes": "UmaroNrsh"
   },
   {
     "name": "WoB Opera House",
     "type": "toggle",
-    "loop": "true",
     "img": "images/Weight.png",
     "codes": "OperaHouse"
   },
   {
     "name": "WoR Zone Eater",
     "type": "toggle",
-    "loop": "true",
     "img": "images/ZoneEater.png",
     "codes": "ZoneEater"
   },
   {
     "name": "WoB Baren Falls",
     "type": "toggle",
-    "loop": "true",
     "img": "images/Rizopas.png",
     "codes": "BarenFalls"
   },
   {
     "name": "WoR Ebots Rock Hidon",
     "type": "toggle",
-    "loop": "true",
     "img": "images/Hidon.png",
     "codes": "EbotsRock"
   },
   {
     "name": "WoR Phoenix Cave End",
     "type": "toggle",
-    "loop": "true",
     "img": "images/Phoenix.png",
     "codes": "PhoenixCave"
   },
   {
     "name": "WoB Narshe Kefka Invasion",
     "type": "toggle",
-    "loop": "true",
     "img": "images/Kefka.png",
     "codes": "Kefka"
   },
   {
     "name": "WoB Moogle Defense",
     "type": "toggle",
-    "loop": "true",
     "img": "images/MogDef.png",
     "codes": "MogDef"
   },
@@ -582,21 +520,18 @@
   {
     "name": "Ifrit and Shiva",
     "type": "toggle",
-    "loop": "true",
     "img": "images/Crane.png",
     "codes": "IfritandShiva"
   },
   {
     "name": "Number 024",
     "type": "toggle",
-    "loop": "true",
     "img": "images/Crane.png",
     "codes": "Number024"
   },
   {
     "name": "Cranes",
     "type": "toggle",
-    "loop": "true",
     "img": "images/Crane.png",
     "codes": "Cranes"
   },
@@ -614,14 +549,12 @@
   {
     "name": "Auction House 10kGP",
     "type": "toggle",
-    "loop": "true",
     "img": "images/Auctioneer.png",
     "codes": "AuctionHouse10kGP"
   },
   {
     "name": "Auction House 20kGP",
     "type": "toggle",
-    "loop": "true",
     "img": "images/Auctioneer.png",
     "codes": "AuctionHouse20kGP"
   },
@@ -639,21 +572,18 @@
   {
     "name": "Imperial Air Force",
     "type": "toggle",
-    "loop": "true",
     "img": "images/ShadowYump.png",
     "codes": "ImperialAirForce"
   },
   {
     "name": "AtmaWeapon",
     "type": "toggle",
-    "loop": "true",
     "img": "images/ShadowYump.png",
     "codes": "AtmaWeapon"
   },
   {
     "name": "Nerapa",
     "type": "toggle",
-    "loop": "true",
     "img": "images/ShadowYump.png",
     "codes": "Nerapa"
   },
@@ -671,21 +601,18 @@
   {
     "name": "Dream Stooges",
     "type": "toggle",
-    "loop": "true",
     "img": "images/Wrexsoul.png",
     "codes": "DreamStooges"
   },
   {
     "name": "Wrexsoul",
     "type": "toggle",
-    "loop": "true",
     "img": "images/Wrexsoul.png",
     "codes": "Wrexsoul"
   },
   {
     "name": "Doma Castle Throne",
     "type": "toggle",
-    "loop": "true",
     "img": "images/Wrexsoul.png",
     "codes": "DomaCastleThrone"
   },

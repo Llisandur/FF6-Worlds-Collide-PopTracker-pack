@@ -12,7 +12,7 @@ LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 
 -- resets an item to its initial state
-function resetItem(item_code, item_type)
+function resetItem(item_code, item_type, keep_stage)
   local obj = Tracker:FindObjectForCode(item_code)
   if obj then
     item_type = item_type or obj.Type
@@ -22,7 +22,9 @@ function resetItem(item_code, item_type)
     if item_type == "toggle" or item_type == "toggle_badged" then
       obj.Active = false
     elseif item_type == "progressive" or item_type == "progressive_toggle" then
+      if not keep_stage then
       obj.CurrentStage = 0
+      end
       obj.Active = false
     elseif item_type == "consumable" then
       obj.AcquiredCount = 0
@@ -43,7 +45,7 @@ function resetItem(item_code, item_type)
 end
 
 -- advances the state of an item
-function incrementItem(item_code, item_type, multiplier)
+function incrementItem(item_code, item_type, keep_stage)
   local obj = Tracker:FindObjectForCode(item_code)
   if obj then
     item_type = item_type or obj.Type
@@ -53,13 +55,13 @@ function incrementItem(item_code, item_type, multiplier)
     if item_type == "toggle" or item_type == "toggle_badged" then
       obj.Active = true
     elseif item_type == "progressive" or item_type == "progressive_toggle" then
-      if obj.Active then
+      if obj.Active and not keep_stage then
         obj.CurrentStage = obj.CurrentStage + 1
       else
         obj.Active = true
       end
     elseif item_type == "consumable" then
-      obj.AcquiredCount = obj.AcquiredCount + obj.Increment * multiplier
+      obj.AcquiredCount = obj.AcquiredCount + obj.Increment
     elseif item_type == "custom" then
       -- your code for your custom lua items goes here
     elseif item_type == "static" and AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -90,7 +92,7 @@ function onClear(slot_data)
   end
   CUR_INDEX = -1
   -- reset locations
-  for _, mapping_entry in pairs(LOCATION_MAPPING) do
+  for location_id, mapping_entry in pairs(LOCATION_MAPPING) do
     for _, location_table in ipairs(mapping_entry) do
       if location_table then
         local location_code = location_table[1]
@@ -108,7 +110,8 @@ function onClear(slot_data)
           else
             -- reset hosted item
             local item_type = location_table[2]
-            resetItem(location_code, item_type)
+            local keep_stage = location_table[3] or false
+            resetItem(location_code, item_type, keep_stage)
           end
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
           print(string.format("onClear: skipping location_table with no location_code"))
@@ -117,6 +120,7 @@ function onClear(slot_data)
         print(string.format("onClear: skipping empty location_table"))
       end
     end
+    updateHintsClear(location_id)
   end
   -- reset items
   for _, mapping_entry in pairs(ITEM_MAPPING) do
@@ -124,8 +128,9 @@ function onClear(slot_data)
       if item_table then
         local item_code = item_table[1]
         local item_type = item_table[2]
+        local keep_stage = item_table[3] or false
         if item_code then
-          resetItem(item_code, item_type)
+          resetItem(item_code, item_type, keep_stage)
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
           print(string.format("onClear: skipping item_table with no item_code"))
         end
@@ -135,8 +140,18 @@ function onClear(slot_data)
     end
   end
   apply_slot_data(slot_data)
+  PLAYER_NUMBER = Archipelago.PlayerNumber or -1
+  TEAM_NUMBER = Archipelago.TeamNumber or 0
+
   LOCAL_ITEMS = {}
   GLOBAL_ITEMS = {}
+
+  if PLAYER_NUMBER > -1 then
+    HINTS_ID = "_read_hints_" .. TEAM_NUMBER .. "_" .. PLAYER_NUMBER
+    Archipelago:SetNotify({ HINTS_ID })
+    Archipelago:Get({ HINTS_ID })
+  end
+
   -- manually run snes interface functions after onClear in case we need to update them (i.e. because they need slot_data)
   if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
     -- add snes interface functions here
@@ -168,9 +183,9 @@ function onItem(index, item_id, item_name, player_number)
     if item_table then
       local item_code = item_table[1]
       local item_type = item_table[2]
-      local multiplier = item_table[3] or 1
+      local keep_stage = item_table[3] or false
       if item_code then
-        incrementItem(item_code, item_type, multiplier)
+        incrementItem(item_code, item_type, keep_stage)
         -- keep track which items we touch are local and which are global
         if is_local then
           if LOCAL_ITEMS[item_code] then
@@ -200,7 +215,6 @@ function onItem(index, item_id, item_name, player_number)
   if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
     -- add snes interface functions for local item tracking here
   end
-  --print(string.format("updatePartyAP: test %s", Tracker:ProviderCountForCode("Terra")))
 end
 
 -- called when a location gets cleared
@@ -226,12 +240,11 @@ function onLocation(location_id, location_name)
         if obj then
           if location_code:sub(1, 1) == "@" then
             obj.AvailableChestCount = obj.AvailableChestCount - 1
-            print(string.format("test: %s, %s", location_table[1], location_table[2]))
           else
             -- increment hosted item
             local item_type = location_table[2]
-            local multiplier = 1
-            incrementItem(location_code, item_type, multiplier)
+            local keep_stage = location_table[3] or false
+            incrementItem(location_code, item_type, keep_stage)
           end
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
           print(string.format("onLocation: could not find object for code %s", location_code))
@@ -242,6 +255,84 @@ function onLocation(location_id, location_name)
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
       print(string.format("onLocation: skipping empty location_table"))
     end
+  end
+end
+
+function GetHighlightFromStatus(status)
+  if status == 0 then
+    return Highlight.Unspecified
+  elseif status == 10 then
+    return Highlight.NoPriority
+  elseif status == 20 then
+    return Highlight.Avoid
+  elseif status == 30 then
+    return Highlight.Priority
+  end
+end
+
+function onNotify(key, value, old_value)
+  if value ~= old_value and key == HINTS_ID then
+    for _, hint in ipairs(value) do
+      if hint.finding_player == Archipelago.PlayerNumber then
+        if not hint.found then
+          updateHints(hint.location, GetHighlightFromStatus(hint.status))
+        elseif hint.found then
+          updateHints(hint.location, Highlight.None)
+        end
+      end
+    end
+  end
+end
+
+function onNotifyLaunch(key, value)
+  if key == HINTS_ID then
+    for _, hint in ipairs(value) do
+      if hint.finding_player == Archipelago.PlayerNumber then
+        if not hint.found then
+          updateHints(hint.location, GetHighlightFromStatus(hint.status))
+        elseif hint.found then
+          updateHints(hint.location, Highlight.None)
+        end
+      end
+    end
+  end
+end
+
+function updateHints(locationID, highlight)
+  if not Highlight then
+    return
+  end
+
+  if not LOCATION_MAPPING[locationID] then
+    return
+  end
+
+  local location_name = LOCATION_MAPPING[locationID][1][1]
+  local obj = Tracker:FindObjectForCode(location_name)
+
+  if obj then
+    obj.Highlight = highlight
+  else
+    print(string.format("No object found for code: %s", location_name))
+  end
+end
+
+function updateHintsClear(locationID)
+  if not Highlight then
+    return
+  end
+
+  if not LOCATION_MAPPING[locationID] then
+    return
+  end
+
+  local location_name = LOCATION_MAPPING[locationID][1][1]
+  local obj = Tracker:FindObjectForCode(location_name)
+
+  if obj then
+    obj.Highlight = Highlight.None
+  else
+    print(string.format("No object found for code: %s", location_name))
   end
 end
 
@@ -271,6 +362,11 @@ end
 if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
   Archipelago:AddLocationHandler("location handler", onLocation)
 end
+if Highlight then
+  Archipelago:AddSetReplyHandler("notify handler", onNotify)
+  Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)
+end
+
 -- Archipelago:AddScoutHandler("scout handler", onScout)
 -- Archipelago:AddBouncedHandler("bounce handler", onBounce)
 

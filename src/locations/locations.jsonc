@@ -13,7 +13,8 @@
             "sections": [
               {
                 "name": "Lete River",
-                "hosted_item": "LeteRiver"
+                "hosted_item": "LeteRiver",
+                "access_rules": ["Terra", "openworld"]
               },
               {
                 "name": "Banon's Room",
@@ -563,6 +564,24 @@
                 "map": "Treasure Map",
                 "x": 410,
                 "y": 403
+              }
+            ]
+          },
+          {
+            "name": "Gau's Father's House",
+            "access_rules": [],
+            "sections": [
+              {
+                "name": "Gau's Father's House",
+                "access_rules": ["Shadow", "openworld"],
+                "hosted_item": "GauManor"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "Treasure Map",
+                "x": 660,
+                "y": 140
               }
             ]
           },
@@ -2651,7 +2670,7 @@
             "sections": [
               {
                 "name": "Lete River",
-                "hosted_item": "LeteRiver"
+                "ref": "All Treasure Locations/World of Balance/Returner's Hideout/Lete River"
               }
             ],
             "map_locations": [
@@ -2667,8 +2686,8 @@
             "access_rules": ["Terra", "openworld"],
             "sections": [
               {
-                "name": "Sealed Gate",
-                "hosted_item": "sealGate"
+                "name": "Sealed Cave",
+                "ref": "All Treasure Locations/World of Balance/Sealed Gate/Sealed Cave"
               }
             ],
             "map_locations": [
@@ -2685,22 +2704,19 @@
             "sections": [
               {
                 "name": "Whelk",
-                "access_rules": ["Terra", "openworld"],
-                "hosted_item": "Whelk"
+                "ref": "All Treasure Locations/World of Balance/Narshe/Whelk"
               },
               {
                 "name": "Kefka",
-                "hosted_item": "Kefka"
+                "ref": "All Treasure Locations/World of Balance/Narshe/Kefka"
               },
               {
                 "name": "Lone Wolf",
-                "access_rules": ["Mog", "openworld"],
-                "hosted_item": "LoneWolf"
+                "ref": "All Treasure Locations/World of Balance/Narshe/Lone Wolf"
               },
               {
                 "name": "Moogle Defense",
-                "access_rules": ["Mog", "openworld"],
-                "hosted_item": "MogDef"
+                "ref": "All Treasure Locations/World of Balance/Narshe/Moogle Defense"
               }
             ],
             "map_locations": [
@@ -2717,8 +2733,7 @@
             "sections": [
               {
                 "name": "Ramuh",
-                "access_rules": ["Terra", "openworld"],
-                "hosted_item": "ZozoRamuh"
+                "ref": "All Treasure Locations/World of Balance/Zozo/Ramuh"
               }
             ],
             "map_locations": [
@@ -2735,8 +2750,7 @@
             "sections": [
               {
                 "name": "Baren Falls",
-                "access_rules": ["Sabin", "openworld"],
-                "hosted_item": "BarenFalls"
+                "ref": "All Treasure Locations/World of Balance/Baren Falls/Baren Falls"
               }
             ],
             "map_locations": [
@@ -2753,8 +2767,7 @@
             "sections": [
               {
                 "name": "Vargas",
-                "access_rules": ["Sabin", "openworld"],
-                "hosted_item": "Vargas"
+                "ref": "All Treasure Locations/World of Balance/Mt. Kolts/Vargas"
               }
             ],
             "map_locations": [
@@ -2771,8 +2784,7 @@
             "sections": [
               {
                 "name": "Phantom Train",
-                "access_rules": ["Sabin", "openworld"],
-                "hosted_item": "PhantomTrain"
+                "ref": "All Treasure Locations/World of Balance/Phantom Train/Phantom Train"
               }
             ],
             "map_locations": [
@@ -2784,31 +2796,12 @@
             ]
           },
           {
-            "name": "Gau's Father's House",
-            "access_rules": [],
-            "sections": [
-              {
-                "name": "Gau's Father's House",
-                "access_rules": ["Shadow", "openworld"],
-                "hosted_item": "GauManor"
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "Treasure Map",
-                "x": 660,
-                "y": 140
-              }
-            ]
-          },
-          {
             "name": "Imperial Camp",
             "access_rules": [],
             "sections": [
               {
                 "name": "Imperial Camp",
-                "access_rules": ["Sabin", "openworld"],
-                "hosted_item": "ImperialCamp"
+                "ref": "All Treasure Locations/World of Balance/Imperial Camp/Imperial Camp"
               }
             ],
             "map_locations": [
@@ -2825,8 +2818,7 @@
             "sections": [
               {
                 "name": "Opera",
-                "access_rules": ["Celes", "openworld"],
-                "hosted_item": "OperaHouse"
+                "ref": "All Treasure Locations/World of Balance/Opera House/Opera"
               }
             ],
             "map_locations": [
@@ -2843,8 +2835,7 @@
             "sections": [
               {
                 "name": "Celes' Cell",
-                "access_rules": ["Celes", "openworld"],
-                "hosted_item": "ChainedCeles"
+                "ref": "All Treasure Locations/World of Balance/South Figaro/Celes' Cell"
               }
             ],
             "map_locations": [
@@ -2861,11 +2852,11 @@
             "sections": [
               {
                 "name": "Auction House 10kGP",
-                "hosted_item": "AuctionHouse10kGP"
+                "ref": "All Treasure Locations/World of Balance/Jidoor/Auction House 10kGP"
               },
               {
                 "name": "Auction House 20kGP",
-                "hosted_item": "AuctionHouse20kGP"
+                "ref": "All Treasure Locations/World of Balance/Jidoor/Auction House 20kGP"
               }
             ],
             "map_locations": [
@@ -2882,8 +2873,7 @@
             "sections": [
               {
                 "name": "Kohlingen Inn",
-                "access_rules": ["Setzer", "openworld"],
-                "hosted_item": "KohlingenDoge"
+                "ref": "All Treasure Locations/World of Balance/Kohlingen/Kohlingen Inn"
               }
             ],
             "map_locations": [
@@ -2905,8 +2895,7 @@
             "sections": [
               {
                 "name": "Diver's Helmet",
-                "access_rules": ["Gau", "openworld"],
-                "hosted_item": "SerpentTrench"
+                "ref": "All Treasure Locations/World of Balance/Serpent Trench/Diver's Helmet"
               }
             ],
             "map_locations": [
@@ -2923,8 +2912,7 @@
             "sections": [
               {
                 "name": "Three Party Members and Dried Meat",
-                "access_rules": ["Gau", "openworld"],
-                "hosted_item": "VeldtJerky"
+                "ref": "All Treasure Locations/World of Balance/Veldt/Three Party Members and Dried Meat"
               }
             ],
             "map_locations": [
@@ -2941,8 +2929,7 @@
             "sections": [
               {
                 "name": "Figaro Throne",
-                "access_rules": ["Edgar", "openworld"],
-                "hosted_item": "FigThrone"
+                "ref": "All Treasure Locations/World of Balance/Figaro Castle/Figaro Throne"
               }
             ],
             "map_locations": [
@@ -2959,8 +2946,7 @@
             "sections": [
               {
                 "name": "Tunnel Armor",
-                "access_rules": ["Locke", "openworld"],
-                "hosted_item": "tunnelArmor"
+                "ref": "All Treasure Locations/World of Balance/South Figaro Cave/Tunnel Armor"
               }
             ],
             "map_locations": [
@@ -2977,8 +2963,7 @@
             "sections": [
               {
                 "name": "Doma",
-                "access_rules": ["Cyan", "openworld"],
-                "hosted_item": "WoBDoma"
+                "ref": "All Treasure Locations/World of Balance/Doma Castle/Doma"
               }
             ],
             "map_locations": [
@@ -2995,8 +2980,7 @@
             "sections": [
               {
                 "name": "Esper Mountain",
-                "access_rules": ["Relm", "openworld"],
-                "hosted_item": "EsperMtn"
+                "ref": "All Treasure Locations/World of Balance/Esper Mountain/Esper Mountain"
               }
             ],
             "map_locations": [
@@ -3013,8 +2997,7 @@
             "sections": [
               {
                 "name": "Burning House | Rest at Inn",
-                "access_rules": ["Strago", "openworld"],
-                "hosted_item": "WoBThamasa"
+                "ref": "All Treasure Locations/World of Balance/Burning House/Burning House | Rest at Inn"
               }
             ],
             "map_locations": [
@@ -3036,7 +3019,7 @@
             "sections": [
               {
                 "name": "Thief in the Woods",
-                "hosted_item": "TzenThief"
+                "ref": "All Treasure Locations/World of Balance/Tzen/Thief in the Woods"
               }
             ],
             "map_locations": [
@@ -3053,18 +3036,15 @@
             "sections": [
               {
                 "name": "Ifrit and Shiva",
-                "access_rules": ["Celes", "openworld"],
-                "hosted_item": "IfritandShiva"
+                "ref": "All Treasure Locations/World of Balance/Magitek Factory/Ifrit and Shiva"
               },
               {
                 "name": "Number 024",
-                "access_rules": ["Celes", "openworld"],
-                "hosted_item": "Number024"
+                "ref": "All Treasure Locations/World of Balance/Magitek Factory/Number 024"
               },
               {
                 "name": "Cranes",
-                "access_rules": ["Celes", "openworld"],
-                "hosted_item": "Cranes"
+                "ref": "All Treasure Locations/World of Balance/Magitek Factory/Cranes"
               }
             ],
             "map_locations": [
@@ -3081,8 +3061,7 @@
             "sections": [
               {
                 "name": "Gau's Father's House",
-                "access_rules": ["Shadow", "openworld"],
-                "hosted_item": "GauManor"
+                "ref": "All Treasure Locations/World of Balance/Gau's Father's House/Gau's Father's House"
               }
             ],
             "map_locations": [
@@ -3099,15 +3078,15 @@
             "sections": [
               {
                 "name": "Imperial Air Force",
-                "hosted_item": "ImperialAirForce"
+                "ref": "All Treasure Locations/World of Balance/Floating Continent/Imperial Air Force"
               },
               {
                 "name": "AtmaWeapon",
-                "hosted_item": "AtmaWeapon"
+                "ref": "All Treasure Locations/World of Balance/Floating Continent/Atma Weapon"
               },
               {
                 "name": "Nerapa",
-                "hosted_item": "Nerapa"
+                "ref": "All Treasure Locations/World of Balance/Floating Continent/Nerapa"
               }
             ],
             "map_locations": [
@@ -3131,8 +3110,7 @@
             "sections": [
               {
                 "name": "Phunbaba",
-                "access_rules": ["Terra", "openworld"],
-                "hosted_item": "Phunbaba"
+                "ref": "All Treasure Locations/World of Ruin/ Mobliz/Phunbaba"
               }
             ],
             "map_locations": [
@@ -3149,11 +3127,10 @@
             "sections": [
               {
                 "name": "Collapsing House",
-                "access_rules": ["Sabin", "openworld"],
-                "hosted_item": "TzenHouse"
+                "ref": "All Treasure Locations/World of Ruin/ Tzen/Collapsing House"
               },
               {
-                "ref": "All Locations/World of Balance/WoB Tzen/Thief in the Woods"
+                "ref": "All Treasure Locations/World of Balance/Tzen/Thief in the Woods"
               }
             ],
             "map_locations": [
@@ -3170,8 +3147,7 @@
             "sections": [
               {
                 "name": "Daryl's Tomb",
-                "access_rules": ["Setzer", "openworld"],
-                "hosted_item": "DarillTomb"
+                "ref": "All Treasure Locations/World of Ruin/Daryl's Tomb/Daryl's Tomb"
               }
             ],
             "map_locations": [
@@ -3188,11 +3164,11 @@
             "sections": [
               {
                 "name": "Phoenix",
-                "hosted_item": "PhoenixCave"
+                "ref": "All Treasure Locations/World of Ruin/Phoenix Cave/Phoenix"
               },
               {
                 "name": "Red Dragon",
-                "hosted_item": "RedDragon"
+                "ref": "All Treasure Locations/World of Ruin/Phoenix Cave/Red Dragon"
               }
             ],
             "map_locations": [
@@ -3209,8 +3185,7 @@
             "sections": [
               {
                 "name": "Gogo",
-                "access_rules": ["Gogo", "openworld"],
-                "hosted_item": "ZoneEater"
+                "ref": "All Treasure Locations/World of Ruin/Zone Eater/Gogo"
               }
             ],
             "map_locations": [
@@ -3227,21 +3202,19 @@
             "sections": [
               {
                 "name": "Weapon Shop",
-                "access_rules": ["Locke", "openworld"],
-                "hosted_item": "NarsheWpn"
+                "ref": "All Treasure Locations/World of Ruin/ Narshe/Weapon Shop"
               },
               {
                 "name": "Ice Dragon",
-                "hosted_item": "IceDragon"
+                "ref": "All Treasure Locations/World of Ruin/ Narshe/Ice Dragon"
               },
               {
                 "name": "Tritoch",
-                "hosted_item": "TritochNrsh"
+                "ref": "All Treasure Locations/World of Ruin/ Narshe/Tritoch"
               },
               {
                 "name": "Umaro",
-                "access_rules": ["Umaro", "openworld"],
-                "hosted_item": "UmaroNrsh"
+                "ref": "All Treasure Locations/World of Ruin/ Narshe/Umaro"
               }
             ],
             "map_locations": [
@@ -3258,18 +3231,15 @@
             "sections": [
               {
                 "name": "Dream Stooges",
-                "access_rules": ["Cyan", "openworld"],
-                "hosted_item": "DreamStooges"
+                "ref": "All Treasure Locations/World of Ruin/Cyan's Dream/Dream Stooges"
               },
               {
                 "name": "Wrexsoul",
-                "access_rules": ["Cyan", "openworld"],
-                "hosted_item": "Wrexsoul"
+                "ref": "All Treasure Locations/World of Ruin/Cyan's Dream/Wrexsoul"
               },
               {
                 "name": "Doma Castle Throne",
-                "access_rules": ["Cyan", "openworld"],
-                "hosted_item": "DomaCastleThrone"
+                "ref": "All Treasure Locations/World of Ruin/ Doma Castle/Doma Castle Throne"
               }
             ],
             "map_locations": [
@@ -3286,12 +3256,11 @@
             "sections": [
               {
                 "name": "Fanatic's Tower",
-                "access_rules": ["Strago", "openworld"],
-                "hosted_item": "FanaticsTower"
+                "ref": "All Treasure Locations/World of Ruin/Fanatic's Tower/Gem Box"
               },
               {
                 "name": "White Dragon",
-                "hosted_item": "WhiteDragon"
+                "ref": "All Treasure Locations/World of Ruin/Fanatic's Tower/White Dragon"
               }
             ],
             "map_locations": [
@@ -3308,8 +3277,7 @@
             "sections": [
               {
                 "name": "Figaro Castle Engine Room",
-                "access_rules": ["Edgar", "openworld"],
-                "hosted_item": "FigCave"
+                "ref": "All Treasure Locations/World of Ruin/ South Figaro Cave/Figaro Castle Engine Room"
               }
             ],
             "map_locations": [
@@ -3326,16 +3294,14 @@
             "sections": [
               {
                 "name": "Ancient Castle",
-                "access_rules": ["Edgar", "openworld"],
-                "hosted_item": "AncientCastle"
+                "ref": "All Treasure Locations/World of Ruin/Ancient Castle/Ancient Castle"
               },
               {
                 "name": "Blue Dragon",
-                "access_rules": ["Edgar", "openworld"],
-                "hosted_item": "BlueDragon"
+                "ref": "All Treasure Locations/World of Ruin/Ancient Castle/Blue Dragon"
               },
               {
-                "ref": "All Locations/World of Balance/WoB Figaro Castle/Figaro Throne"
+                "ref": "All Treasure Locations/World of Balance/Figaro Castle/Figaro Throne"
               }
             ],
             "map_locations": [
@@ -3352,16 +3318,15 @@
             "sections": [
               {
                 "name": "Owzer's Mansion",
-                "access_rules": ["Relm", "openworld"],
-                "hosted_item": "Owzer"
+                "ref": "All Treasure Locations/World of Ruin/ Jidoor/Owzer's Basement"
               },
               {
                 "name": "Auction House 10kGP ",
-                "ref": "All Locations/World of Balance/WoB Jidoor/Auction House 10kGP"
+                "ref": "All Treasure Locations/World of Balance/Jidoor/Auction House 10kGP"
               },
               {
                 "name": "Auction House 20kGP ",
-                "ref": "All Locations/World of Balance/WoB Jidoor/Auction House 20kGP"
+                "ref": "All Treasure Locations/World of Balance/Jidoor/Auction House 20kGP"
               }
             ],
             "map_locations": [
@@ -3378,11 +3343,11 @@
             "sections": [
               {
                 "name": "Mt. Zozo",
-                "hosted_item": "MtZozo"
+                "ref": "All Treasure Locations/World of Ruin/Mt. Zozo/Mt. Zozo"
               },
               {
                 "name": "Storm Dragon",
-                "hosted_item": "StormDragon"
+                "ref": "All Treasure Locations/World of Ruin/Mt. Zozo/Storm Dragon"
               }
             ],
             "map_locations": [
@@ -3399,8 +3364,7 @@
             "sections": [
               {
                 "name": "Hidon",
-                "access_rules": ["Strago", "openworld"],
-                "hosted_item": "EbotsRock"
+                "ref": "All Treasure Locations/World of Ruin/Ebots Rock/Hidon"
               }
             ],
             "map_locations": [
@@ -3417,8 +3381,7 @@
             "sections": [
               {
                 "name": "SrBehemoth",
-                "access_rules": ["Shadow", "openworld"],
-                "hosted_item": "WoRVeldt"
+                "ref": "All Treasure Locations/World of Ruin/Veldt Cave/SrBehemoth"
               }
             ],
             "map_locations": [
@@ -3435,7 +3398,7 @@
             "sections": [
               {
                 "name": "Doomgaze",
-                "hosted_item": "DoomGaze"
+                "ref": "All Treasure Locations/World of Ruin/Doomgaze/Doomgaze"
               }
             ],
             "map_locations": [
@@ -3452,7 +3415,7 @@
             "sections": [
               {
                 "name": "Dirt Dragon",
-                "hosted_item": "DirtDragon"
+                "ref": "All Treasure Locations/World of Ruin/Opera House/Dirt Dragon"
               }
             ],
             "map_locations": [
@@ -3468,7 +3431,7 @@
             "access_rules": [],
             "sections": [
               {
-                "ref": "All Locations/World of Balance/WoB Veldt/Three Party Members and Dried Meat"
+                "ref": "All Treasure Locations/World of Balance/Veldt/Three Party Members and Dried Meat"
               }
             ],
             "map_locations": [
@@ -3485,15 +3448,15 @@
             "sections": [
               {
                 "name": "Atma",
-                "hosted_item": "AtmaWpn"
+                "ref": "All Treasure Locations/World of Ruin/Kefka's Tower/Atma"
               },
               {
                 "name": "Gold Dragon",
-                "hosted_item": "GoldDragon"
+                "ref": "All Treasure Locations/World of Ruin/Kefka's Tower/Gold Dragon"
               },
               {
                 "name": "Skull Dragon",
-                "hosted_item": "SkullDragon"
+                "ref": "All Treasure Locations/World of Ruin/Kefka's Tower/Skull Dragon"
               }
             ],
             "map_locations": [
