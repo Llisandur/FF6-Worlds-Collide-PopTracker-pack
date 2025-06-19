@@ -1,6 +1,14 @@
 {
   "versions": [
     {
+      "package_version": "1.3.1",
+      "download_url": "https://github.com/llisandur/ff6-worlds-collide-poptracker-pack/releases/download/1.3.1/ff6wc-ap-tracker-1.3.1.zip",
+      "sha256": "7c2985d67a584375b13a51ba0b01c084531128f38d3ee90356392349cc8ceb50",
+      "changelog": [
+        "Remove debugger\n"
+      ]
+    },
+    {
       "package_version": "1.3.0",
       "download_url": "https://github.com/llisandur/ff6-worlds-collide-poptracker-pack/releases/download/1.3.0/ff6wc-ap-tracker-1.3.0.zip",
       "sha256": "be048db958c358ce8548458e2e10bf7f608fb1f8857e1dcc76fba5d3df7c6c41",
