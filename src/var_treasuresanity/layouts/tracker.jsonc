@@ -433,11 +433,11 @@
       "type": "tabbed",
       "tabs": [
         {
-          "title": "Major Checks Only",
+          "title": "Treasuresanity",
           "content": {
             "type": "map",
             "maps": [
-              "Combined Map"
+              "Treasure Map"
             ]
           }
         }
