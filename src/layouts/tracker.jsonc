@@ -433,20 +433,11 @@
       "type": "tabbed",
       "tabs": [
         {
-          "title": "Checks Only",
+          "title": "Major Checks Only",
           "content": {
             "type": "map",
             "maps": [
               "Combined Map"
-            ]
-          }
-        },
-        {
-          "title": "Treasuresanity",
-          "content": {
-            "type": "map",
-            "maps": [
-              "Treasure Map"
             ]
           }
         }
