@@ -171,6 +171,11 @@
             "access_rules": ["Terra", "openworld"],
             "sections": [
               {
+                "name": "Entrance",
+                "access_rules": [],
+                "item_count": 1
+              },
+              {
                 "name": "Sealed Cave",
                 "hosted_item": "sealGate"
               },
@@ -200,27 +205,17 @@
                 "item_count": 1
               },
               {
+                "name": "Save Point",
+                "access_rules": [],
+                "item_count": 1
+              },
+              {
                 "name": "Basement 3 Plaza",
                 "access_rules": [],
                 "item_count": 1
               },
               {
                 "name": "Basement 3 Hidden Passage",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Basement 3 Bridge",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Entrance",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Save Point",
                 "access_rules": [],
                 "item_count": 1
               },
@@ -241,6 +236,11 @@
               },
               {
                 "name": "Treasure Room Upper Floor Right",
+                "access_rules": [],
+                "item_count": 1
+              },
+              {
+                "name": "Basement 3 Bridge",
                 "access_rules": [],
                 "item_count": 1
               }
@@ -539,7 +539,7 @@
                 "hosted_item": "Vargas"
               },
               {
-                "name": "Exit",
+                "name": "West Face South",
                 "access_rules": [],
                 "item_count": 1
               },
@@ -549,12 +549,12 @@
                 "item_count": 1
               },
               {
-                "name": "West Face South",
+                "name": "West Face North",
                 "access_rules": [],
                 "item_count": 1
               },
               {
-                "name": "West Face North",
+                "name": "Exit",
                 "access_rules": [],
                 "item_count": 1
               }
@@ -1436,11 +1436,6 @@
                 "hosted_item": "TritochNrsh"
               },
               {
-                "name": "Umaro",
-                "access_rules": ["Umaro", "openworld"],
-                "hosted_item": "UmaroNrsh"
-              },
-              {
                 "name": "Arvis's Clock ",
                 "ref": "All Treasure Locations/World of Balance/Narshe/Arvis's Clock"
               },
@@ -1999,34 +1994,16 @@
             "sections": [
               {
                 "name": "Phoenix",
+                "access_rules": ["Locke", "openworld"],
                 "hosted_item": "PhoenixCave"
               },
               {
                 "name": "Red Dragon",
+                "access_rules": ["Locke", "openworld"],
                 "hosted_item": "RedDragon"
               },
               {
-                "name": "Lower Cavern East Pool Island",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Lower Cavern East Pool Bridge",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Lower Cavern Spikes",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Lower Cavern Rock Jumping",
-                "access_rules": [],
-                "item_count": 1
-              },
-              {
-                "name": "Lower Cavern Cool Lava",
+                "name": "Upper Cavern Across Bridge",
                 "access_rules": [],
                 "item_count": 1
               },
@@ -2041,7 +2018,27 @@
                 "item_count": 1
               },
               {
-                "name": "Upper Cavern Across Bridge",
+                "name": "Lower Cavern Rock Jumping",
+                "access_rules": [],
+                "item_count": 1
+              },
+              {
+                "name": "Lower Cavern East Pool Bridge",
+                "access_rules": [],
+                "item_count": 1
+              },
+              {
+                "name": "Lower Cavern Spikes",
+                "access_rules": [],
+                "item_count": 1
+              },
+              {
+                "name": "Lower Cavern East Pool Island",
+                "access_rules": [],
+                "item_count": 1
+              },
+              {
+                "name": "Lower Cavern Cool Lava",
                 "access_rules": [],
                 "item_count": 1
               },
@@ -2127,6 +2124,11 @@
             "access_rules": ["Umaro", "openworld"],
             "sections": [
               {
+                "name": "Umaro",
+                "access_rules": ["Umaro", "openworld"],
+                "hosted_item": "UmaroNrsh"
+              },
+              {
                 "name": "Basement 1 Lower Left",
                 "access_rules": [],
                 "item_count": 1
@@ -2198,13 +2200,17 @@
             "access_rules": [],
             "sections": [
               {
-                "name": "Gem Box",
+                "name": "MagiMaster",
                 "access_rules": ["Strago", "openworld"],
                 "hosted_item": "FanaticsTower"
               },
               {
                 "name": "White Dragon",
                 "hosted_item": "WhiteDragon"
+              },
+              {
+                "name": "Gem Box",
+                "access_rules": ["Strago", "openworld"]
               },
               {
                 "name": "Eighth Floor",
@@ -3160,7 +3166,7 @@
           },
           {
             "name": "Phoenix Cave",
-            "access_rules": ["Locke", "openworld"],
+            "access_rules": ["$hasRequiredCharacterCountPC"],
             "sections": [
               {
                 "name": "Phoenix",
@@ -3214,7 +3220,7 @@
               },
               {
                 "name": "Umaro",
-                "ref": "All Treasure Locations/World of Ruin/ Narshe/Umaro"
+                "ref": "All Treasure Locations/World of Ruin/Umaro's Cave/Umaro"
               }
             ],
             "map_locations": [
@@ -3256,7 +3262,7 @@
             "sections": [
               {
                 "name": "Fanatic's Tower",
-                "ref": "All Treasure Locations/World of Ruin/Fanatic's Tower/Gem Box"
+                "ref": "All Treasure Locations/World of Ruin/Fanatic's Tower/MagiMaster"
               },
               {
                 "name": "White Dragon",
