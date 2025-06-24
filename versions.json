@@ -1,6 +1,14 @@
 {
   "versions": [
     {
+      "package_version": "1.3.3",
+      "download_url": "https://github.com/llisandur/ff6-worlds-collide-poptracker-pack/releases/download/1.3.3/ff6wc-ap-tracker-1.3.3.zip",
+      "sha256": "33807d9898b463a94db2b5a52b07ea40664a0e18ab911b2780f3ccce422aacd8",
+      "changelog": [
+        "Should fix SNES connector\n"
+      ]
+    },
+    {
       "package_version": "1.3.2",
       "download_url": "https://github.com/llisandur/ff6-worlds-collide-poptracker-pack/releases/download/1.3.2/ff6wc-ap-tracker-1.3.2.zip",
       "sha256": "2f248976736689cf796684b61db2da2c4bd1302f5f775c4beef5229768654294",
