@@ -176,7 +176,7 @@
                 "item_count": 1
               },
               {
-                "name": "Sealed Cave",
+                "name": "Sealed Gate",
                 "hosted_item": "sealGate"
               },
               {
@@ -1047,7 +1047,7 @@
             "access_rules": [],
             "sections": [
               {
-                "name": "Doma",
+                "name": "Doma Siege",
                 "access_rules": ["Cyan", "openworld"],
                 "hosted_item": "WoBDoma"
               },
@@ -2692,8 +2692,8 @@
             "access_rules": ["Terra", "openworld"],
             "sections": [
               {
-                "name": "Sealed Cave",
-                "ref": "All Treasure Locations/World of Balance/Sealed Gate/Sealed Cave"
+                "name": "Sealed Gate",
+                "ref": "All Treasure Locations/World of Balance/Sealed Gate/Sealed Gate"
               }
             ],
             "map_locations": [
@@ -2968,8 +2968,8 @@
             "access_rules": [],
             "sections": [
               {
-                "name": "Doma",
-                "ref": "All Treasure Locations/World of Balance/Doma Castle/Doma"
+                "name": "Doma Siege",
+                "ref": "All Treasure Locations/World of Balance/Doma Castle/Doma Siege"
               }
             ],
             "map_locations": [

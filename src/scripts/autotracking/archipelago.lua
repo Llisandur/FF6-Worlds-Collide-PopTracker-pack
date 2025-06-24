@@ -155,6 +155,9 @@ function onClear(slot_data)
   -- manually run snes interface functions after onClear in case we need to update them (i.e. because they need slot_data)
   if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
     -- add snes interface functions here
+    ScriptHost:RemoveMemoryWatch("Party")
+    ScriptHost:RemoveMemoryWatch("Events")
+    ScriptHost:RemoveMemoryWatch("Counters")
   end
   Tracker.BulkUpdate = false
 end
