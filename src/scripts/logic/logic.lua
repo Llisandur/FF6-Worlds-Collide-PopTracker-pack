@@ -38,20 +38,8 @@ function canAccessKefkasTower()
   
 end
 
-function hasRequiredCharacterCountKT()
-  
-  local chars = Tracker:FindObjectForCode("Char")
-  
-  return (chars.AcquiredCount >=  3)
-  
-end
-
-function hasRequiredCharacterCountPC()
-  
-  local chars = Tracker:FindObjectForCode("Char")
-
-  return (chars.AcquiredCount >=  2)
-  
+function hasRequiredCharacterCount(charCount)
+  return (Tracker:FindObjectForCode("Char").AcquiredCount >= tonumber(charCount))
 end
 
 

@@ -370,6 +370,7 @@
               },
               {
                 "name": "Kefka",
+                "access_rules": ["$hasRequiredCharacterCount|2"],
                 "hosted_item": "Kefka"
               },
               {
@@ -1674,12 +1675,12 @@
               },
               {
                 "name": "Owzer's Basement Left Door",
-                "access_rules": [],
+                "access_rules": ["Relm", "openworld"],
                 "item_count": 1
               },
               {
                 "name": "Owzer's Basement Door Trio",
-                "access_rules": [],
+                "access_rules": ["Relm", "openworld"],
                 "item_count": 1
               }
             ],
@@ -1990,7 +1991,7 @@
           },
           {
             "name": "Phoenix Cave",
-            "access_rules": ["$hasRequiredCharacterCountPC"],
+            "access_rules": ["$hasRequiredCharacterCount|2"],
             "sections": [
               {
                 "name": "Phoenix",
@@ -2552,7 +2553,7 @@
           },
           {
             "name": "Kefka's Tower",
-            "access_rules": ["$hasRequiredCharacterCountKT"],
+            "access_rules": ["$hasRequiredCharacterCount|3"],
             "sections": [
               {
                 "name": "Atma",
@@ -3166,7 +3167,7 @@
           },
           {
             "name": "Phoenix Cave",
-            "access_rules": ["$hasRequiredCharacterCountPC"],
+            "access_rules": ["$hasRequiredCharacterCount|2"],
             "sections": [
               {
                 "name": "Phoenix",
